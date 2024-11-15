@@ -347,7 +347,7 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 25px;
-  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url('./assets/image1.webp') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(204, 204, 204, 0.253)),url('./assets/contact.jpg') no-repeat center/cover;
   color: #ccc;
   gap: 15px;
 }
@@ -598,7 +598,7 @@ footer .col h2{
 
 /* Contact Us */
 .contact{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/image17.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/contact.jpg') no-repeat center/cover;
 }
 
 .map{

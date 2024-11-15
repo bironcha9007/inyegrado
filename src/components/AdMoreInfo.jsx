@@ -4,7 +4,7 @@ import { MoreInfo } from '../constants'
 const AdMoreInfo = () => {
   return (
     <div className='ad-more'>
-        <h2>More Information:</h2>
+        <h2>Mas Información:</h2>
         <div className="ad-more-info">
             {MoreInfo.map(info => (
                 <div className="more-info" key={info.id}>

@@ -8,19 +8,19 @@ const ContactAddress = () => {
           <div className="icon">
             <FaMapMarkerAlt />
           </div>
-          <p>22, 2nd Avenue, Kemta Estate, <br />Idi-Aba, Abeokuta, Ogun State</p>
+          <p>Cra. 20A #12-61 <br />Soacha,Cundinamarca, Colombia</p>
         </div>
         <div className="add">
           <div className="icon">
             <FaPhone />
           </div>
-          <p>0815 231 4660 <br />0800 000 0000</p>
+          <p>7814243 <br />5773202</p>
         </div>
         <div className="add">
           <div className="icon">
             <FaLocationArrow />
           </div>
-          <p>school-coe@edu.ng</p>
+          <p>I.E.integrado@hotmail.com</p>
         </div>
     </div>
   )

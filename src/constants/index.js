@@ -63,19 +63,19 @@ export const missionVision = [
 export const whySchool = [
     {
         id: 1,
-        title: 'Good Facilities',
+        title: 'Proyectos y Retos',
         reason: "We take pride in offering students an exceptional learning environment that is supported by top-notch facilities. We believe that a well-equipped setting is instrumental in enhancing our students' educational experience",
         icon: <FaSchool />,
     },
     {
         id: 2,
-        title: 'Certificates',
+        title: 'Certificación y Calidad',
         reason: 'A reason why students should come to our school is the opportunity to earn valuable certificates that can open doors to future success. These certificates are a testament to the diverse skills our students gain during their time with us',
         icon: <FaCertificate />,
     },
     {
         id: 3,
-        title: 'Conducive Learning',
+        title: 'Educación del Futuro',
         reason: "At our school, we pride ourselves on creating a learning environment that is truly conducive to unleashing the full potential of each and every student. We invite you to join our vibrant learning community",
         icon: <FaChalkboardTeacher />,
     },
@@ -93,21 +93,21 @@ export const testimonials = [
         id: 2,
         icon: <FaQuoteRight />,
         image: image4,
-        name: 'Sarah Johnson',
+        name: 'Diego Peña',
         testimonial: 'My time at school has been nothing short of transformative. From the first day I stepped foot on campus, I felt welcomed and supported by the caring staffs and fellow students. I am grateful for the incredible opportunities I had at school, which have prepared me for a bright future in higher education and beyond.',
     },
     {
         id: 3,
         icon: <FaQuoteRight />,
         image: image3,
-        name: 'John Doe',
+        name: 'Andres Fer',
         testimonial: "I can confidently say that my time at school has been the most enriching and fulfilling experience of my life. The school's emphasis on holistic development helped me not only excel academically but also grow as an individual.",
     },
     {
         id: 4,
         icon: <FaQuoteRight />,
         image: image4,
-        name: 'Emily Martinez',
+        name: 'Aleja J',
         testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
     },
     {
@@ -183,19 +183,19 @@ export const AboutPart = [
     {
         id: 1,
         image: image7,
-        title: "Programs",
+        title: "Departamentos",
         text: "Our programs are designed to ignite the spark of curiosity and innovation in students. Through hands-on experiments, projects, and collaborative activities, students explore the fascinating realms of science, technology, engineering, and others.",
     },
     {
         id: 2,
         image: image8,
-        title: "Facilities",
+        title: "Programas",
         text: "we take pride in providing state-of-the-art facilities that create an ideal environment for holistic learning and growth. Our commitment to excellence extends beyond the classroom, ensuring that every aspect of a student's educational journey is supported.",
     },
     {
         id: 3,
         image: image9,
-        title: "Faculties",
+        title: "Facultades",
         text: "Our faculties play a pivotal role in shaping the future of our students. Their unwavering dedication to academic excellence creates an environment where students can thrive and transform into well-rounded individuals ready to make a positive impact on the world.",
     },
 ];

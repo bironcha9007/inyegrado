@@ -3,7 +3,7 @@ import React from 'react'
 const ApplyNow = () => {
   return (
       <form className='apply'>
-          <h3 style={{ marginBottom: '20px' }}>Apply Now</h3>
+          <h3 style={{ marginBottom: '20px' }}>Pre Registro</h3>
         <div className="input-box">
             <label>Firstname</label>
             <input type="text"/>
@@ -48,7 +48,7 @@ const ApplyNow = () => {
             <input type="file" style={{ borderBottom: 0 }} />
           </div>
           
-          <button style={{ padding: '10px 17px', background: '#0b8219', border: 0, color: '#fff', marginTop: '20px' }}>Apply Now</button>
+          <button style={{ padding: '10px 17px', background: '#021558', border: 0, color: '#fff', marginTop: '20px' }}>Enviar Registro</button>
     </form>
   )
 }
