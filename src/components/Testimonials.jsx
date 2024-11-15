@@ -28,7 +28,7 @@ const Testimonials = () => {
 
   return (
     <div className="content">
-      <h1>What our Students say</h1>
+     
       <div className="testimonials">
         {testimonials.map((test, indexTest) => {
           const { id, icon, image, name, testimonial } = test;

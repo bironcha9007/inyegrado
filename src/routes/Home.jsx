@@ -12,7 +12,7 @@ const Home = () => {
         <>
             <div className="home">
                 <p className="title">INSTITUCIÓN EDUCATIVA INTEGRADO DE SOACHA</p>
-                <p className="info">Innovamos para transformar el futuro, aprendemos con tecnología.</p>
+                <p className="info">"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
                 <NavLink to='/about'>Conocenos</NavLink>
             </div>
             <MissionVision />

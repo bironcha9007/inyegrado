@@ -19,10 +19,10 @@ const Footer = () => {
     <footer>
         <div className="col first-col">
             <h2>Integrado Soacha</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse eos amet quidem reprehenderit labore iusto, pariatur aut quia, culpa cupiditate ea nobis. Ut, nisi ipsa aspernatur quasi voluptates inventore</p>
+            <p>"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
         </div>
         <div className="col second-col">
-            <h2>Links</h2>
+            <h2>Navega</h2>
             {navLinks.map(link => (
                 <ul key={link.id}>
                     <li><FaAngleRight /> {link.id}</li>
@@ -30,7 +30,7 @@ const Footer = () => {
             ))}
         </div>
         <div className="col third-col">
-            <h2>Contact us</h2>
+            <h2>Contactanos</h2>
             {footerContact.map(contact => (
                 <ul key={contact.id}>
                     <li>{contact.text}</li>
@@ -45,8 +45,8 @@ const Footer = () => {
             </div>
         </div>
         <div className="col fourth-col">
-            <h2>Get Informed</h2>
-            <p>Subscribe to our newsletter</p>
+            <h2>Escribenos</h2>
+           
             <form onSubmit={handleSubmit(data => console.log(data))}>
                 <FaEnvelope />
                 <input 
@@ -67,7 +67,9 @@ const Footer = () => {
                 </button>
             </form>
             <p style={{color: "red",}}>{errors.email?.message}</p>
+            <h2>Redes Sociales</h2>
             <div className="icons">
+                
                 <NavLink to='https://www.facebook.com/profile.php?id=100073669704664' style={{ color: '#fff' }}><FaFacebook /></NavLink>
                 <NavLink to='https://www.youtube.com/channel/UCMlYP5e33T_sZhaBNc-s0iQ' style={{ color: '#fff' }}><FaYoutube /></NavLink>
                 <NavLink to='https://www.instagram.com/timothyolude/' style={{ color: '#fff' }}><FaInstagram /></NavLink>

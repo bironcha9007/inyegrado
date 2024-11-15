@@ -8,7 +8,21 @@
   box-sizing: border-box;
   font-family: poppins;
 }
+:root {
+  /**
+     * colors
+     */
+  --bl: #3186eb;
+  --bl2: #509df9;
+  --ye: #ffde59;
+  --ye2: #ffe787;
+  --re: #da2b1e;
+  --re2: #ec6c6c;
+  --ne: #181818;
+  --ne2: #24202011;
+  --ba: #ffffff;
 
+}
 body{
   overflow-x: hidden;
 }
@@ -17,6 +31,7 @@ body{
 
 .navbar{
   padding: 10px;
+  background-color: var(--ne2);
 }
 
 .navbar label{
@@ -41,7 +56,7 @@ body{
   content: '';
   width: 100%;
   height: 3px;
-  background: #0b8219;
+  background: #212121;
   position: absolute;
   top: 100%;
   left: 0;
@@ -57,7 +72,7 @@ body{
 }
 
 .navbar .nav-links .link.active{
-  color: #0b8219;
+  color: #212121;
   font-weight: bold;
 }
 
@@ -154,26 +169,31 @@ body{
 }
 
 .home a{
-  background: #0b8219;
+  background: #e13f3f;
   padding: 7px 17px;
   margin-top: 15px;
   color: #fff;
+
 }
 
 .home a:hover{
   transform: scale(1.2);
   transition: .5s;
+  background: #9c1010;
 }
 
 /* Constant styles */
 .content{
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .content h1{
   position: relative;
   text-align: center;
   margin: 20px 0 25px;
+  color: var(--bl);
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .content h1::after{
@@ -184,7 +204,7 @@ body{
   transform: translateX(-50%);
   width: 70px;
   height: 4px;
-  background: #0b8219;
+  background: #212121;
 }
 
 /* Mission and Vision */
@@ -193,31 +213,34 @@ body{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 15px;
 }
 
 .missVis{
   width: 400px;
   margin: 20px;
-  border: 2px solid #0b8219;
+  border: 2px solid #212121;
   padding: 20px;
   border-radius: 10px;
   position: relative;
+  text-align: justify;
 }
 
 .missVis .icons{
   font-size: 40px;
   position: absolute;
-  border: 2px solid #0b8219;
+  border: 2px solid #212121;
   padding: 10px 10px 0 10px;
   top: -30px;
   left: 10%;
-  color: #0b8219;
+  color: #212121;
   background: #fff;
   border-radius: 10px;
 }
 
 .missVis h2{
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /* .missVis:first-child{
@@ -252,12 +275,13 @@ body{
 }
 
 .reason .icon{
-  color: #003e07;
+  color: var(--ba);
   font-size: 30px;
 }
 
 .reason h2{
-  color: #003e07;
+  color: var(--re);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .reasons .reason:last-child{
@@ -293,7 +317,7 @@ body{
 
 article .icon{
   font-size: 40px;
-  color: #0b8219;
+  color: #212121;
 }
 
 article.activeSlide{
@@ -325,6 +349,7 @@ footer{
   padding: 25px;
   background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url('./assets/image1.webp') no-repeat center/cover;
   color: #ccc;
+  gap: 15px;
 }
 
 footer .col.first-col{
@@ -413,7 +438,8 @@ footer .col h2{
     display: none;
   }
   .home .title{
-    font-size: 30px;
+    font-size: 41px;
+    padding: 17px 12px;
   }
   .home .info{
     padding: 0 20px;
@@ -421,6 +447,11 @@ footer .col h2{
   }
   .navbar .menu-icons{
     display: block;
+  }
+  .testimonials{
+
+    height: 420px;
+
   }
 }
 
@@ -472,7 +503,7 @@ footer .col h2{
   left: 0;
   width: 60px;
   height: 4px;
-  background: #0b8219;
+  background: #212121;
 }
 
 .about-info .vc-image{
@@ -518,7 +549,7 @@ footer .col h2{
 .parts .part h3{
   font-size: 27px;
   margin-top: 15px;
-  color: #0b8219;
+  color: #212121;
 }
 
 @media (max-width: 1000px) {
@@ -598,13 +629,13 @@ footer .col h2{
 
 .address .add .icon{
   font-size: 20px;
-  color: #0b8219;
+  color: #212121;
   margin-right: 20px;
 }
 
 #contact-form{
   width: 450px;
-  background: linear-gradient(45deg, #0b8219 ,#0b8219);
+  background: linear-gradient(45deg, #212121 ,#212121);
   padding: 20px 40px;
   border-radius: 10px;
 }
@@ -644,7 +675,7 @@ footer .col h2{
 #btn{
   padding: 8px 14px;
   background: #cfcfcf;
-  color: #0b8219;
+  color: #212121;
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   margin-top: 10px;
@@ -689,7 +720,7 @@ footer .col h2{
   transform: translateX(-50%);
   height: 4px;
   width: 60px;
-  background: #0b8219;
+  background: #212121;
 }
 
 .course-programs{
@@ -715,7 +746,7 @@ footer .col h2{
 }
 
 .course-programs .pro-link:hover p:first-child{
-  color: #0b8219;
+  color: #212121;
 }
 /* Programs */
 
@@ -747,7 +778,7 @@ footer .col h2{
 
 .total-info .quick-info .icon{
   font-size: 40px;
-  color: #0b8219;
+  color: #212121;
 }
 
 .total-info .quick-info .info{
@@ -803,7 +834,7 @@ footer .col h2{
 }
 
 .ad-info a {
-  background: #0b8219;
+  background: #212121;
   padding: 7px 17px;
   color: #fff;
 }
