@@ -8,7 +8,7 @@ const Admission = () => {
   return (
     <>
       <div className="pages admission">
-        <h2 className="title">Admission</h2>
+        <h2 className="title">Admisiones y Registro</h2>
       </div>
       <AdmissionInfo />
       <AdMoreInfo />

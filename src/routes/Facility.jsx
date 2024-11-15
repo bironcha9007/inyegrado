@@ -8,7 +8,7 @@ const Facility = () => {
   return (
     <>
       <div className="pages fac">
-        <h2 className="title">Our Facilities</h2>
+        <h2 className="title">Agenda Institucional</h2>
       </div>
       <FacilityList />
       <Footer />

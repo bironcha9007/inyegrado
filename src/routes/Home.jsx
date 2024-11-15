@@ -11,9 +11,9 @@ const Home = () => {
     return ( 
         <>
             <div className="home">
-                <p className="title">INSTITUCIÓN EDUCATIVA INTEGRADO DE SOACHA</p>
+                <p className="title">IE INTEGRADO DE SOACHA</p>
                 <p className="info">"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
-                <NavLink to='/about'>Conocenos</NavLink>
+                <NavLink to='/about'>Explorar</NavLink>
             </div>
             <MissionVision />
             <WhySchool />

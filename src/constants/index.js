@@ -14,27 +14,27 @@ import image16 from '../assets/image16.jpg';
 
 export const navLinks = [
     {
-        id: 'Home',
+        id: 'Inicio',
         link: '',
     },
     {
-        id: 'About',
+        id: 'Nosotros',
         link: 'about',
     },
     {
-        id: 'Facilities',
+        id: 'Agenda',
         link: 'facility',
     },
     {
-        id: 'Programs',
+        id: 'Departamentos',
         link: 'programs',
     },
     {
-        id: 'Contact Us',
+        id: 'Contacto',
         link: 'contact'
     },
     {
-        id: 'Admission',
+        id: 'Admisiones',
         link: 'apply',
     },
 ];

@@ -566,7 +566,7 @@ footer .col h2{
 
 /* Facilities */
 .fac{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/image8.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/agenda.jpg') no-repeat center/cover;
 }
 
 .facilities{
@@ -821,7 +821,7 @@ footer .col h2{
 /* Admission Page */
 
 .admission {
-  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/image25.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/admisiones.jpg') no-repeat center/cover;
 }
 
 .ad-info, .ad-more {
