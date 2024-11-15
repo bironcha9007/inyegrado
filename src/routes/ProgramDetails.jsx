@@ -86,7 +86,7 @@ export default ProgramDetails
 
 export const programDetailsLoader = async ({ params }) => {
     const { id } = params
-    const res = await fetch(`http://localhost:4000/undergraduatePrograms/${id}`);
+    const res = await fetch(`${process.env.REACT_APP_API_URL}/undergraduatePrograms/${id}`);
     if (!res.ok) {
         throw Error("Could not find that program");
     }
