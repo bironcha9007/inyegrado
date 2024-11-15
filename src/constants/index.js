@@ -42,16 +42,22 @@ export const navLinks = [
 export const missionVision = [
     {
         id: 1,
-        title: 'Our Mission',
-        text: 'At school, our mission is to provide a dynamic and inclusive learning environment that fosters academic excellence, creativity, and personal growth. We are dedicated to cultivating a community of learners who are inspired to reach their highest potential and become compassionate global citizens.',
+        title: 'Nuestra Misión',
+        text: 'La Institución Educativa Integrado de Soacha garantiza el derecho a la educación formal de niños, niñas, jóvenes y adultos del municipio de Soacha fundamentado en el proceso de enseñanza aprendizaje de muy buena calidad desarrollando competencias básicas y ciudadanas a través de valores éticos, culturales, espirituales con alto sentido de responsabilidad para su formación integral.',
         icon: <FaAngleDoubleDown />,
     },
     {
         id: 2,
-        title: 'Our Vision',
-        text: 'At school, our vision is driven by a passion for excellence in education and a dedication to creating a nurturing environment where every student can thrive. We strive to be a beacon of educational innovation, setting new standards for academic excellence and holistic development.',
+        title: 'Nuestra Visión',
+        text: 'Para el año 2025 la Institución Educativa Integrado de Soacha se consolidará como una de las mejores del municipio en adelantar procesos académicos con enfoque constructivista formando seres humanos en un marco pluralista, democrático, incluyente y respetuoso, conocimientos, competencias y habilidades que respondan a las necesidades intelectuales, emocionales e interpersonales y se comprometan con el cambio de la sociedad soachuna.',
         icon: <FaAngleDoubleDown />,
     },
+    {
+        id: 3,
+        title: 'Nuestros Objetivos',
+        text: 'Reelaborar el sentido estratégico de la Institución acorde a las nuevas realidades institucionales. Desarrollar capacitación con los estamentos para desarrollar el sentido de identidad y apropiación del horizonte estratégico de la Institución. Estructurar y desarrollar en módulos didácticos los ejes temáticos, metodológicos, operativos y evaluativos de las asignaturas de la cultura empresarial. ',
+        icon: <FaAngleDoubleDown />,
+    }
 ];
 
 export const whySchool = [
@@ -139,19 +145,19 @@ export const testimonials = [
 export const footerContact = [
     {
         id: 1,
-        text: "22, 2nd Avenue,",
+        text: "Cra. 20A #12-61,",
     },
     {
         id: 2,
-        text: "Kemta Estate,",
+        text: "Soacha,Cundinamarca,",
     },
     {
         id: 3,
-        text: "Idi-Aba, Abeokuta,",
+        text: "Colombia",
     },
     {
         id: 4,
-        text: "Ogun State",
+        text: "Instituto Educativo",
     },
 ];
 
@@ -159,13 +165,18 @@ export const footerContactNum = [
     {
         id: 1,
         icon: <FaPhone />,
-        text: "0815 231 4660",
+        text: "7814243-5773202",
     },
     {
         id: 2,
         icon: <FaEnvelope />,
-        text: "school.edu.ng",
+        text: "I.E.integrado@hotmail.com",
     },
+    {
+        id: 3,
+        icon: <FaEnvelope />,
+        text: "https://integradosoacha.netlify.app/",
+    }
 ];
 
 export const AboutPart = [

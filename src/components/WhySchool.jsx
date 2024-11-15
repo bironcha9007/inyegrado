@@ -3,7 +3,7 @@ import { whySchool } from "../constants"
 const WhySchool = () => {
   return (
     <div className="content">
-      <h1>Why School?</h1>
+      <h1>Nuestros Proyectos:</h1>
       <div className="reasons">
         {whySchool.map(reason => (
           <div className="reason" key={reason.id}>

@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <footer>
         <div className="col first-col">
-            <h2>Sch<span style={{color: '#003e07'}}>ool</span></h2>
+            <h2>Integrado Soacha</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus esse eos amet quidem reprehenderit labore iusto, pariatur aut quia, culpa cupiditate ea nobis. Ut, nisi ipsa aspernatur quasi voluptates inventore</p>
         </div>
         <div className="col second-col">

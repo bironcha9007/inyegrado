@@ -137,7 +137,7 @@ body{
   justify-content: center;
   flex-direction: column;
   height: calc(100vh - 73px);
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/image1.webp') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/home.jpg') no-repeat center/cover;
   width: 100%;
 }
 
