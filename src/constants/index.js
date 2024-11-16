@@ -13,12 +13,25 @@ import image15 from '../assets/image15.jpg';
 import image16 from '../assets/image16.jpg';
 
 export const navLinks = [
+    
     {
         id: 'Inicio',
         link: '',
     },
     {
+        id: 'Admisiones',
+        link: 'apply',
+    },
+    {
+        id: 'Integrado',
+        link: 'about',
+    },
+    {
         id: 'Nosotros',
+        link: 'about',
+    },
+    {
+        id: 'Educación',
         link: 'about',
     },
     {
@@ -26,7 +39,15 @@ export const navLinks = [
         link: 'facility',
     },
     {
-        id: 'Departamentos',
+        id: 'Noticias',
+        link: 'facility',
+    },
+    {
+        id: 'Familias',
+        link: 'programs',
+    },
+    {
+        id: 'Reconocimiento',
         link: 'programs',
     },
     {
@@ -34,9 +55,10 @@ export const navLinks = [
         link: 'contact'
     },
     {
-        id: 'Admisiones',
-        link: 'apply',
+        id: 'Acceso Rapido',
+        link: 'programs',
     },
+    
 ];
 
 export const missionVision = [
