@@ -51,7 +51,9 @@ body{
   position: relative;
   text-transform: uppercase;
 }
-
+p{
+  text-align: justify;
+}
 .navbar .nav-links .link::after{
   content: '';
   width: 100%;
@@ -453,6 +455,8 @@ footer .col h2{
     height: 420px;
 
   }
+
+
 }
 
 @media (max-width: 400px) {
@@ -470,7 +474,7 @@ footer .col h2{
   justify-content: center;
   flex-direction: column;
   height: 400px;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/image5.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('./assets/integrado_5.jpeg') no-repeat center/cover;
   width: 100%;
 }
 
@@ -482,7 +486,7 @@ footer .col h2{
 
 .about-info{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 40px;
 }
 
@@ -507,8 +511,8 @@ footer .col h2{
 }
 
 .about-info .vc-image{
-  width: 400px;
-  height: 300px;
+  width: 40%;
+
 }
 
 .about-info .vc-image img{
@@ -560,6 +564,21 @@ footer .col h2{
   .about-info .vc-image{
     margin-top: 20px;
   }
+  .about-info .vc-image{
+    width: 90%;
+  
+  }
+  .about-info {
+    display: flex;
+
+    padding: 10px;
+}
+
+.pages .title {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
 }
 
 /* About Page */
@@ -694,14 +713,18 @@ footer .col h2{
 /* Programs */
 
 .programs{
-  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/image18.webp') no-repeat center/cover;
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/integrado_7.jpg') no-repeat center/cover;
   height: calc(100vh - 73px);
 }
 
 .program-links{
   margin-top: 40px;
 }
-
+.programs .pad{
+ margin-left: 5%;
+ margin-right: 5%;
+  
+}
 .undergraduate-programs{
   padding: 30px;
 }
@@ -880,7 +903,7 @@ footer .col h2{
   font-size: 150px;
   margin: 0;
   background: url('./assets/image23.jpg') no-repeat center/cover;
-  -webkit-background-clip: text;
+  -webkit-background: text;
   -webkit-text-fill-color: transparent;
 }
 

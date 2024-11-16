@@ -1,4 +1,4 @@
-import image6 from "../assets/image6.jpg";
+import image6 from "../assets/integrado_6.jpg";
 
 const AboutInfo = () => {
   return (
@@ -23,9 +23,7 @@ const AboutInfo = () => {
           sistemas eléctricos residenciales y comerciales, compras y
           suministros, mantenimiento de automatismos industriales, análisis de
           muestras químicas y contabilización de operaciones comerciales
-          financieras. Desde entonces, la IE y el SENA, han ratificado la
-          intención de continuar sus actividades de articulación en el marco del
-          acuerdo vigente
+          financieras.
         </p>
       </div>
       <div className="vc-image">
