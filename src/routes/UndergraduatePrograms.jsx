@@ -11,15 +11,16 @@ const UndergraduatePrograms = () => {
 
   return (
     <div className='course-programs'>
-        <h2 className='u-title'>Programs we offer</h2>
+        <div className='pro'>
         {programs.map(program => (
             <div key={program.id} className="pro-link">
                 <Link to={program.id.toString()} key={program.id}>
                     <p>{program.program}</p>
-                    <p><b>Certification</b>: {program.certification}</p>
+                    <p><b>Certificaciones</b>: {program.certification}</p>
                 </Link>
             </div>
         ))}
+        </div>
         <Footer />
     </div>
   )
