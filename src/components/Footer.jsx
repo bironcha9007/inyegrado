@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { footerContact, footerContactNum, footerLinks } from '../constants';
-import { FaAngleRight, FaArrowRight, FaEnvelope, FaFacebook, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { FaAngleRight, FaArrowRight, FaEnvelope, FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -12,6 +12,14 @@ const Footer = () => {
     } = useForm({
         mode: 'all',
     });
+
+    // Función para desplazarse al inicio de la página
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
 
     return (
         <footer>
@@ -24,10 +32,11 @@ const Footer = () => {
                 <ul>
                     {footerLinks.map(link => (
                         <li key={link.id}>
-                            <NavLink 
-                                to={`/${link.link}`} 
+                            <NavLink
+                                to={`/${link.link}`}
+                                onClick={scrollToTop}
+                                className={({ isActive }) => (isActive ? 'active-link' : '')} // Usa className dinámico
                                 style={{ color: '#fff' }}
-                                activeStyle={{ textDecoration: 'underline' }}
                             >
                                 <FaAngleRight /> {link.id}
                             </NavLink>
@@ -84,7 +93,7 @@ const Footer = () => {
                 <h2>Redes Sociales</h2>
                 <div className="icons">
                     <a
-                        href="https://www.facebook.com/share/18GcPSwrr4"
+                        href="https://www.facebook.com/share/18GcPSwrr4/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: '#fff' }}
@@ -108,7 +117,7 @@ const Footer = () => {
                         <FaInstagram />
                     </a>
                     <a
-                        href="https://twitter.com"
+                        href="https://www.tiktok.com/discover/integrado-de-soacha"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: '#fff' }}
