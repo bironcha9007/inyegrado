@@ -17,6 +17,11 @@ const Navbar = () => {
                         style={{ height: "60px", width: "60px" }} 
                         alt="Integrado Logo" 
                     />
+             
+                </NavLink>
+                <NavLink to="/" onClick={() => setToggle(false)}>
+                    
+                    <span>INTEGRADO SOACHA</span>
                 </NavLink>
             </div>
 

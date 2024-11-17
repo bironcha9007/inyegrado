@@ -50,8 +50,20 @@ body{
   width: 90%;
 }
 .navbar .logo{
-width: 20%;
+width: 25%;
+display: flex;
+align-items: center;
+justify-content: left;
+
 }
+.navbar .logo span{
+font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: var(--ne);
+  margin-left: 3px;
+  
+  }
 .navbar .nav-links .link{
   color: black;
   position: relative;
@@ -472,7 +484,19 @@ footer .col h2{
     height: 420px;
 
   }
-
+  .navbar .logo span{
+color: var(--ne);
+    font-size: 15px;
+    text-align: center;
+    
+    }
+  .navbar .logo{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
 
 }
 
