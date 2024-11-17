@@ -1,17 +1,11 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
-import { footerContact, footerContactNum, footerLinks } from '../constants';
-import { FaAngleRight, FaArrowRight, FaEnvelope, FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
 
+import { footerContact, footerContactNum, footerLinks } from '../constants';
+import { FaAngleRight, FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
+import Logo from "../assets/logo.png";
 const Footer = () => {
-    const {
-        register,
-        formState: { errors },
-        handleSubmit,
-    } = useForm({
-        mode: 'all',
-    });
+
 
     // Función para desplazarse al inicio de la página
     const scrollToTop = () => {
@@ -20,10 +14,20 @@ const Footer = () => {
             behavior: 'smooth',
         });
     };
-
+  
     return (
         <footer>
             <div className="col first-col">
+            <div className="logo">
+                
+                <img 
+                    src={Logo} 
+                    style={{ height: "100px", width: "100px" }} 
+                    alt="Integrado Logo" 
+                />
+         
+    
+        </div>
                 <h2>Integrado Soacha</h2>
                 <p>"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
             </div>
@@ -63,34 +67,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className="col fourth-col">
-                <h2>Escríbenos</h2>
-                <form onSubmit={handleSubmit(data => console.log(data))}>
-                    <FaEnvelope />
-                    <input
-                        type="email"
-                        placeholder="Enter your email address"
-                        {...register('email', {
-                            required: 'Email is required',
-                            pattern: {
-                                value: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                                message: 'Email must be valid',
-                            },
-                        })}
-                    />
-                    <button
-                        type="submit"
-                        style={{
-                            background: 'transparent',
-                            border: 'none',
-                            color: 'white',
-                            cursor: 'pointer',
-                        }}
-                    >
-                        <FaArrowRight />
-                    </button>
-                </form>
-                <p style={{ color: 'red' }}>{errors.email?.message}</p>
-                <h2>Redes Sociales</h2>
+                
+                <h2>Siguenos</h2>
+                
+              
+        
                 <div className="icons">
                     <a
                         href="https://www.facebook.com/share/18GcPSwrr4/"
@@ -125,6 +106,7 @@ const Footer = () => {
                         <FaTiktok />
                     </a>
                 </div>
+                
             </div>
         </footer>
     );
