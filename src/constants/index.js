@@ -32,7 +32,7 @@ export const navLinks = [
     },
     {
         id: 'Educación',
-        link: 'about',
+        link: 'programs',
     },
     {
         id: 'Agenda',
@@ -44,7 +44,7 @@ export const navLinks = [
         link: 'programs',
     },
     {
-        id: 'Reconocimiento',
+        id: 'Plataforma',
         link: 'programs',
     },
     {
@@ -102,7 +102,7 @@ export const testimonials = [
         id: 1,
         icon: <FaQuoteRight />,
         image: image3,
-        name: 'Michael Chen',
+        name: 'Rafael Fonseca',
         testimonial: "I cannot express enough gratitude for the exceptional education I have received at school. The school's nurturing and supportive environment allowed me to flourish both academically and personally. The dedicated teachers and their innovative teaching methods sparked my curiosity and passion for learning",
     },
     {
@@ -116,21 +116,21 @@ export const testimonials = [
         id: 3,
         icon: <FaQuoteRight />,
         image: image3,
-        name: 'Andres Fer',
+        name: 'Rafael Fonseca',
         testimonial: "I can confidently say that my time at school has been the most enriching and fulfilling experience of my life. The school's emphasis on holistic development helped me not only excel academically but also grow as an individual.",
     },
     {
         id: 4,
         icon: <FaQuoteRight />,
         image: image4,
-        name: 'Aleja J',
+        name: 'Pedro Mora',
         testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
     },
     {
         id: 5,
         icon: <FaQuoteRight />,
         image: image3,
-        name: 'Anthony Joshua',
+        name: 'Alex Baquero',
         testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
     },
 ];
@@ -154,7 +154,7 @@ export const testimonials = [
     },
     {
         id: 'Educación',
-        link: 'about',
+        link: 'programs',
     },
     {
         id: 'Agenda',
@@ -166,16 +166,12 @@ export const testimonials = [
         link: 'programs',
     },
     {
-        id: 'Reconocimiento',
+        id: 'Plataforma',
         link: 'programs',
     },
     {
         id: 'Contacto',
         link: 'contact'
-    },
-    {
-        id: 'Acceso Rapido',
-        link: 'programs',
     },
  ]
 
@@ -194,7 +190,7 @@ export const footerContact = [
     },
     {
         id: 4,
-        text: "Instituto Educativo",
+        text: "IE Integrado de Soacha",
     },
 ];
 
@@ -228,7 +224,7 @@ export const AboutPart = [
     {
         id: 3,
         image: image9,
-        title: "Facultades",
+        title: "Proyectos Institucionales",
         text: "Our faculties play a pivotal role in shaping the future of our students. Their unwavering dedication to academic excellence creates an environment where students can thrive and transform into well-rounded individuals ready to make a positive impact on the world.",
     },
 ];
@@ -237,25 +233,25 @@ export const facilities = [
     {
         id: 1,
         image: image8,
-        title: "School Library",
+        title: "Biblioteca",
         text: "Our extensive library and resource center serve as a hub of knowledge, providing a diverse collection of books, e-books, journals, and multimedia resources. It is a quiet oasis where students can immerse themselves in reading and research.",
     },
     {
         id: 2,
         image: image10,
-        title: "Music Room",
+        title: "Salon Musica",
         text: "We recognize the importance of nurturing students' passion for music. Our music facilities provide a vibrant and inspiring space for students to explore, create, and excel in the world of music.",
     },
     {
         id: 3,
         image: image11,
-        title: "Sport Facility",
+        title: "Cnachas y Patio",
         text: "Our school offers a range of sports facilities, including a well-equipped gymnasium, playgrounds, and courts for various sports, encouraging students to stay active and develop a spirit of sportsmanship.",
     },
     {
         id: 4,
         image: image12,
-        title: "Computer Lab",
+        title: "Sala Sistemas",
         text: "We understand the pivotal role technology plays in modern education. Our computer lab facilities are designed to provide students with a cutting-edge learning environment that fosters digital literacy.",
     },
     {
@@ -267,25 +263,25 @@ export const facilities = [
     {
         id: 6,
         image: image14,
-        title: "Art Studio",
+        title: "Salones de Arte",
         text: "Creativity thrives in our art studios, where students can explore various mediums and unleash their artistic potential. These studios are designed to inspire young artists to express themselves through visual arts.",
     },
     {
         id: 7,
         image: image15,
-        title: "Medicare",
+        title: "Enfermeria",
         text: "The well-being of our students is of utmost importance. Our school provides a dedicated medical room and trained staff to attend to any health-related needs and emergencies.",
     },
     {
         id: 8,
         image: image16,
-        title: "Multipurpose hall",
+        title: "Salon Multiple",
         text: "Our Multipurpose Hall is a hub of creativity, learning, and community engagement, providing numerous benefits and opportunities for our students, faculty, and the broader school community.",
     },
     {
         id: 9,
         image: image9,
-        title: "Modern Classrooms",
+        title: "Aulas",
         text: "Our school boasts spacious and well-equipped modern classrooms designed to create an optimal learning environment. Each classroom is thoughtfully arranged to enhance student engagement and foster a collaborative atmosphere.",
     },
 ];
@@ -293,22 +289,22 @@ export const facilities = [
 export const MoreInfo = [
     {
         id: 1,
-        title: "Housing",
+        title: "Secretaria y Admisiones",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 2,
-        title: "Financial Aid",
+        title: "Departamento Financiero",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 3,
-        title: "Tuition",
+        title: "Rectoria",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 4,
-        title: "Immigration",
+        title: "Cordinaciones",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
 ]

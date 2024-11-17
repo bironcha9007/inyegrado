@@ -569,7 +569,7 @@ color: var(--ne);
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 40px;
+  padding: 10px;
 }
 
 .parts .part{
