@@ -8,7 +8,10 @@ const Navbar = () => {
 
     return ( 
         <nav className="navbar">
-              <img src={Logo} style={{ height: '60px', width: '60px' }} alt="Integrado Logo" />
+            <div className="logo"> 
+                <img src={Logo} style={{ height: '60px', width: '60px' }} alt="Integrado Logo" />
+            </div>
+             
             <div className="nav-links">
                 {navLinks.map(nav => (
                     <NavLink to={nav.link} key={nav.id} className="link">{nav.id}</NavLink>

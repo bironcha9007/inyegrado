@@ -13,10 +13,10 @@
      * colors
      */
   --bl: #3186eb;
-  --bl2: #509df9;
+  --bl2: hsl(244.97deg 82.86% 34.31%);
   --ye: #ffde59;
-  --ye2: #ffe787;
-  --re: #da2b1e;
+  --ye2: hsl(57.17deg 100% 49.8%);
+  --re: hsl(0deg 100% 49.61%);
   --re2: #ec6c6c;
   --ne: #181818;
   --ne2: #24202011;
@@ -30,8 +30,10 @@ body{
 /* Navbar */
 
 .navbar{
+  display: flex;
   padding: 10px;
   background-color: var(--ne2);
+  justify-content: space-between;
 }
 
 .navbar label{
@@ -43,13 +45,18 @@ body{
 
 .navbar .nav-links{
   float: right;
-  padding: 15px;
+  padding: 25px;
+  font-size: 14px;
+  width: 90%;
 }
-
+.navbar .logo{
+width: 20%;
+}
 .navbar .nav-links .link{
   color: black;
   position: relative;
   text-transform: uppercase;
+  
 }
 p{
   text-align: justify;
@@ -58,7 +65,7 @@ p{
   content: '';
   width: 100%;
   height: 3px;
-  background: #212121;
+  background: var(--re);
   position: absolute;
   top: 100%;
   left: 0;
@@ -74,12 +81,13 @@ p{
 }
 
 .navbar .nav-links .link.active{
-  color: #212121;
+  color: var(--bl2);
   font-weight: bold;
 }
 
 .navbar .nav-links .link:not(:first-child){
   margin-left: 20px;
+
 }
 
 .navbar .menu-icons{
@@ -106,7 +114,7 @@ p{
 
 .show{
   position: absolute;
-  top: 80px;
+  top: 88px;
   right: 0;
   height: calc(100vh - 73px);
   width: 200px;
@@ -116,8 +124,8 @@ p{
   flex-direction: column;
   background: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(10px);
-  padding: 40px 30px;
-  border-radius: 10px;
+  padding: 20px 20px;
+  border-radius: 0px;
   transition: .5s;
   animation: slideRight .5s linear;
 }
@@ -141,7 +149,7 @@ p{
 }
 
 .show a:hover{
-  color: #0fb722;
+  color: var(--bl);
 }
 
 /* Home Page */
@@ -433,6 +441,15 @@ footer .col h2{
   }
   footer .col.second-col{
     margin-left: 0;
+  }
+
+  .navbar .nav-links .link:not(:first-child) {
+    margin-left: 10px;
+}
+  .navbar .nav-links{
+    float: right;
+
+    font-size: 11px;
   }
 }
 @media (max-width: 770px) {

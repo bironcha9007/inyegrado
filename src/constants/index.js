@@ -38,10 +38,7 @@ export const navLinks = [
         id: 'Agenda',
         link: 'facility',
     },
-    {
-        id: 'Noticias',
-        link: 'facility',
-    },
+    
     {
         id: 'Familias',
         link: 'programs',
@@ -141,28 +138,49 @@ export const testimonials = [
     },
 ];
 
-// export const footerLinks = [
-//     {
-//         id: 1,
-//         link: "Home",
-//     },
-//     {
-//         id: 2,
-//         link: "About",
-//     },
-//     {
-//         id: 3,
-//         link: "Facility",
-//     },
-//     {
-//         id: 4,
-//         link: "Programs",
-//     },
-//     {
-//         id: 5,
-//         link: "Apply",
-//     },
-// ]
+ export const footerLinks = [
+    {
+        id: 'Inicio',
+        link: '',
+    },
+    {
+        id: 'Admisiones',
+        link: 'apply',
+    },
+    {
+        id: 'Integrado',
+        link: 'about',
+    },
+    {
+        id: 'Nosotros',
+        link: 'about',
+    },
+    {
+        id: 'Educación',
+        link: 'about',
+    },
+    {
+        id: 'Agenda',
+        link: 'facility',
+    },
+    
+    {
+        id: 'Familias',
+        link: 'programs',
+    },
+    {
+        id: 'Reconocimiento',
+        link: 'programs',
+    },
+    {
+        id: 'Contacto',
+        link: 'contact'
+    },
+    {
+        id: 'Acceso Rapido',
+        link: 'programs',
+    },
+ ]
 
 export const footerContact = [
     {
@@ -194,11 +212,7 @@ export const footerContactNum = [
         icon: <FaEnvelope />,
         text: "I.E.integrado@hotmail.com",
     },
-    {
-        id: 3,
-        icon: <FaEnvelope />,
-        text: "https://integradosoacha.netlify.app/",
-    }
+   
 ];
 
 export const AboutPart = [
