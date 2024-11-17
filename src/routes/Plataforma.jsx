@@ -51,7 +51,7 @@ const Plataforma = () => {
             const data = await register(userDetail);
             if (data.accessToken) {
                 toast.success("Registro exitoso");
-                navigate("/dashboard"); // Cambia "/dashboard" por la ruta de tu elección
+                navigate("/programs"); // Cambia "/dashboard" por la ruta de tu elección
             } else {
                 toast.error("Registro fallido");
             }
