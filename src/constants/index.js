@@ -45,7 +45,7 @@ export const navLinks = [
     },
     {
         id: 'Plataforma',
-        link: 'programs',
+        link: 'plataforma',
     },
     {
         id: 'Contacto',

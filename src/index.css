@@ -698,6 +698,10 @@ footer .col h2{
 }
 
 /* Contact Us */
+.plataforma{
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url('./assets/image21.webp') no-repeat center/cover;
+  height: calc(100vh - 73px);
+}
 
 /* Programs */
 
