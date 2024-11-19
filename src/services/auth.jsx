@@ -6,10 +6,14 @@ export async function login(authDetail) {
         },
         body: JSON.stringify(authDetail),
     });
+
     if (response.ok) {
-        return await response.json(); // Devuelve accessToken si es exitoso
+        const data = await response.json();
+        sessionStorage.setItem("token", JSON.stringify(data.accessToken));
+        sessionStorage.setItem("cbid", JSON.stringify(data.user.id));
+        return data; // Devuelve el usuario y el token
     } else {
-        throw new Error("Credenciales inválidas");
+        throw new Error("Credenciales inválidas. Verifica tu usuario o contraseña.");
     }
 }
 
@@ -21,9 +25,10 @@ export async function register(userDetail) {
         },
         body: JSON.stringify(userDetail),
     });
+
     if (response.ok) {
-        return await response.json(); // Devuelve accessToken si es exitoso
+        return await response.json();
     } else {
-        throw new Error("Registro fallido");
+        throw new Error("Registro fallido. Intenta de nuevo.");
     }
 }
