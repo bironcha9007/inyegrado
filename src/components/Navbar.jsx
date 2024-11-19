@@ -90,7 +90,7 @@ const Navbar = () => {
                         <button className="logout-button" onClick={handleLogout}>Logout</button>
                     </div>
                 ) : (
-                    <NavLink to="/plataforma" className="link">Login</NavLink>
+                    <NavLink to="/plataforma" >Accede</NavLink>
                 )}
             </div>
         </nav>
