@@ -1,33 +1,13 @@
 import { FaBars } from "react-icons/fa";
 import { navLinks } from "../constants";
-import { useState,  useEffect } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useState} from "react";
+import { NavLink} from "react-router-dom";
 import Logo from "../assets/logo.png";
-import { getUser, logout } from "../services/dataService";
+
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
-    const [user, setUser] = useState(null);
-    const navigate = useNavigate();
-
-    useEffect(() => {
-        const fetchUser = async () => {
-            try {
-                const data = await getUser();
-                setUser(data);
-            } catch {
-                setUser(null); // Si falla, se asegura de que el usuario no esté definido
-            }
-        };
-
-        fetchUser();
-    }, []);
-
-    const handleLogout = () => {
-        logout();
-        setUser(null);
-        navigate("/login");
-    };
+    
     return (
         <nav className="navbar">
             {/* Logo con enlace al home */}
@@ -82,17 +62,7 @@ const Navbar = () => {
                 ))}
             </div>
 
-            <div className="dropdown">
-                {user ? (
-                    <div className="user-info">
-                        <span>{user.name}</span>
-                        <span>{user.email}</span>
-                        <button className="logout-button" onClick={handleLogout}>Logout</button>
-                    </div>
-                ) : (
-                    <NavLink to="/plataforma" >Accede</NavLink>
-                )}
-            </div>
+          
         </nav>
     );
 };

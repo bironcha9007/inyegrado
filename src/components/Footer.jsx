@@ -17,7 +17,7 @@ const Footer = () => {
   
     return (
         <footer>
-            <div className="col first-col">
+            <div className="col first-col"><h2>Integrado Soacha</h2>
             <div className="logo">
                 
                 <img 
@@ -28,7 +28,7 @@ const Footer = () => {
          
     
         </div>
-                <h2>Integrado Soacha</h2>
+                
                 <p>"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
             </div>
             <div className="col second-col">

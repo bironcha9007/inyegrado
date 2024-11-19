@@ -13,7 +13,6 @@ import image15 from '../assets/image15.jpg';
 import image16 from '../assets/image16.jpg';
 
 export const navLinks = [
-    
     {
         id: 'Inicio',
         link: '',
@@ -21,6 +20,10 @@ export const navLinks = [
     {
         id: 'Admisiones',
         link: 'apply',
+        subLinks: [
+            { id: 'Requisitos', link: 'apply/requisitos' },
+            { id: 'Proceso', link: 'apply/proceso' },
+        ],
     },
     {
         id: 'Integrado',
@@ -29,6 +32,10 @@ export const navLinks = [
     {
         id: 'Nosotros',
         link: 'about',
+        subLinks: [
+            { id: 'Historia', link: 'about/historia' },
+            { id: 'Equipo', link: 'about/equipo' },
+        ],
     },
     {
         id: 'Educación',
@@ -38,7 +45,6 @@ export const navLinks = [
         id: 'Agenda',
         link: 'facility',
     },
-    
     {
         id: 'Familias',
         link: 'programs',
@@ -49,11 +55,10 @@ export const navLinks = [
     },
     {
         id: 'Contacto',
-        link: 'contact'
+        link: 'contact',
     },
-    
-    
 ];
+
 
 export const missionVision = [
     {

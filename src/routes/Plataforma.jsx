@@ -93,13 +93,15 @@ const Plataforma = () => {
         <div className="platform-container">
             {isLoggedIn ? (
                 <div className="logged-in-section">
+                    <div className="form1">
                     <h2>Sesión Iniciada</h2>
                     <p>Bienvenido, {user?.name || "Usuario"}</p>
                     <p>Correo: {user?.email}</p>
-                    <button onClick={handleLogout}>Cerrar Sesión</button>
+                    <button onClick={handleLogout}>Cerrar Sesión</button></div>
                 </div>
             ) : (
                 <div className="auth-section">
+                    
                     <h2>{isLogin ? "Iniciar Sesión" : "Registrarse"}</h2>
                     {isLogin ? (
                         <form onSubmit={handleLoginSubmit} className="auth-form">
