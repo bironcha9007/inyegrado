@@ -20,6 +20,7 @@ import Contact from "./routes/Contact";
 import UndergraduatePrograms, { programsLoader } from "./routes/UndergraduatePrograms";
 import Servicios, { serviciosLoader } from "./routes/Servicios";
 import ProgramDetails, { programDetailsLoader } from "./routes/ProgramDetails";
+import ServiciosDetails, { serviciosDetailsLoader } from "./routes/ServiciosDetails";
 import Plataforma from "./routes/Plataforma";
 
 
@@ -41,7 +42,7 @@ const router = createBrowserRouter(
         errorElement={<ProgramError />}
       >
         <Route index element={<Servicios />} loader={serviciosLoader} />
-        <Route path=":id" element={<ProgramDetails />} loader={programDetailsLoader} />
+        <Route path=":id" element={<ServiciosDetails />} loader={serviciosDetailsLoader} />
       </Route>
       <Route
         path="programs"
