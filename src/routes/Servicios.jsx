@@ -16,7 +16,7 @@ const Servicios = () => {
             <div key={servicio.id} className="pro-link">
                 <Link to={servicio.id.toString()} key={servicio.id}>
                     <p>{servicio.servicio}</p>
-                    <p><b>Certificaciones</b>: {servicio.certification}</p>
+                    
                 </Link>
             </div>
         ))}

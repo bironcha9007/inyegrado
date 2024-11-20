@@ -146,14 +146,19 @@ export const testimonials = [
     {
         id: 'Admisiones',
         link: 'apply',
+        subLinks: [
+            { id: 'Requisitos', link: 'apply/requisitos' },
+            { id: 'Proceso', link: 'apply/proceso' },
+        ],
     },
-    {
-        id: 'Integrado',
-        link: 'about',
-    },
+    
     {
         id: 'Nosotros',
         link: 'about',
+        subLinks: [
+            { id: 'Historia', link: 'about/historia' },
+            { id: 'Equipo', link: 'about/equipo' },
+        ],
     },
     {
         id: 'Educación',
@@ -163,19 +168,19 @@ export const testimonials = [
         id: 'Agenda',
         link: 'facility',
     },
+    {
+        id: 'Servicios',
+        link: 'servicios',
+    },
     
     {
-        id: 'Familias',
-        link: 'programs',
+        id: 'Contacto',
+        link: 'contact',
     },
     {
         id: 'Plataforma',
-        link: 'programs',
-    },
-    {
-        id: 'Contacto',
-        link: 'contact'
-    },
+        link: 'plataforma',
+    }
  ]
 
 export const footerContact = [
@@ -292,22 +297,22 @@ export const facilities = [
 export const MoreInfo = [
     {
         id: 1,
-        title: "Secretaria y Admisiones",
+        title: "Primaria y Bachillerato",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 2,
-        title: "Departamento Financiero",
+        title: "Inscripción en línea",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 3,
-        title: "Rectoria",
+        title: "Costos Educativos",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 4,
-        title: "Cordinaciones",
+        title: "Uniformes",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
 ]
