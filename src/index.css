@@ -905,8 +905,8 @@ justify-content: center;
 }
 
 .programs,.plataforma .pad {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
 
 }
 
@@ -1120,7 +1120,14 @@ justify-content: center;
 .ad-more {
   padding: 30px;
 }
+.ad-info{
+  display: flex
+  ;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
 
+}
 .ad-info p {
   font-size: 27px;
   margin-bottom: 20px;
@@ -1179,9 +1186,7 @@ justify-content: center;
 
 /* Media Query */
 @media (max-width: 1000px) {
-  footer {
-    flex-direction: column;
-  }
+
 
   footer .col.second-col {
     margin-left: 0;
@@ -1204,7 +1209,9 @@ justify-content: center;
 }
 
 @media (max-width: 770px) {
-
+  footer {
+    flex-direction: column;
+  }
   .auth-section, .form1 {
     display: flex
 ;
