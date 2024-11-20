@@ -21,8 +21,8 @@ export const navLinks = [
         id: 'Admisiones',
         link: 'apply',
         subLinks: [
-            { id: 'Requisitos', link: 'apply/requisitos' },
-            { id: 'Proceso', link: 'apply/proceso' },
+            { id: 'Información', link: 'servicios/2' },
+            { id: 'Pre-Matricula', link: 'servicios/4' },
         ],
     },
     
@@ -30,8 +30,8 @@ export const navLinks = [
         id: 'Nosotros',
         link: 'about',
         subLinks: [
-            { id: 'Historia', link: 'about/historia' },
-            { id: 'Equipo', link: 'about/equipo' },
+            { id: 'PEI', link: 'about/historia' },
+            { id: 'Horizonte', link: 'about/equipo' },
         ],
     },
     {
@@ -147,8 +147,8 @@ export const testimonials = [
         id: 'Admisiones',
         link: 'apply',
         subLinks: [
-            { id: 'Requisitos', link: 'apply/requisitos' },
-            { id: 'Proceso', link: 'apply/proceso' },
+            { id: 'Información', link: 'servicios/2' },
+            { id: 'Pre-Matricula', link: 'servicios/4' },
         ],
     },
     
@@ -156,8 +156,8 @@ export const testimonials = [
         id: 'Nosotros',
         link: 'about',
         subLinks: [
-            { id: 'Historia', link: 'about/historia' },
-            { id: 'Equipo', link: 'about/equipo' },
+            { id: 'PEI', link: 'about/historia' },
+            { id: 'Horizonte', link: 'about/equipo' },
         ],
     },
     {
