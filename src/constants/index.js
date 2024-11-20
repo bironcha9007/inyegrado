@@ -25,10 +25,7 @@ export const navLinks = [
             { id: 'Proceso', link: 'apply/proceso' },
         ],
     },
-    {
-        id: 'Integrado',
-        link: 'about',
-    },
+    
     {
         id: 'Nosotros',
         link: 'about',
@@ -46,17 +43,18 @@ export const navLinks = [
         link: 'facility',
     },
     {
-        id: 'Familias',
+        id: 'Servicios',
         link: 'programs',
     },
-    {
-        id: 'Plataforma',
-        link: 'plataforma',
-    },
+    
     {
         id: 'Contacto',
         link: 'contact',
     },
+    {
+        id: 'Plataforma',
+        link: 'plataforma',
+    }
 ];
 
 

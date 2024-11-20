@@ -7,7 +7,11 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
-    
+    const [activeSubMenu, setActiveSubMenu] = useState(null);
+
+  const handleSubMenuToggle = (id) => {
+    setActiveSubMenu((prev) => (prev === id ? null : id));
+  };
     return (
         <nav className="navbar">
             {/* Logo con enlace al home */}
@@ -15,7 +19,7 @@ const Navbar = () => {
                 <NavLink to="/" onClick={() => setToggle(false)}>
                     <img 
                         src={Logo} 
-                        style={{ height: "60px", width: "60px" }} 
+                        style={{ height: "50px", width: "50px" }} 
                         alt="Integrado Logo" 
                     />
              
@@ -26,19 +30,38 @@ const Navbar = () => {
                 </NavLink>
             </div>
 
-            {/* Links de navegación */}
-            <div className="nav-links">
-                {navLinks.map(nav => (
-                    <NavLink 
-                        to={nav.link} 
-                        key={nav.id} 
-                        className="link" 
-                        onClick={() => setToggle(false)} // Cierra el menú al hacer clic
-                    >
-                        {nav.id}
-                    </NavLink>
+                  {/* Links de navegación */}
+      <div className="nav-links">
+        {navLinks.map((nav) => (
+          <div key={nav.id} className="nav-item">
+            <NavLink to={nav.link} className="link" onClick={() => setToggle(false)}>
+              {nav.id}
+            </NavLink>
+
+            {/* Mostrar submenús si existen */}
+            {nav.subLinks && (
+              <div
+                className={`submenu ${activeSubMenu === nav.id ? "show" : ""}`}
+                onClick={() => handleSubMenuToggle(nav.id)}
+              >
+                {nav.subLinks.map((subLink) => (
+                  <NavLink
+                    to={subLink.link}
+                    key={subLink.id}
+                    className="sublink"
+                    onClick={() => {
+                      setToggle(false);
+                      setActiveSubMenu(null);
+                    }}
+                  >
+                    {subLink.id}
+                  </NavLink>
                 ))}
-            </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
 
             {/* Ícono del menú para dispositivos móviles */}
             <div className="menu-icons">

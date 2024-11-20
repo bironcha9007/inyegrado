@@ -22,7 +22,7 @@ const Footer = () => {
                 
                 <img 
                     src={Logo} 
-                    style={{ height: "100px", width: "100px" }} 
+                    style={{ height: "60px", width: "60px" }} 
                     alt="Integrado Logo" 
                 />
          

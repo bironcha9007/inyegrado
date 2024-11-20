@@ -30,7 +30,104 @@ body {
 }
 
 /* Navbar */
+/* Ajustes generales */
+.navbar {
+  display: flex;
+  padding: 10px 20px;
+  background-color: var(--ne2);
+  justify-content: space-between;
+  align-items: center;
+}
 
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Submenús */
+.navbar .nav-item {
+  position: relative;
+}
+
+.navbar .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.navbar .submenu .sublink {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .submenu .sublink:hover {
+  color: var(--re);
+}
+
+/* Mostrar submenú en hover para escritorio */
+.navbar .nav-item:hover .submenu {
+  display: flex;
+}
+
+/* Menú móvil */
+.menu-icons {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.menu-icons svg {
+  color: var(--ne);
+}
+
+/* Menú móvil activo */
+.dropdown {
+  display: none;
+  flex-direction: column;
+  background-color: var(--ne2);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-sublinks {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+  .navbar .nav-links {
+    display: none;
+  }
+
+  .menu-icons {
+    display: block;
+  }
+
+  .dropdown {
+    display: flex;
+  }
+
+  .nav-item:hover .submenu {
+    display: none; /* Deshabilitar hover en móviles */
+  }
+}
 .navbar {
   display: flex;
   padding: 10px;
@@ -49,7 +146,7 @@ body {
   float: right;
   padding: 25px;
   font-size: 14px;
-  width: 90%;
+  
 }
 
 .navbar .logo {
@@ -65,7 +162,7 @@ body {
   font-size: 15px;
   text-align: center;
   color: var(--ne);
-  margin-left: 3px;
+  margin-left: 5px;
 
 }
 
@@ -83,7 +180,7 @@ p {
 
 .pad p {
   text-align: center;
-  letter-spacing: 0.5px;
+  letter-spacing: 0 px;
 }
 
 .navbar .nav-links .link::after {
@@ -807,7 +904,7 @@ justify-content: center;
   margin-top: 40px;
 }
 
-.programs .pad {
+.programs,.plataforma .pad {
   margin-left: 5%;
   margin-right: 5%;
 
@@ -1150,19 +1247,20 @@ justify-content: center;
   .navbar .logo span {
     color: var(--ne);
     font-size: 15px;
-    text-align: center;
-
+    text-align: left;
+    margin-left: 5px;
   }
 
   .navbar .logo {
-    width: 65%;
+    width:59%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 
   }
 
   .course-programs .pro-link p {
+    
     color: #232323;
     font-size: 17px;
   }
