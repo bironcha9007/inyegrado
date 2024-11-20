@@ -18,13 +18,16 @@ import Facility from "./routes/Facility";
 import Admission from "./routes/Admission";
 import Contact from "./routes/Contact";
 import UndergraduatePrograms, { programsLoader } from "./routes/UndergraduatePrograms";
+import Servicios, { serviciosLoader } from "./routes/Servicios";
 import ProgramDetails, { programDetailsLoader } from "./routes/ProgramDetails";
 import Plataforma from "./routes/Plataforma";
+
 
 // Layout import
 import RootLayout from "./layouts/RootLayout";
 import ProgramLayout from "./layouts/ProgramLayout";
 import PlataformaLayout from "./layouts/PlataformaLayout";
+import ServiciosLayout from "./layouts/ServiciosLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +35,14 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="facility" element={<Facility />} />
+      <Route
+        path="servicios"
+        element={<ServiciosLayout />}
+        errorElement={<ProgramError />}
+      >
+        <Route index element={<Servicios />} loader={serviciosLoader} />
+        <Route path=":id" element={<ProgramDetails />} loader={programDetailsLoader} />
+      </Route>
       <Route
         path="programs"
         element={<ProgramLayout />}

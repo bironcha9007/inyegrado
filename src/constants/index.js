@@ -44,7 +44,7 @@ export const navLinks = [
     },
     {
         id: 'Servicios',
-        link: 'programs',
+        link: 'servicios',
     },
     
     {
