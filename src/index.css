@@ -948,7 +948,7 @@ justify-content: center;
 }
 
 .course-programs .pro-link {
-  background: rgba(0, 0, 0, 0.2);
+  background-color: var(--bl);
   width: 40%;
 
   padding: 20px;
@@ -957,8 +957,9 @@ justify-content: center;
 }
 
 .course-programs .pro-link p {
-  color: #232323;
+  color: #ffffff;
   font-size: 15px;
+  font-weight: 600;
 }
 
 .course-programs .pro-link b {
@@ -967,13 +968,20 @@ justify-content: center;
 }
 
 .course-programs .pro-link p:first-child {
+  color: #ffffff;
   font-size: 15px;
+  text-align: center;
+  
 }
 
 .course-programs .pro-link:hover p:first-child {
-  color: #212121;
+  color: #ffffff;
+  
 }
-
+.course-programs .pro-link:hover {
+  color: #ffffff;
+  background-color: var(--bl2);
+}
 .platform-container {
 
   text-align: center;
@@ -1103,7 +1111,8 @@ display: flex
 }
 
 .details img {
-  width: 100%;
+  width: 95%;
+  
   border-radius: 10px;
 }
 .detail {
@@ -1133,6 +1142,10 @@ text-align: left;
   text-align: center;
   font-size: 30px;
   }
+
+  .program-details p{
+    margin-top: 1px;
+    }
 .program-error {
   font-size: 20px;
   margin: 20px 30%;
@@ -1349,7 +1362,7 @@ text-align: left;
 .program-details {
     display: flex
 ;
-    padding: 15px;
+    padding: 20px;
     align-items: center;
     flex-direction: column;
 }
@@ -1361,12 +1374,19 @@ text-align: left;
   text-align: center;
   font-size: 25px;
   }
+  .program-details p{
+    margin-top: 15px;
+    }
 .details {
-  display: flex
+
+    display: flex
 ;
-  justify-content: space-around;
-  gap: 1rem;
- 
+    justify-content: space-around;
+    gap: 1rem;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+
 }
 .details img {
   width: 100%;

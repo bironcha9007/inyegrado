@@ -11,16 +11,17 @@ const ServiciosDetails = () => {
     return (
         <>
             <div className="program-details">
+                
                 <h1>{servicio.servicio}</h1>
                 <h3>{servicio.title}</h3>
                 <p>{servicio.info}</p>
 
 
-                <h1 style={{ marginTop: '40px' }}>Información y Contacto</h1>
+              
                 <div className="details">
                     <div className="detail1">
 
-                        <p>{servicio.duration}</p>
+                        <p >{servicio.duration}</p>
                         <p >{servicio.details}</p>
                         <p>{servicio.curriculum}</p>
                     </div>
@@ -34,7 +35,8 @@ const ServiciosDetails = () => {
                                     border: 'none',
                                     color: 'white',
                                     cursor: 'pointer',
-                                    marginTop: '20px',
+                                    
+                                    
                                 }}
                                 onClick={() => window.open(servicio.linkURL, '_blank')}
                             >
