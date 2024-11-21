@@ -688,11 +688,11 @@ footer .col.col.first-col h2 {
 }
 
 .about-info .vc-image img {
-  width: 100%;
+
   height: 100%;
-  object-fit: center;
+
   object-position: center;
-  border-radius: 20px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .parts {
@@ -797,7 +797,7 @@ footer .col.col.first-col h2 {
 
 .map {
   width: 90%;
-  height: 450px;
+  height: 200px;
   margin: 20px auto;
 }
 
@@ -809,9 +809,11 @@ footer .col.col.first-col h2 {
 
 .contact-us {
   padding: 20px 70px;
-  display: flex;
-  justify-content: space-between;
+  display: flex
+;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .contact-us .address .add {
@@ -1107,20 +1109,20 @@ display: flex
 .details {
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
+  margin-top: 3%;
 }
 
 .details img {
   width: 95%;
   
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 .detail {
   display: flex
   ;
       justify-content: space-around;
     
-      width: 43%;
+      width: 50%;
       flex-direction: column;
       flex-wrap: wrap;
 }
@@ -1129,18 +1131,25 @@ display: flex
   ;
       justify-content: space-evenly;
       
-      width: 45%;
+      width: 46%;
       flex-direction: column;
       flex-wrap: nowrap;
 }
 
 .program-details h3{
-  margin-top: 2%;
+  margin-top: 1%;
 text-align: left;
+font-weight: 400;
+}
+.program-details h2{
+  margin-top: 1%;
+text-align: left;
+font-weight: 600;
 }
 .program-details h1{
+  color: var(--bl);
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   }
 
   .program-details p{
@@ -1159,7 +1168,7 @@ text-align: left;
 
 .details img {
   width: 100%;
-  border-radius: 10px;
+  
 }
 .detail {
   display: flex
@@ -1367,12 +1376,16 @@ text-align: left;
     flex-direction: column;
 }
 .program-details h3{
-  margin-top: 8%;
+  margin-top: 2%;
+text-align: justify;
+}
+.program-details h2{
+  margin-top: 5%;
 text-align: left;
 }
 .program-details h1{
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   }
   .program-details p{
     margin-top: 15px;
@@ -1390,14 +1403,14 @@ text-align: left;
 }
 .details img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 .detail {
   display: flex
   ;
       justify-content: space-around;
-    
-      width: 95%;
+    margin-top: 2%;
+      width: 98%;
       flex-direction: column;
       flex-wrap: nowrap;
 }

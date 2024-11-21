@@ -16,7 +16,7 @@ const UndergraduatePrograms = () => {
             <div key={program.id} className="pro-link">
                 <Link to={program.id.toString()} key={program.id}>
                     <p>{program.program}</p>
-                    <p><b>Certificaciones</b>: {program.certification}</p>
+                   
                 </Link>
             </div>
         ))}
