@@ -1048,7 +1048,14 @@ justify-content: center;
 /* Program details */
 
 .program-details {
-  padding: 40px;
+display: flex
+;
+    padding: 40px;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .program-details p:first-of-type {
@@ -1096,10 +1103,36 @@ justify-content: center;
 }
 
 .details img {
-  width: 30%;
+  width: 100%;
   border-radius: 10px;
 }
+.detail {
+  display: flex
+  ;
+      justify-content: space-around;
+    
+      width: 43%;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+.detail1 {
+  display: flex
+  ;
+      justify-content: space-evenly;
+      
+      width: 45%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+}
 
+.program-details h3{
+  margin-top: 2%;
+text-align: left;
+}
+.program-details h1{
+  text-align: center;
+  font-size: 30px;
+  }
 .program-error {
   font-size: 20px;
   margin: 20px 30%;
@@ -1111,6 +1144,28 @@ justify-content: center;
   }
 }
 
+.details img {
+  width: 100%;
+  border-radius: 10px;
+}
+.detail {
+  display: flex
+  ;
+      justify-content: space-around;
+    
+      width: 43%;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+.detail1 {
+  display: flex
+  ;
+      justify-content: space-around;
+      
+      width: 45%;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
 /* Program details */
 
 /* Admission Page */
@@ -1289,6 +1344,51 @@ justify-content: center;
     margin-top: 20px;
     flex-wrap: nowrap;
     flex-direction: column;
+}
+
+.program-details {
+    display: flex
+;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+.program-details h3{
+  margin-top: 8%;
+text-align: left;
+}
+.program-details h1{
+  text-align: center;
+  font-size: 25px;
+  }
+.details {
+  display: flex
+;
+  justify-content: space-around;
+  gap: 1rem;
+ 
+}
+.details img {
+  width: 100%;
+  border-radius: 10px;
+}
+.detail {
+  display: flex
+  ;
+      justify-content: space-around;
+    
+      width: 95%;
+      flex-direction: column;
+      flex-wrap: nowrap;
+}
+.detail1 {
+  display: flex
+  ;
+      justify-content: space-around;
+      
+      width: 95%;
+      flex-direction: column;
+      flex-wrap: nowrap;
 }
 
 }
