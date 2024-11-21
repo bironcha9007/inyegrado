@@ -4,6 +4,7 @@ import { FaLocationArrow, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 const ContactAddress = () => {
   return (
     <div className="address">
+       <h2>Datos Contacto :</h2>
         <div className="add">
           <div className="icon">
             <FaMapMarkerAlt />

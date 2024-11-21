@@ -10,7 +10,7 @@ const Servicios = () => {
     const servicios = useLoaderData();
 
   return (
-    <div className='course-programs'>
+    <div className='course-serv'>
         <div className='pro'>
         {servicios.map(servicio => (
             <div key={servicio.id} className="pro-link">
