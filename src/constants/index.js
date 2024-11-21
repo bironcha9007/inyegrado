@@ -59,21 +59,21 @@ export const navLinks = [
 export const sliderContent = [
     {
         id: 1,
-        title: 'Nuestra Misión',
-        text: 'La Institución Educativa Integrado de Soacha garantiza el derecho a la educación formal de niños, niñas, jóvenes y adultos del municipio de Soacha fundamentado en el proceso de enseñanza aprendizaje de muy buena calidad desarrollando competencias básicas y ciudadanas a través de valores éticos, culturales, espirituales con alto sentido de responsabilidad para su formación integral.',
-        navLink: '/mission',
+        title: 'Admisiones 2025',
+        text: 'Conoce el proceso',
+        navLink: '/apply',
         imageURL: image3,
     },
     {
         id: 2,
-        title: 'Nuestra Visión',
-        text: 'Para el año 2025 la Institución Educativa Integrado de Soacha se consolidará como una de las mejores del municipio en adelantar procesos académicos con enfoque constructivista formando seres humanos en un marco pluralista, democrático, incluyente y respetuoso, conocimientos, competencias y habilidades que respondan a las necesidades intelectuales, emocionales e interpersonales y se comprometan con el cambio de la sociedad soachuna.',
+        title: 'Grados 2024',
+        text: 'Ceremonia y Certificados',
         navLink: '/vision',
         imageURL: image4,
     },
     {
         id: 3,
-        title: 'Nuestros Objetivos',
+        title: 'Clausuras y Finalización',
         text: 'Reelaborar el sentido estratégico de la Institución acorde a las nuevas realidades institucionales. Desarrollar capacitación con los estamentos para desarrollar el sentido de identidad y apropiación del horizonte estratégico de la Institución. Estructurar y desarrollar en módulos didácticos los ejes temáticos, metodológicos, operativos y evaluativos de las asignaturas de la cultura empresarial.',
         navLink: '/objectives',
         imageURL: image7,

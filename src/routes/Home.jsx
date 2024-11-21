@@ -17,7 +17,7 @@ const Home = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % sliderContent.length);
-        }, 3000);
+        }, 5000);
         return () => clearInterval(interval); // Limpiar intervalo al desmontar el componente
     }, []);
 
@@ -32,7 +32,7 @@ const Home = () => {
                 }}
             >
                 <p className="title">{currentSlide.title}</p>
-                <p className="info">{currentSlide.text}</p>
+             
                 <NavLink to={currentSlide.navLink}>Explorar</NavLink>
             </div>
             <MissionVision />
