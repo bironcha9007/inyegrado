@@ -10,12 +10,52 @@ import image12 from '../assets/image12.jpg';
 import image13 from '../assets/image13.jpg';
 import image14 from '../assets/image14.png';
 import image15 from '../assets/image15.jpg';
-import image16 from '../assets/image16.jpg';
+import image16 from '../assets/home.jpg';
 
 export const navLinks = [
     {
         id: 'Inicio',
         link: '',
+    },
+    
+    
+    {
+        id: 'Nosotros',
+        link: 'about',
+        subLinks: [
+            { id: 'Misión', link: '/about' },
+            { id: 'Vision', link: '/about' },
+            { id: 'Gobierno Escolar', link: '/about' },
+            { id: 'PEI', link: '/about' }
+        ],
+    },
+    {
+        id: 'Educación',
+        link: 'programs',
+        subLinks: [
+            { id: 'Departamentos', link: '/servicios/4' },
+            { id: 'Proyectos', link: '/servicios/2' },
+           
+        ],
+    },
+    {
+        id: 'Agenda',
+        link: 'facility',
+        subLinks: [
+            { id: 'Cronograma', link: '/servicios/4' },
+            { id: 'Circulares', link: '/servicios/2' },
+           
+        ],
+    },
+    {
+        id: 'Servicios',
+        link: 'servicios',
+        
+    },
+    
+    {
+        id: 'Contacto',
+        link: 'contact',
     },
     {
         id: 'Admisiones',
@@ -25,32 +65,6 @@ export const navLinks = [
             { id: 'Pre-Matricula', link: 'servicios/4' },
         ],
     },
-    
-    {
-        id: 'Nosotros',
-        link: 'about',
-        subLinks: [
-            { id: 'PEI', link: 'about/historia' },
-            { id: 'Horizonte', link: 'about/equipo' },
-        ],
-    },
-    {
-        id: 'Educación',
-        link: 'programs',
-    },
-    {
-        id: 'Agenda',
-        link: 'facility',
-    },
-    {
-        id: 'Servicios',
-        link: 'servicios',
-    },
-    
-    {
-        id: 'Contacto',
-        link: 'contact',
-    },
     {
         id: 'Plataforma',
         link: 'plataforma',
@@ -59,21 +73,21 @@ export const navLinks = [
 export const sliderContent = [
     {
         id: 1,
-        title: 'Admisiones 2025',
+        title: 'IE INTEGRADO DE SOACHA',
         text: 'Conoce el proceso',
         navLink: '/apply',
-        imageURL: image3,
+        imageURL: image16,
     },
     {
         id: 2,
-        title: 'Grados 2024',
+        title: 'ADMISIONES Y MATRICULAS',
         text: 'Ceremonia y Certificados',
-        navLink: '/vision',
+        navLink: '/about',
         imageURL: image4,
     },
     {
         id: 3,
-        title: 'Clausuras y Finalización',
+        title: 'ARTE Y CULTURA',
         text: 'Reelaborar el sentido estratégico de la Institución acorde a las nuevas realidades institucionales. Desarrollar capacitación con los estamentos para desarrollar el sentido de identidad y apropiación del horizonte estratégico de la Institución. Estructurar y desarrollar en módulos didácticos los ejes temáticos, metodológicos, operativos y evaluativos de las asignaturas de la cultura empresarial.',
         navLink: '/objectives',
         imageURL: image7,
@@ -165,22 +179,12 @@ export const testimonials = [
         id: 'Inicio',
         link: '',
     },
-    {
-        id: 'Admisiones',
-        link: 'apply',
-        subLinks: [
-            { id: 'Información', link: 'servicios/2' },
-            { id: 'Pre-Matricula', link: 'servicios/4' },
-        ],
-    },
+    
     
     {
         id: 'Nosotros',
         link: 'about',
-        subLinks: [
-            { id: 'PEI', link: 'about/historia' },
-            { id: 'Horizonte', link: 'about/equipo' },
-        ],
+       
     },
     {
         id: 'Educación',
@@ -193,6 +197,11 @@ export const testimonials = [
     {
         id: 'Servicios',
         link: 'servicios',
+    },
+    {
+        id: 'Admisiones',
+        link: 'apply',
+
     },
     
     {

@@ -10,6 +10,7 @@ const ServiciosDetails = () => {
 
     return (
         <>
+        
             <div className="program-details">
                 
                 <h1>{servicio.servicio}</h1>
