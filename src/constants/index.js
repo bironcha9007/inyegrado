@@ -11,6 +11,7 @@ import image13 from '../assets/image13.jpg';
 import image14 from '../assets/image14.png';
 import image15 from '../assets/image15.jpg';
 import image16 from '../assets/home.jpg';
+import image17 from '../assets/integrado_7.jpg';
 
 export const navLinks = [
     {
@@ -90,7 +91,7 @@ export const sliderContent = [
         title: 'ARTE Y CULTURA',
         text: 'Reelaborar el sentido estratégico de la Institución acorde a las nuevas realidades institucionales. Desarrollar capacitación con los estamentos para desarrollar el sentido de identidad y apropiación del horizonte estratégico de la Institución. Estructurar y desarrollar en módulos didácticos los ejes temáticos, metodológicos, operativos y evaluativos de las asignaturas de la cultura empresarial.',
         navLink: '/objectives',
-        imageURL: image7,
+        imageURL: image17,
     },
 ];
 
