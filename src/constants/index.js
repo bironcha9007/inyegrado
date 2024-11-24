@@ -24,6 +24,7 @@ export const navLinks = [
         id: 'Nosotros',
         link: 'about',
         subLinks: [
+            { id: 'Horizonte', link: '/about' },
             { id: 'Misión', link: '/about' },
             { id: 'Vision', link: '/about' },
             { id: 'Gobierno Escolar', link: '/about' },
@@ -36,6 +37,7 @@ export const navLinks = [
         subLinks: [
             { id: 'Departamentos', link: '/servicios/4' },
             { id: 'Proyectos', link: '/servicios/2' },
+            
            
         ],
     },
@@ -51,12 +53,26 @@ export const navLinks = [
     {
         id: 'Servicios',
         link: 'servicios',
+        subLinks: [
+            { id: 'Orientacion', link: '/servicios/1' },
+            { id: 'Secretaria', link: '/servicios/2' },
+            { id: 'Admisiones', link: '/servicios/4' },
+            { id: 'Contabilidad', link: '/servicios/3' },
+            { id: 'Boletin Semanal', link: '/servicios/10' },
+            { id: 'Plataforma', link: '/servicios/5' },
+           
+        ],
         
     },
     
     {
         id: 'Contacto',
         link: 'contact',
+        subLinks: [
+            { id: 'WhatsApp', link: '/servicios/1' },
+       
+           
+        ],
     },
     {
         id: 'Admisiones',
@@ -186,6 +202,7 @@ export const testimonials = [
         id: 'Nosotros',
         link: 'about',
         subLinks: [
+            { id: 'Horizonte', link: '/about' },
             { id: 'Misión', link: '/about' },
             { id: 'Vision', link: '/about' },
             { id: 'Gobierno Escolar', link: '/about' },
@@ -198,6 +215,7 @@ export const testimonials = [
         subLinks: [
             { id: 'Departamentos', link: '/servicios/4' },
             { id: 'Proyectos', link: '/servicios/2' },
+            
            
         ],
     },
@@ -213,12 +231,26 @@ export const testimonials = [
     {
         id: 'Servicios',
         link: 'servicios',
+        subLinks: [
+            { id: 'Orientacion', link: '/servicios/1' },
+            { id: 'Secretaria', link: '/servicios/2' },
+            { id: 'Admisiones', link: '/servicios/4' },
+            { id: 'Contabilidad', link: '/servicios/3' },
+            { id: 'Boletin Semanal', link: '/servicios/10' },
+            { id: 'Plataforma', link: '/servicios/5' },
+           
+        ],
         
     },
     
     {
         id: 'Contacto',
         link: 'contact',
+        subLinks: [
+            { id: 'WhatsApp', link: '/servicios/1' },
+       
+           
+        ],
     },
     {
         id: 'Admisiones',
