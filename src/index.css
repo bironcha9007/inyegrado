@@ -239,7 +239,7 @@ footer p {
   text-align: justify;
   letter-spacing: 0.2 px;
 }
-.pages .plataforma .pad,  p {
+.pages ,.plataforma   p {
   text-align: center;
   letter-spacing: 0.2 px;
 }
@@ -408,7 +408,10 @@ footer p {
 /* Home Page */
 
 /* Home */
+
+/* Transición suave para el slider */
 .home {
+  position: relative;
   color: #ccc;
   display: flex;
   align-items: center;
@@ -416,24 +419,42 @@ footer p {
   flex-direction: column;
   height: calc(100vh - 73px);
   width: 100%;
+  overflow: hidden; /* Oculta el desbordamiento de las imágenes */
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
-  transition: background-image 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  z-index: 2; /* La imagen que se muestra está al frente */
+}
+
+.fade-out {
+  opacity: 0;
+  z-index: 1; /* La imagen que se desvanece está detrás */
 }
 
 .home .title {
+  position: relative;
+  z-index: 3; /* Asegura que el texto esté al frente */
   font-size: 45px;
   font-weight: 600;
   text-align: center;
 }
 
-.home .info {
-  text-align: center;
-  padding: 0 100px;
-  color: #ccc;
-}
-
 .home a {
+  position: relative;
+  z-index: 3;
   background: #e13f3f;
   padding: 7px 17px;
   margin-top: 15px;
@@ -446,6 +467,7 @@ footer p {
   background: #9c1010;
 }
 
+
 @media (max-width: 770px) {
   .home .title {
     font-size: 41px;
@@ -457,7 +479,6 @@ footer p {
     width: 100%;
   }
 }
-
 
 /* Constant styles */
 .content {
@@ -820,7 +841,7 @@ footer .col.col.first-col h2 {
   }
 
   .pages .title {
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 600;
     text-align: center;
   }
