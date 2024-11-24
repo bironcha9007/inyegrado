@@ -20,7 +20,7 @@ const Home = () => {
         setCurrentIndex(nextIndex); // Actualiza la imagen actual
         setNextIndex((nextIndex + 1) % sliderContent.length); // Calcula la siguiente imagen
         setIsTransitioning(false);
-      }, 5000); // Tiempo igual al de la animación CSS
+      }, 2000); // Tiempo igual al de la animación CSS
     }, 5000); // Cambio de imagen cada 5 segundos
     return () => clearInterval(interval);
   }, [nextIndex]);
