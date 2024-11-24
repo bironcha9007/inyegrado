@@ -79,7 +79,8 @@ const ProgramDetails = () => {
                         <h3 style={{ marginTop: '15px' }}>Curriculum</h3>
                         <p>{program.curriculum}</p>
                     </div>
-                    <img src={program.imageURL} alt={program.program} />
+                    <div className='detail1'>
+                    <img src={program.imageURL} alt={program.program} /></div>
                 </div>
                 <h1 style={{ marginTop: '40px' }}>Admission Requirements</h1>
                 <div className="requirements">
