@@ -6,8 +6,8 @@ const Programs = () => {
     <>
       <div className="pages programs">
         <div className='pad'>
-        <h2 className="title">IE INTEGRADO SOACHA</h2>
-          <p>Explora nuestros programas y departamentos.</p></div>
+        <h2 className="title">PROGRAMAS Y DEPARTAMENTOS</h2>
+        </div>
       </div>
       <Outlet />
     </>

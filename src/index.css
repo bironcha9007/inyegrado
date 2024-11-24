@@ -777,6 +777,7 @@ footer .col.col.first-col h2 {
   font-size: 45px;
   font-weight: 600;
   text-align: center;
+  
 }
 
 .about-info {
@@ -867,7 +868,9 @@ footer .col.col.first-col h2 {
   }
 
   .pages .title {
-    font-size: 42px;
+    margin: 2.5%;
+    width: 95%;
+    font-size: 35px;
     font-weight: 600;
     text-align: center;
     line-height: 50px;
@@ -939,7 +942,7 @@ footer .col.col.first-col h2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: 20px 20px 20px 0;
+  margin: 10px;
 }
 
 .address .add .icon {
@@ -1385,6 +1388,7 @@ footer .col.col.first-col h2 {
 .ad-info p {
   font-size: 27px;
   margin-bottom: 20px;
+  
 }
 
 .ad-info a {
@@ -1406,11 +1410,13 @@ footer .col.col.first-col h2 {
   border: 2px solid gray;
   padding: 15px;
 
+
 }
 
 .ad-more-info .more-info p.title {
   font-size: 15px;
   font-weight: 800;
+  text-align: center;
 }
 
 .apply {
@@ -1533,7 +1539,11 @@ footer .col.col.first-col h2 {
     flex-wrap: nowrap;
     flex-direction: column;
   }
-
+  .ad-info p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  }
   .program-details {
     display: flex;
     padding: 20px;
