@@ -1450,7 +1450,7 @@ footer .col.col.first-col h2 {
 
 
   footer .col.second-col {
-    margin-left: 0;
+    margin-left: -2px;
   }
 
   .navbar .nav-links .link:not(:first-child) {
