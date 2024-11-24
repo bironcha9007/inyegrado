@@ -33,7 +33,7 @@ export default Servicios
 export const serviciosLoader = async () => {
     const res = await fetch(`${process.env.REACT_APP_API_URL}/serviciosIE`);
     if (!res.ok) {
-        throw Error("Could not fetch programs");
+        throw Error("Hay problemas con tu conexión");
     }
     return res.json();
 }

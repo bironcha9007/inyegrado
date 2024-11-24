@@ -32,7 +32,7 @@ export default UndergraduatePrograms
 export const programsLoader = async () => {
     const res = await fetch(`${process.env.REACT_APP_API_URL}/undergraduatePrograms`);
     if (!res.ok) {
-        throw Error("Could not fetch programs");
+        throw Error("Hay problemas con tu conexión");
     }
     return res.json();
 }
