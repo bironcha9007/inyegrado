@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { footerContact, footerContactNum, footerLinks } from '../constants';
-import { FaAngleRight, FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
+import {  FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import Logo from "../assets/logo.png";
 const Footer = () => {
@@ -42,7 +42,7 @@ const Footer = () => {
                                 className={({ isActive }) => (isActive ? 'active-link' : '')} // Usa className dinámico
                                 style={{ color: '#fff' }}
                             >
-                                <FaAngleRight /> {link.id}
+                             {link.id}
                             </NavLink>
                         </li>
                     ))}

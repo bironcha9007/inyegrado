@@ -52,7 +52,7 @@ body {
 
 .navbar .submenu {
   position: absolute;
-  top: 130%;
+  top: 120%;
   left: 0;
   background-color: var(--ba);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -1350,7 +1350,7 @@ footer .col.col.first-col h2 {
 
 .detail {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 
   width: 43%;
   flex-direction: column;
@@ -1359,7 +1359,7 @@ footer .col.col.first-col h2 {
 
 .detail1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 
   width: 45%;
   flex-direction: column;

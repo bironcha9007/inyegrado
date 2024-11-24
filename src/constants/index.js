@@ -12,14 +12,11 @@ import image14 from '../assets/image14.png';
 import image15 from '../assets/image15.jpg';
 import image16 from '../assets/home.jpg';
 import image17 from '../assets/integrado_7.jpg';
-
 export const navLinks = [
     {
         id: 'Inicio',
         link: '',
     },
-    
-    
     {
         id: 'Nosotros',
         link: 'about',
@@ -28,7 +25,7 @@ export const navLinks = [
             { id: 'Misión', link: '/about' },
             { id: 'Vision', link: '/about' },
             { id: 'Gobierno Escolar', link: '/about' },
-            { id: 'PEI', link: '/about' }
+            { id: 'PEI', link: '/about' },
         ],
     },
     {
@@ -37,8 +34,6 @@ export const navLinks = [
         subLinks: [
             { id: 'Departamentos', link: '/servicios/4' },
             { id: 'Proyectos', link: '/servicios/2' },
-            
-           
         ],
     },
     {
@@ -47,7 +42,6 @@ export const navLinks = [
         subLinks: [
             { id: 'Cronograma', link: '/servicios/4' },
             { id: 'Circulares', link: '/servicios/2' },
-           
         ],
     },
     {
@@ -60,18 +54,18 @@ export const navLinks = [
             { id: 'Contabilidad', link: '/servicios/3' },
             { id: 'Boletin Semanal', link: '/servicios/10' },
             { id: 'Plataforma', link: '/servicios/5' },
-           
         ],
-        
     },
-    
     {
         id: 'Contacto',
         link: 'contact',
         subLinks: [
-            { id: 'WhatsApp', link: '/servicios/1' },
-       
-           
+            {
+                id: 'WhatsApp',
+                link: `https://wa.me/3012491404?text=${encodeURIComponent(
+                    'Deseo comunicarme con ustedes'
+                )}`,
+            },
         ],
     },
     {
@@ -85,8 +79,9 @@ export const navLinks = [
     {
         id: 'Plataforma',
         link: 'plataforma',
-    }
+    },
 ];
+
 export const sliderContent = [
     {
         id: 1,

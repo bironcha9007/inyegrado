@@ -5,7 +5,7 @@ const AdmissionInfo = () => {
   return (
     <div className="ad-info">
         <p>Empezar Pre-Inscripcion</p>
-        <Link to="/matricula">Matriculas Abiertas 2025</Link>
+        <Link to="/servicios/4">Matriculas Abiertas 2025</Link>
     </div>
   )
 }
