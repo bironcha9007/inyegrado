@@ -185,29 +185,48 @@ export const testimonials = [
     {
         id: 'Nosotros',
         link: 'about',
-       
+        subLinks: [
+            { id: 'Misión', link: '/about' },
+            { id: 'Vision', link: '/about' },
+            { id: 'Gobierno Escolar', link: '/about' },
+            { id: 'PEI', link: '/about' }
+        ],
     },
     {
         id: 'Educación',
         link: 'programs',
+        subLinks: [
+            { id: 'Departamentos', link: '/servicios/4' },
+            { id: 'Proyectos', link: '/servicios/2' },
+           
+        ],
     },
     {
         id: 'Agenda',
         link: 'facility',
+        subLinks: [
+            { id: 'Cronograma', link: '/servicios/4' },
+            { id: 'Circulares', link: '/servicios/2' },
+           
+        ],
     },
     {
         id: 'Servicios',
         link: 'servicios',
-    },
-    {
-        id: 'Admisiones',
-        link: 'apply',
-
+        
     },
     
     {
         id: 'Contacto',
         link: 'contact',
+    },
+    {
+        id: 'Admisiones',
+        link: 'apply',
+        subLinks: [
+            { id: 'Información', link: 'servicios/2' },
+            { id: 'Pre-Matricula', link: 'servicios/4' },
+        ],
     },
     {
         id: 'Plataforma',
