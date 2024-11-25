@@ -16,6 +16,7 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Facility from "./routes/Facility";
 import Admission from "./routes/Admission";
+import Educacion from "./routes/Educacion";
 import Contact from "./routes/Contact";
 import UndergraduatePrograms, {programsLoader} from "./routes/UndergraduatePrograms";
 import Departamentos, {departamentoLoader} from "./routes/Departamentos";
@@ -74,6 +75,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="contact" element={<Contact />} />
       <Route path="apply" element={<Admission />} />
+      <Route path="educacion" element={<Educacion />} />
       <Route path="*" element={<Error />} />
     </Route>
   )

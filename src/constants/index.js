@@ -30,7 +30,7 @@ export const navLinks = [
     },
     {
         id: 'Educación',
-        link: 'programs',
+        link: 'educacion',
         subLinks: [
             { id: 'Departamentos', link: '/departamentos' },
             { id: 'Programas', link: '/programs' },
@@ -191,8 +191,6 @@ export const testimonials = [
         id: 'Inicio',
         link: '',
     },
-    
-    
     {
         id: 'Nosotros',
         link: 'about',
@@ -201,17 +199,15 @@ export const testimonials = [
             { id: 'Misión', link: '/about' },
             { id: 'Vision', link: '/about' },
             { id: 'Gobierno Escolar', link: '/about' },
-            { id: 'PEI', link: '/about' }
+            { id: 'PEI', link: '/about' },
         ],
     },
     {
         id: 'Educación',
-        link: 'programs',
+        link: 'educacion',
         subLinks: [
-            { id: 'Departamentos', link: '/servicios/4' },
-            { id: 'Proyectos', link: '/servicios/2' },
-            
-           
+            { id: 'Departamentos', link: '/departamentos' },
+            { id: 'Programas', link: '/programs' },
         ],
     },
     {
@@ -220,7 +216,6 @@ export const testimonials = [
         subLinks: [
             { id: 'Cronograma', link: '/servicios/4' },
             { id: 'Circulares', link: '/servicios/2' },
-           
         ],
     },
     {
@@ -233,18 +228,18 @@ export const testimonials = [
             { id: 'Contabilidad', link: '/servicios/3' },
             { id: 'Boletin Semanal', link: '/servicios/10' },
             { id: 'Plataforma', link: '/servicios/5' },
-           
         ],
-        
     },
-    
     {
         id: 'Contacto',
         link: 'contact',
         subLinks: [
-            { id: 'WhatsApp', link: '/servicios/1' },
-       
-           
+            {
+                id: 'WhatsApp',
+                link: `https://wa.me/3012491404?text=${encodeURIComponent(
+                    'Deseo comunicarme con ustedes'
+                )}`,
+            },
         ],
     },
     {
