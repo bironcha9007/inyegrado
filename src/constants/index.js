@@ -371,7 +371,45 @@ export const facilities = [
         text: "Our school boasts spacious and well-equipped modern classrooms designed to create an optimal learning environment. Each classroom is thoughtfully arranged to enhance student engagement and foster a collaborative atmosphere.",
     },
 ];
-
+export const departamentosin = [
+    {
+        id: 1,
+        image: image8,
+        title: "RECTORIA",
+        text: "Our extensive library and resource center serve as a hub of knowledge, providing a diverse collection of books, e-books, journals, and multimedia resources. It is a quiet oasis where students can immerse themselves in reading and research.",
+    },
+    {
+        id: 2,
+        image: image10,
+        title: "COORDINACIÓN",
+        text: "We recognize the importance of nurturing students' passion for music. Our music facilities provide a vibrant and inspiring space for students to explore, create, and excel in the world of music.",
+    },
+    {
+        id: 3,
+        image: image11,
+        title: "ASO PADRES",
+        text: "Our school offers a range of sports facilities, including a well-equipped gymnasium, playgrounds, and courts for various sports, encouraging students to stay active and develop a spirit of sportsmanship.",
+    },
+    {
+        id: 4,
+        image: image12,
+        title: "SENA",
+        text: "We understand the pivotal role technology plays in modern education. Our computer lab facilities are designed to provide students with a cutting-edge learning environment that fosters digital literacy.",
+    },
+    {
+        id: 5,
+        image: image13,
+        title: "EX-ALUMNOS",
+        text: "We take immense pride in providing our students with top-notch science lab facilities that are designed to ignite curiosity, foster exploration, and enhance scientific learning.",
+    },
+    {
+        id: 6,
+        image: image14,
+        title: "SECRETARIA",
+        text: "Creativity thrives in our art studios, where students can explore various mediums and unleash their artistic potential. These studios are designed to inspire young artists to express themselves through visual arts.",
+    }
+   
+];
 export const MoreInfo = [
     {
         id: 1,

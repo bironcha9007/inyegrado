@@ -1,5 +1,5 @@
 import React from 'react';
-
+import DepartamentosList from '../components/DepartamentosList';
 // rrd import
 import { useLoaderData, Link } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const Departamentos = () => {
             </div>
         ))}
         </div>
-      
+        <DepartamentosList />
         <Footer />
     </div>
   )
