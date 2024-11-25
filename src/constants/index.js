@@ -2,16 +2,18 @@ import { FaAngleDoubleDown, FaCertificate, FaChalkboardTeacher, FaEnvelope, FaPh
 import image3 from '../assets/agenda.jpg';
 import image4 from '../assets/admisiones.jpg';
 import image7 from '../assets/servicios.jpg';
-import image8 from '../assets/image8.jpg';
-import image9 from '../assets/image9.jpg';
-import image10 from '../assets/image10.jpg';
-import image11 from '../assets/image11.jpg';
-import image12 from '../assets/image12.jpg';
-import image13 from '../assets/image13.jpg';
-import image14 from '../assets/image14.png';
-import image15 from '../assets/image15.jpg';
+import image8 from '../assets/filosofia.jpg';
+import image9 from '../assets/artes.jpg';
+import image10 from '../assets/sociales.jpg';
+import image11 from '../assets/edufisica.jpg';
+import image12 from '../assets/tecnologia.jpg';
+import image13 from '../assets/ciencias.jpg';
+import image14 from '../assets/matematicas.jpg';
+import image15 from '../assets/ingles.jpg';
 import image16 from '../assets/home.jpg';
 import image17 from '../assets/integrado_7.jpg';
+import image18 from '../assets/lenguaje.jpg';
+import image19 from '../assets/etica.jpg';
 export const navLinks = [
     {
         id: 'Inicio',
@@ -301,12 +303,14 @@ export const AboutPart = [
         id: 2,
         image: image8,
         title: "GOBIERNO ESCOLAR",
+        link: '/servicios/9',
         text: "we take pride in providing state-of-the-art facilities that create an ideal environment for holistic learning and growth. Our commitment to excellence extends beyond the classroom, ensuring that every aspect of a student's educational journey is supported.",
     },
     {
         id: 3,
         image: image9,
         title: "56 AÑOS DE HISTORIA",
+        link: '/servicios/8',
         text: "Our faculties play a pivotal role in shaping the future of our students. Their unwavering dedication to academic excellence creates an environment where students can thrive and transform into well-rounded individuals ready to make a positive impact on the world.",
     },
 ];
@@ -315,55 +319,64 @@ export const facilities = [
     {
         id: 1,
         image: image8,
-        title: "Biblioteca",
+        title: "Filosofía",
+        link: '/programs/7',
         text: "Our extensive library and resource center serve as a hub of knowledge, providing a diverse collection of books, e-books, journals, and multimedia resources. It is a quiet oasis where students can immerse themselves in reading and research.",
     },
     {
         id: 2,
-        image: image10,
-        title: "Salon Musica",
+        image: image14,
+        title: "Matematicas",
+        link: '/programs/1',
         text: "We recognize the importance of nurturing students' passion for music. Our music facilities provide a vibrant and inspiring space for students to explore, create, and excel in the world of music.",
     },
     {
         id: 3,
         image: image11,
-        title: "Cnachas y Patio",
+        title: "Educación Fisica",
+        link: '/programs/9',
         text: "Our school offers a range of sports facilities, including a well-equipped gymnasium, playgrounds, and courts for various sports, encouraging students to stay active and develop a spirit of sportsmanship.",
     },
     {
         id: 4,
         image: image12,
-        title: "Sala Sistemas",
+        title: "Tecnología",
+        link: '/programs/10',
         text: "We understand the pivotal role technology plays in modern education. Our computer lab facilities are designed to provide students with a cutting-edge learning environment that fosters digital literacy.",
     },
     {
         id: 5,
         image: image13,
-        title: "Science Lab",
+        title: "Ciencias y Biología",
+        link: '/programs/6',
         text: "We take immense pride in providing our students with top-notch science lab facilities that are designed to ignite curiosity, foster exploration, and enhance scientific learning.",
     },
     {
         id: 6,
-        image: image14,
-        title: "Salones de Arte",
+        image: image9,
+        title: "Artes",
+        link: '/programs/5',
         text: "Creativity thrives in our art studios, where students can explore various mediums and unleash their artistic potential. These studios are designed to inspire young artists to express themselves through visual arts.",
     },
     {
         id: 7,
         image: image15,
-        title: "Enfermeria",
+        title: "Ingles",
+        link: '/programs/3',
         text: "The well-being of our students is of utmost importance. Our school provides a dedicated medical room and trained staff to attend to any health-related needs and emergencies.",
     },
     {
         id: 8,
-        image: image16,
-        title: "Salon Multiple",
+        image: image18,
+        title: "Lenguaje",
+        link: '/programs/4',
         text: "Our Multipurpose Hall is a hub of creativity, learning, and community engagement, providing numerous benefits and opportunities for our students, faculty, and the broader school community.",
     },
     {
         id: 9,
-        image: image9,
-        title: "Aulas",
+        image: image19,
+        title: "Etica y Religuión",
+        link: '/programs/8',
         text: "Our school boasts spacious and well-equipped modern classrooms designed to create an optimal learning environment. Each classroom is thoughtfully arranged to enhance student engagement and foster a collaborative atmosphere.",
     },
 ];
