@@ -20,8 +20,8 @@ const WhySchool = () => {
           >
             <div className="reason">
               <div className="icon">{reason.icon}</div>
-              <h2>{reason.title}</h2>
-              <img src={reason.image} alt={reason.title} />
+              
+              <img src={reason.image} alt={reason.title} /><h2>{reason.title}</h2>
               <p>{reason.reason}</p>
             </div>
           </Link>

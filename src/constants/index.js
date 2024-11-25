@@ -135,26 +135,26 @@ export const missionVision = [
 export const whySchool = [
     {
         id: 1,
-        title: 'Sede A Integrado de Soacha',
+        title: 'Sede A',
         image: image20,
         link: '/servicios/8',
-        reason: "Ubicada en la zona central de Soacha, la sede A - Integrado es la principal de la Institución Educativa. Ofrece educación en los niveles de preescolar, básica y media, destacándose por la modalidad de bachillerato académico en articulación con el SENA.",
+        reason: " Integrado de Soacha Ubicada en la zona central de Soacha, la sede A - Integrado es la principal de la Institución Educativa. Ofrece educación en los niveles de preescolar, básica y media, destacándose por la modalidad de bachillerato académico en articulación con el SENA.",
         icon: <FaSchool />,
     },
     {
         id: 2,
-        title: 'Sede B John F. Kennedy',
+        title: 'Sede B',
         image: image21,
         link: '/servicios/21',
-        reason: 'Localizada en el barrio Eugenio Díaz Castro, la sede B – John F. Kennedy es un centro educativo que atiende a estudiantes en los niveles de preescolar, básica y media. Enfocada en la formación académica y técnica, facilita la articulación con el SENA, permitiendo a los estudiantes optar por especialidades laborales.',
+        reason: ' John F. Kennedy Localizada en el barrio Eugenio Díaz Castro, la sede B – John F. Kennedy es un centro educativo que atiende a estudiantes en los niveles de preescolar, básica y media. Enfocada en la formación académica y técnica, facilita la articulación con el SENA, permitiendo a los estudiantes optar por especialidades laborales.',
         icon: <FaSchool />,
     },
     {
         id: 3,
-        title: 'Sede C - Danubio',
+        title: 'Sede C',
         image: image22,
         link: '/servicios/8',
-        reason: "En el barrio El Danubio se encuentra la sede C - Danubio, un espacio que atiende a los estudiantes en sus etapas de preescolar, básica y media. Con una oferta académica que incluye bachillerato en articulación con el SENA, la sede impulsa el desarrollo de competencias técnicas en áreas como multimedia, sistemas eléctricos y turismo.",
+        reason: "Danubio En el barrio El Danubio se encuentra la sede C - Danubio, un espacio que atiende a los estudiantes en sus etapas de preescolar, básica y media. Con una oferta académica que incluye bachillerato en articulación con el SENA, la sede impulsa el desarrollo de competencias técnicas en áreas como multimedia, sistemas eléctricos y turismo.",
         icon: <FaSchool />,
     },
 ];
