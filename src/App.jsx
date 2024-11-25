@@ -18,14 +18,13 @@ import Facility from "./routes/Facility";
 import Admission from "./routes/Admission";
 import Educacion from "./routes/Educacion";
 import Contact from "./routes/Contact";
-import UndergraduatePrograms, {programsLoader} from "./routes/UndergraduatePrograms";
-import Departamentos, {departamentoLoader} from "./routes/Departamentos";
+import UndergraduatePrograms, { programsLoader } from "./routes/UndergraduatePrograms";
+import Departamentos, { departamentoLoader } from "./routes/Departamentos";
 import Servicios, { serviciosLoader } from "./routes/Servicios";
 import ProgramDetails, { programDetailsLoader } from "./routes/ProgramDetails";
 import ServiciosDetails, { serviciosDetailsLoader } from "./routes/ServiciosDetails";
 import DepartamentoDetails, { departamentoDetailsLoader } from "./routes/DepartamentoDetails";
 import Plataforma from "./routes/Plataforma";
-
 
 // Layout import
 import RootLayout from "./layouts/RootLayout";
@@ -33,7 +32,6 @@ import ProgramLayout from "./layouts/ProgramLayout";
 import PlataformaLayout from "./layouts/PlataformaLayout";
 import ServiciosLayout from "./layouts/ServiciosLayout";
 import DepartamentoLayout from "./layouts/DepartamentoLayout";
-
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -78,7 +76,20 @@ const router = createBrowserRouter(
       <Route path="educacion" element={<Educacion />} />
       <Route path="*" element={<Error />} />
     </Route>
-  )
+  ),
+  {
+    future: {
+      v7_skipActionErrorRevalidation: true, // Agregar la bandera para evitar la advertencia
+      v7_partialHydration: true,
+      v7_fetcherPersist: true,
+      v7_normalizeFormMethod: true,
+      v7_startTransition:true,
+      v7_relativeSplatPath: true,
+
+
+
+    },
+  }
 );
 
 const App = () => {

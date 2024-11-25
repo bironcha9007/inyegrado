@@ -578,7 +578,7 @@ footer p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/image2.jpg') no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/agenda.jpg') no-repeat center/cover;
   width: 100%;
   padding: 20px;
 }
@@ -599,7 +599,9 @@ footer p {
   color: var(--ba);
   font-size: 30px;
 }
-
+.reason img {
+width: 100%;
+}
 .reason h2 {
   color: var(--re);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

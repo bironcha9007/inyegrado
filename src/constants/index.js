@@ -1,4 +1,4 @@
-import { FaAngleDoubleDown, FaCertificate, FaChalkboardTeacher, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
+import { FaAngleDoubleDown, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
 import image3 from '../assets/agenda.jpg';
 import image4 from '../assets/admisiones.jpg';
 import image7 from '../assets/servicios.jpg';
@@ -14,6 +14,9 @@ import image16 from '../assets/home.jpg';
 import image17 from '../assets/integrado_7.jpg';
 import image18 from '../assets/lenguaje.jpg';
 import image19 from '../assets/etica.jpg';
+import image20 from '../assets/sedea.jpg';
+import image21 from '../assets/sedeb.jpg';
+import image22 from '../assets/sedec.jpg';
 export const navLinks = [
     {
         id: 'Inicio',
@@ -132,21 +135,27 @@ export const missionVision = [
 export const whySchool = [
     {
         id: 1,
-        title: 'Proyectos y Retos',
-        reason: "We take pride in offering students an exceptional learning environment that is supported by top-notch facilities. We believe that a well-equipped setting is instrumental in enhancing our students' educational experience",
+        title: 'Sede A Integrado de Soacha',
+        image: image20,
+        link: '/servicios/8',
+        reason: "Ubicada en la zona central de Soacha, la sede A - Integrado es la principal de la Institución Educativa. Ofrece educación en los niveles de preescolar, básica y media, destacándose por la modalidad de bachillerato académico en articulación con el SENA.",
         icon: <FaSchool />,
     },
     {
         id: 2,
-        title: 'Certificación y Calidad',
-        reason: 'A reason why students should come to our school is the opportunity to earn valuable certificates that can open doors to future success. These certificates are a testament to the diverse skills our students gain during their time with us',
-        icon: <FaCertificate />,
+        title: 'Sede B John F. Kennedy',
+        image: image21,
+        link: '/servicios/21',
+        reason: 'Localizada en el barrio Eugenio Díaz Castro, la sede B – John F. Kennedy es un centro educativo que atiende a estudiantes en los niveles de preescolar, básica y media. Enfocada en la formación académica y técnica, facilita la articulación con el SENA, permitiendo a los estudiantes optar por especialidades laborales.',
+        icon: <FaSchool />,
     },
     {
         id: 3,
-        title: 'Educación del Futuro',
-        reason: "At our school, we pride ourselves on creating a learning environment that is truly conducive to unleashing the full potential of each and every student. We invite you to join our vibrant learning community",
-        icon: <FaChalkboardTeacher />,
+        title: 'Sede C - Danubio',
+        image: image22,
+        link: '/servicios/8',
+        reason: "En el barrio El Danubio se encuentra la sede C - Danubio, un espacio que atiende a los estudiantes en sus etapas de preescolar, básica y media. Con una oferta académica que incluye bachillerato en articulación con el SENA, la sede impulsa el desarrollo de competencias técnicas en áreas como multimedia, sistemas eléctricos y turismo.",
+        icon: <FaSchool />,
     },
 ];
 
