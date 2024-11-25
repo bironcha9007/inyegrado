@@ -52,7 +52,7 @@ body {
 
 .navbar .submenu {
   position: absolute;
-  top: 120%;
+  top: 110%;
   left: 0;
   background-color: var(--ba);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -197,7 +197,7 @@ body {
 
 .navbar {
   display: flex;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
   background-color: var(--ne2);
   justify-content: space-between;
 }
@@ -1019,19 +1019,22 @@ footer .col.col.first-col h2 {
 /* Contact Us */
 .plataforma {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/image21.webp') no-repeat center/cover;
-  height: calc(50vh - 73px);
+  height: calc(47vh - 73px);
 }
 
 .servicios {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/servicios.jpg') no-repeat center/cover;
   height: calc(47vh - 73px);
 }
-
+.departamentos {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/departamentos.png') no-repeat center/cover;
+  height: calc(47vh - 73px);
+}
 /* Programs */
 
 .programs {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/integrado_7.jpg') no-repeat center/cover;
-  height: calc(70vh - 73px);
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/programas.jpg') no-repeat center/cover;
+  height: calc(47vh - 73px);
 }
 
 .program-links {
@@ -1067,10 +1070,16 @@ footer .col.col.first-col h2 {
 
 .course-programs {
   margin-top: 20px;
+  
 
 
 }
+.course-programs .proti {
+text-align: center;
+  
 
+
+}
 .course-programs .pro {
   display: flex;
   width: 100%;
@@ -1087,7 +1096,7 @@ footer .col.col.first-col h2 {
 
 .course-programs .pro-link {
   background-color: var(--bl);
-  width: 40%;
+  width: 17%;
 
   padding: 20px;
   border-radius: 8px;

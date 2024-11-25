@@ -17,10 +17,12 @@ import About from "./routes/About";
 import Facility from "./routes/Facility";
 import Admission from "./routes/Admission";
 import Contact from "./routes/Contact";
-import UndergraduatePrograms, { programsLoader } from "./routes/UndergraduatePrograms";
+import UndergraduatePrograms, {programsLoader} from "./routes/UndergraduatePrograms";
+import Departamentos, {departamentoLoader} from "./routes/Departamentos";
 import Servicios, { serviciosLoader } from "./routes/Servicios";
 import ProgramDetails, { programDetailsLoader } from "./routes/ProgramDetails";
 import ServiciosDetails, { serviciosDetailsLoader } from "./routes/ServiciosDetails";
+import DepartamentoDetails, { departamentoDetailsLoader } from "./routes/DepartamentoDetails";
 import Plataforma from "./routes/Plataforma";
 
 
@@ -29,6 +31,8 @@ import RootLayout from "./layouts/RootLayout";
 import ProgramLayout from "./layouts/ProgramLayout";
 import PlataformaLayout from "./layouts/PlataformaLayout";
 import ServiciosLayout from "./layouts/ServiciosLayout";
+import DepartamentoLayout from "./layouts/DepartamentoLayout";
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -51,6 +55,14 @@ const router = createBrowserRouter(
       >
         <Route index element={<UndergraduatePrograms />} loader={programsLoader} />
         <Route path=":id" element={<ProgramDetails />} loader={programDetailsLoader} />
+      </Route>
+      <Route
+        path="departamentos"
+        element={<DepartamentoLayout />}
+        errorElement={<ProgramError />}
+      >
+        <Route index element={<Departamentos />} loader={departamentoLoader} />
+        <Route path=":id" element={<DepartamentoDetails />} loader={departamentoDetailsLoader} />
       </Route>
       <Route
         path="plataforma"

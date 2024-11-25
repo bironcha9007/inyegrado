@@ -1,12 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-const Programs = () => {
+const Departamentos = () => {
   return (
     <>
-      <div className="pages programs">
+      <div className="pages departamentos">
         <div className='pad'>
-        <h2 className="title">PROGRAMAS Y ASIGNATURAS</h2>
+        <h2 className="title">DEPARTAMENTOS</h2>
         </div>
       </div>
       <Outlet />
@@ -14,4 +14,4 @@ const Programs = () => {
   )
 }
 
-export default Programs
+export default Departamentos

@@ -32,8 +32,8 @@ export const navLinks = [
         id: 'Educación',
         link: 'programs',
         subLinks: [
-            { id: 'Departamentos', link: '/servicios/4' },
-            { id: 'Proyectos', link: '/servicios/2' },
+            { id: 'Departamentos', link: '/departamentos' },
+            { id: 'Programas', link: '/programs' },
         ],
     },
     {
