@@ -14,7 +14,7 @@ const EducacionInfo = () => {
         <Link onClick={scrollToTop} to="/departamentos" >Departamentos</Link>
 
         <p>Conoce Nuestros Programas</p>
-        <Link onClick={scrollToTop} to="/servicios/4">Programas y Asignaturas</Link>
+        <Link onClick={scrollToTop} to="/programs">Programas y Asignaturas</Link>
     </div>
     
   )

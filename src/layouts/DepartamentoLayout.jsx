@@ -6,7 +6,7 @@ const Departamentos = () => {
     <>
       <div className="pages departamentos">
         <div className='pad'>
-        <h2 className="title">DEPARTAMENTOS</h2>
+        <h2 className="title">DEPARTAMENTOS Y BIENESTAR</h2>
         </div>
       </div>
       <Outlet />
