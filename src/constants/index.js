@@ -145,7 +145,7 @@ export const whySchool = [
         id: 2,
         title: 'Sede B',
         image: image21,
-        link: '/servicios/21',
+        link: '/servicios/2',
         reason: ' John F. Kennedy Localizada en el barrio Eugenio Díaz Castro, la sede B – John F. Kennedy es un centro educativo que atiende a estudiantes en los niveles de preescolar, básica y media. Enfocada en la formación académica y técnica, facilita la articulación con el SENA, permitiendo a los estudiantes optar por especialidades laborales.',
         icon: <FaSchool />,
     },

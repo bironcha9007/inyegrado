@@ -607,8 +607,9 @@ border-radius: 10px;
 margin:2.5% ;
 }
 .reason h2 {
-  color: var(--re);
+  color: var(--re2);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 35px;
 }
 
 .reasons .reason:last-child {
@@ -802,6 +803,7 @@ footer .col.col.first-col h2 {
 .about-info .vc-office h1 {
   position: relative;
   margin-bottom: 30px;
+  font-size: 35px;
 }
 
 .about-info .vc-office h1::after {
@@ -814,12 +816,18 @@ footer .col.col.first-col h2 {
   background: #212121;
 }
 
+.about-info .vc-image  {
 
+ 
+  max-width: 100%;
+  
+
+}
 
 .about-info .vc-image img {
 
-  margin: 2.5%;
-  max-width: 95%;
+  margin: 12.5%;
+  max-width: 75%;
   object-position: center;
   border-radius: 20px 20px 20px 20px;
 }
@@ -864,7 +872,7 @@ footer .col.col.first-col h2 {
   }
 
   .about-info .vc-image {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 
@@ -1655,7 +1663,18 @@ text-align: center;
     border-radius: 8px;
     margin: 5px;
   }
+  .about-info .vc-office h1 {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .about-info .vc-image img {
 
+    margin: 2.5%;
+    max-width: 95%;
+    object-position: center;
+    border-radius: 20px 20px 20px 20px;
+  }
   .content .reasons {
     display: flex;
     align-items: center;
@@ -1692,11 +1711,17 @@ text-align: center;
     .reasons .reason:first-child {
       margin-left: 0px;
     }
+
+    .facilities .facility {
+      width: 95%;
+      margin: 20px;
+      text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
   .reasons .reason {
-    width: 80%;
+    width: 100%;
   }
 }
 
