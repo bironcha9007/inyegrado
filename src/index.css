@@ -521,8 +521,8 @@ margin-top: 5%;
 
 /* Constant styles */
 .content {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .content2 {
@@ -589,7 +589,7 @@ margin-top: 5%;
 .missVis img {
   width: 95%;
 
-  border-radius: 10px;
+  border-radius: 100px 100px 10px 10px;
   margin:2.5% ;
   }
 /* .missVis:first-child{
@@ -647,11 +647,20 @@ margin:2.5% ;
 .reasons .reason:first-child {
   margin-left: 20px;
 }
-
+.content .testimonials {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('./assets/reason1.jpg') no-repeat center/cover;
+  width: 100%;
+  padding: 20px;
+}
 /* Testimonials */
 .testimonials {
   display: flex;
-  max-width:90vw;
+  max-width:100vw;
 height: 100vh;
   margin: 0% auto;
 
@@ -690,9 +699,9 @@ article.nextSlide {
 }
 
 article img {
-  width: 100%;
-  height: 510px;
-  border-radius: 5px;
+
+  height: 500px;
+  border-radius: 10px 100px 10px 100px;
   object-fit:cover ;
   object-position: top;
 }
@@ -703,7 +712,7 @@ font-size: 45px;
   margin-top: 0%;
 }
 article p {
-margin-top: 1%;
+margin: 1%;
   padding: 1%;
 font-weight: 500;
 font-size: 20px;
@@ -1565,8 +1574,8 @@ text-align: center;
     flex-direction: column;
   }
   .content {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
   .auth-section, .form1 {
     display: flex;
@@ -1593,8 +1602,8 @@ text-align: center;
 
   .testimonials {
     height: 65vh;
-  max-width: 90vw;
-margin:0% 5% 0% 5%;
+  max-width: 100vw;
+margin:0% 0% 0% 0%;
 
   }
   .testimonials article {
@@ -1610,12 +1619,13 @@ margin:0% 5% 0% 5%;
     margin-top: 5%;
     }
     article p {
-    margin-top: 3%;
+    margin: 3%;
       padding: 0%;
     font-size: 15px;
     }
     article img {
-  height: 200px;
+      width: 90%;
+  height: 300px;
       }
   .navbar .logo span {
     color: var(--ne);
@@ -1834,7 +1844,7 @@ margin:0% 5% 0% 5%;
   }
   .testimonials {
     height: 88vh;
-  max-width: 90vw;
+  max-width: 100vw;
 margin:0% 5% 0% 5%;
 
   }
