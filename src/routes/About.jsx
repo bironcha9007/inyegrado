@@ -10,9 +10,9 @@ const About = () => {
       <div className="pages">
         <h2 className="title">IE Integrado Soacha</h2>
       </div>
-      <AboutInfo />
-     
       <AboutParts />
+     <AboutInfo />
+      
       <MissionVision />
       <Footer />
     </>

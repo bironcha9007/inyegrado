@@ -1,7 +1,7 @@
 import { FaAngleDoubleDown, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
 import image3 from '../assets/agenda.jpg';
 import image4 from '../assets/admisiones.jpg';
-import image7 from '../assets/servicios.jpg';
+
 import image8 from '../assets/filosofia.jpg';
 import image9 from '../assets/artes.jpg';
 import image10 from '../assets/sociales.jpg';

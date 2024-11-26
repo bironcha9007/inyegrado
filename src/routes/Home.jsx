@@ -45,11 +45,22 @@ const Home = () => {
         ></div>
 
         <p className="title">{sliderContent[currentIndex].title}</p>
-        <NavLink to={sliderContent[currentIndex].navLink}>Explorar</NavLink>
+        <NavLink to={sliderContent[currentIndex].navLink}>Ver Más</NavLink>
+      </div>
+      <h1 className="titles">CONOCE NUESTRO COLEGIO</h1>
+      <div className="map">
+        <iframe title='cont'
+          src="https://www.google.com/maps/embed?pb=!4v1732582801576!6m8!1m7!1sCAoSLEFGMVFpcE4za0wzVThreWdfS0RkVEhkM09qQ0loa2hnR2hMeTlMTHpheldv!2m2!1d4.584833585908672!2d-74.22030240517607!3f60!4f0!5f0.7820865974627469" 
+          style={{ border: 0 }}
+          allowFullScreen="" 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <MissionVision />
+      
       <WhySchool />
       <Testimonials />
+
       <Footer />
     </>
   );

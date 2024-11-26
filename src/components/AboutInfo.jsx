@@ -1,4 +1,4 @@
-import image6 from "../assets/integrado_6.jpg";
+import image6 from "../assets/horizonte.jpg";
 
 const AboutInfo = () => {
   return (
