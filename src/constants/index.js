@@ -23,6 +23,13 @@ import image25 from '../assets/historia.jpg';
 import image26 from '../assets/mision.jpg';
 import image27 from '../assets/vision.jpg';
 import image28 from '../assets/objetivos.jpg';
+import image29 from '../assets/prom.jpg';
+import image30 from '../assets/reconocimiento.jpg';
+import image31 from '../assets/fdanza.jpg';
+import image32 from '../assets/faudiovisual.jpg';
+import image33 from '../assets/icfes.jpg';
+
+
 export const navLinks = [
     {
         id: 'Inicio',
@@ -172,37 +179,37 @@ export const testimonials = [
     {
         id: 1,
         icon: <FaQuoteRight />,
-        image: image3,
+        image: image29,
         name: 'PROM 2024',
-        testimonial: "I cannot express enough gratitude for the exceptional education I have received at school. The school's nurturing and supportive environment allowed me to flourish both academically and personally. The dedicated teachers and their innovative teaching methods sparked my curiosity and passion for learning",
+        testimonial: "¡Con orgullo presentamos al PROM 2024! Este año marca el cierre de una etapa memorable para nuestros estudiantes de grado 11, quienes culminarán su formación en la ceremonia de graduación el 15 de diciembre. Además, los grados de transición se celebrarán el 8 de diciembre, destacando el inicio de su emocionante viaje académico. ¡Felicidades a todos!",
     },
     {
         id: 2,
         icon: <FaQuoteRight />,
-        image: image4,
+        image: image31,
         name: 'FESTIVAL DE DANZA',
-        testimonial: 'My time at school has been nothing short of transformative. From the first day I stepped foot on campus, I felt welcomed and supported by the caring staffs and fellow students. I am grateful for the incredible opportunities I had at school, which have prepared me for a bright future in higher education and beyond.',
+        testimonial: 'Revive la magia del Festival de Danza 2024, celebrado en octubre en el icónico Teatro Sua de Soacha. Una jornada llena de talento, arte y cultura, donde nuestros estudiantes deslumbraron al público con presentaciones que fusionaron tradición y modernidad. Gracias a todos los participantes y espectadores por hacer de este evento un verdadero espectáculo inolvidable.',
     },
     {
         id: 3,
         icon: <FaQuoteRight />,
-        image: image3,
+        image: image32,
         name: 'FESTIVAL AUDIOVISUAL',
-        testimonial: "I can confidently say that my time at school has been the most enriching and fulfilling experience of my life. The school's emphasis on holistic development helped me not only excel academically but also grow as an individual.",
+        testimonial: "En octubre, el arte cobró vida en el Primer Festival Audiovisual 2024. Sombras y luces danzaron en mágicos cortometrajes de animación y stop motion, tejidos por manos jóvenes y soñadoras. Bachillerato fue el lienzo donde la creatividad floreció, regalándonos historias vibrantes y memorables. Una noche donde el cine escolar dejó huella en el corazón de nuestra comunidad.",
     },
     {
         id: 4,
         icon: <FaQuoteRight />,
-        image: image4,
+        image: image30,
         name: 'RECONOCIMIENTO',
-        testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
+        testimonial: "Este año nuestro profesor Diego Foronda, fue reconocido como el Mejor Profesor del País en el concurso del BBVA. Su innovador proyecto de implementación de soluciones TIC ha transformado la enseñanza, inspirando a estudiantes y colegas. Este logro no solo honra su dedicación, sino que también reafirma nuestro compromiso con la educación de calidad y el cambio positivo.",
     },
     {
         id: 5,
         icon: <FaQuoteRight />,
-        image: image3,
+        image: image33,
         name: 'RESULTADOS ICFES',
-        testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
+        testimonial: 'Conoce los resultados de nuestros estudiantes en los exámenes ICFES 2024. Gracias a su esfuerzo y a la dedicación de nuestros docentes, obtuvimos un desempeño sobresaliente que refleja el compromiso académico de nuestra institución. Este logro nos motiva a seguir formando líderes con excelencia y preparación para enfrentar los desafíos del futuro.',
     },
 ];
 export const slide = [
