@@ -31,7 +31,7 @@ const Testimonials = () => {
      
       <div className="testimonials">
         {testimonials.map((test, indexTest) => {
-          const { id, icon, image, name, testimonial } = test;
+          const { id, image, name, testimonial } = test;
           let position = "nextSlide";
           if (indexTest === index) {
             position = "activeSlide";
@@ -41,12 +41,9 @@ const Testimonials = () => {
           }
           return (
             <article className={position} key={id}>
-              <img src={image} alt="" /> 
-              <h3>{name}</h3>
+              
+              <h3>{name}</h3><img src={image} alt="" /> 
               <p>{testimonial}</p>
-              <div className="icon">
-                {icon}
-              </div>
             </article>
           )
         })}
