@@ -194,14 +194,14 @@ export const testimonials = [
         id: 4,
         icon: <FaQuoteRight />,
         image: image4,
-        name: 'RECONOCIMIENTO PROFE "DIEGO"',
+        name: 'RECONOCIMIENTO',
         testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
     },
     {
         id: 5,
         icon: <FaQuoteRight />,
         image: image3,
-        name: 'RESULTADOS ICFES 2024',
+        name: 'RESULTADOS ICFES',
         testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
     },
 ];
