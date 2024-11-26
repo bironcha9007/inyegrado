@@ -842,7 +842,7 @@ footer .col.col.first-col h2 {
 
 .parts .part {
   margin: 20px;
-  width: 300px;
+  width: 30%;
   text-align: center;
 }
 
@@ -1715,6 +1715,20 @@ text-align: center;
     .facilities .facility {
       width: 95%;
       margin: 20px;
+      text-align: center;
+    }
+
+    .parts {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    
+    .parts .part {
+      margin: 20px;
+      width: 95%;
       text-align: center;
     }
 }

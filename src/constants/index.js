@@ -17,6 +17,9 @@ import image19 from '../assets/etica.jpg';
 import image20 from '../assets/sedea.jpg';
 import image21 from '../assets/sedeb.jpg';
 import image22 from '../assets/sedec.jpg';
+import image23 from '../assets/pei.jpg';
+import image24 from '../assets/gobiernoescolar.jpg';
+import image25 from '../assets/historia.jpg';
 export const navLinks = [
     {
         id: 'Inicio',
@@ -303,21 +306,21 @@ export const footerContactNum = [
 export const AboutPart = [
     {
         id: 1,
-        image: image7,
+        image: image23,
         link: '/servicios/9',
         title: "PEI",
         text: "Our programs are designed to ignite the spark of curiosity and innovation in students. Through hands-on experiments, projects, and collaborative activities, students explore the fascinating realms of science, technology, engineering, and others.",
     },
     {
         id: 2,
-        image: image8,
+        image: image24,
         title: "GOBIERNO ESCOLAR",
         link: '/servicios/9',
         text: "we take pride in providing state-of-the-art facilities that create an ideal environment for holistic learning and growth. Our commitment to excellence extends beyond the classroom, ensuring that every aspect of a student's educational journey is supported.",
     },
     {
         id: 3,
-        image: image9,
+        image: image25,
         title: "56 AÑOS DE HISTORIA",
         link: '/servicios/8',
         text: "Our faculties play a pivotal role in shaping the future of our students. Their unwavering dedication to academic excellence creates an environment where students can thrive and transform into well-rounded individuals ready to make a positive impact on the world.",
