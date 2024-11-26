@@ -242,7 +242,8 @@ body {
 
 p {
   text-align: justify;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5px;
+  font-size: 15px;
 }
 
 footer p {
@@ -645,11 +646,11 @@ margin:2.5% ;
 /* Testimonials */
 .testimonials {
   display: flex;
-  max-width: 800px;
-  height: 320px;
+  max-width: 90vw;
+  height:50vh;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -684,9 +685,9 @@ article.nextSlide {
 }
 
 article img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
   object-fit: cover;
   object-position: center;
 }
@@ -1572,10 +1573,15 @@ text-align: center;
 
   .testimonials {
 
-    height: 420px;
+    height: 80vh;
+margin:5%;
 
   }
+  .testimonials article {
 
+    padding: 2%;
+
+  }
   .navbar .logo span {
     color: var(--ne);
     font-size: 15px;
@@ -1679,7 +1685,7 @@ text-align: center;
 
   .course-programs .pro-link {
     background-color: var(--bl);
-    width: 45%;
+    width: 40%;
   
     padding: 15px;
     border-radius: 8px;
@@ -1687,9 +1693,9 @@ text-align: center;
   }
   .course-serv .pro-link {
     background-color: var(--re2);
-    width: 45%;
+    width: 40%;
   
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     margin: 10px;
   }
@@ -1775,6 +1781,7 @@ text-align: center;
     }
     .missVis  {
       width: 95vw;
+      padding: 12px
       }
     .missVis img {
       width: 100%;

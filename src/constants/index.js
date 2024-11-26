@@ -1,4 +1,4 @@
-import { FaAngleDoubleDown, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
+import { FaHeadset, FaAngleDoubleDown, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
 import image3 from '../assets/agenda.jpg';
 import image4 from '../assets/admisiones.jpg';
 
@@ -205,7 +205,43 @@ export const testimonials = [
         testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
     },
 ];
-
+export const slide = [
+    {
+        id: 1,
+        icon: <FaHeadset />,
+        image: image3,
+        name: 'Primaria y Bachillerato',
+        testimonial: "I cannot express enough gratitude for the exceptional education I have received at school. The school's nurturing and supportive environment allowed me to flourish both academically and personally. The dedicated teachers and their innovative teaching methods sparked my curiosity and passion for learning",
+    },
+    {
+        id: 2,
+        icon: <FaHeadset />,
+        image: image4,
+        name: 'Inscripción en línea',
+        testimonial: 'My time at school has been nothing short of transformative. From the first day I stepped foot on campus, I felt welcomed and supported by the caring staffs and fellow students. I am grateful for the incredible opportunities I had at school, which have prepared me for a bright future in higher education and beyond.',
+    },
+    {
+        id: 3,
+        icon: <FaHeadset />,
+        image: image3,
+        name: 'Costos Educativos',
+        testimonial: "I can confidently say that my time at school has been the most enriching and fulfilling experience of my life. The school's emphasis on holistic development helped me not only excel academically but also grow as an individual.",
+    },
+    {
+        id: 4,
+        icon: <FaHeadset/>,
+        image: image4,
+        name: 'Uniformes',
+        testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
+    },
+    {
+        id: 5,
+        icon: <FaHeadset />,
+        image: image3,
+        name: 'Alex Baquero',
+        testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
+    },
+];
  export const footerLinks = [
     {
         id: 'Inicio',
