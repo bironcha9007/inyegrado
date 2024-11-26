@@ -20,6 +20,9 @@ import image22 from '../assets/sedec.jpg';
 import image23 from '../assets/pei.jpg';
 import image24 from '../assets/gobiernoescolar.jpg';
 import image25 from '../assets/historia.jpg';
+import image26 from '../assets/mision.jpg';
+import image27 from '../assets/vision.jpg';
+import image28 from '../assets/objetivos.jpg';
 export const navLinks = [
     {
         id: 'Inicio',
@@ -118,18 +121,21 @@ export const missionVision = [
     {
         id: 1,
         title: 'Nuestra Misión',
+        image: image26,
         text: 'La Institución Educativa Integrado de Soacha garantiza el derecho a la educación formal de niños, niñas, jóvenes y adultos del municipio de Soacha fundamentado en el proceso de enseñanza aprendizaje de muy buena calidad desarrollando competencias básicas y ciudadanas a través de valores éticos, culturales, espirituales con alto sentido de responsabilidad para su formación integral.',
         icon: <FaAngleDoubleDown />,
     },
     {
         id: 2,
         title: 'Nuestra Visión',
+        image: image27,
         text: 'Para el año 2025 la Institución Educativa Integrado de Soacha se consolidará como una de las mejores del municipio en adelantar procesos académicos con enfoque constructivista formando seres humanos en un marco pluralista, democrático, incluyente y respetuoso, conocimientos, competencias y habilidades que respondan a las necesidades intelectuales, emocionales e interpersonales y se comprometan con el cambio de la sociedad soachuna.',
         icon: <FaAngleDoubleDown />,
     },
     {
         id: 3,
         title: 'Nuestros Objetivos',
+        image: image28,
         text: 'Reelaborar el sentido estratégico de la Institución acorde a las nuevas realidades institucionales. Desarrollar capacitación con los estamentos para desarrollar el sentido de identidad y apropiación del horizonte estratégico de la Institución. Estructurar y desarrollar en módulos didácticos los ejes temáticos, metodológicos, operativos y evaluativos de las asignaturas de la cultura empresarial. ',
         icon: <FaAngleDoubleDown />,
     }

@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div className="pages">
-        <h2 className="title">IE Integrado Soacha</h2>
+        <h2 className="title">Conoce Nuestro Colegio</h2>
       </div>
       <AboutParts />
      <AboutInfo />

@@ -7,7 +7,7 @@ const MissionVision = () => {
       <div className="mission-vision">
         {missionVision.map(missVis => (
           <div className="missVis" key={missVis.id}>
-          
+          <img src={missVis.image} alt={missVis.title} />
             <h2>{missVis.title}</h2>
             <p>{missVis.text}</p>
           </div>
