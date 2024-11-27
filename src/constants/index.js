@@ -218,36 +218,30 @@ export const slide = [
         icon: <FaHeadset />,
         image: image3,
         name: 'Primaria y Bachillerato',
-        testimonial: "I cannot express enough gratitude for the exceptional education I have received at school. The school's nurturing and supportive environment allowed me to flourish both academically and personally. The dedicated teachers and their innovative teaching methods sparked my curiosity and passion for learning",
+        testimonial: "Nuestras sedes están diseñadas para cada etapa educativa. La sede de primaria es un espacio acogedor, perfecto para que los más pequeños descubran el mundo mientras desarrollan valores. La sede de bachillerato, equipada con herramientas modernas, impulsa el crecimiento académico y personal de nuestros jóvenes.",
     },
     {
         id: 2,
         icon: <FaHeadset />,
         image: image4,
         name: 'Inscripción en línea',
-        testimonial: 'My time at school has been nothing short of transformative. From the first day I stepped foot on campus, I felt welcomed and supported by the caring staffs and fellow students. I am grateful for the incredible opportunities I had at school, which have prepared me for a bright future in higher education and beyond.',
+        testimonial: 'Comienza un nuevo ciclo académico con nuestro sistema de matrículas y admisiones en línea. Desde nuestra plataforma, realiza el proceso de forma ágil y sencilla, sin filas ni complicaciones. Solo necesitas ingresar, registrar los datos y seguir las indicaciones. ¡Un año lleno de aprendizaje comienza aquí!',
     },
     {
         id: 3,
         icon: <FaHeadset />,
         image: image3,
         name: 'Costos Educativos',
-        testimonial: "I can confidently say that my time at school has been the most enriching and fulfilling experience of my life. The school's emphasis on holistic development helped me not only excel academically but also grow as an individual.",
+        testimonial: "Te invitamos a informarte sobre los costos educativos: matrícula, derechos de grado, certificados y papelería. Nuestros valores son transparentes y accesibles. Para más detalles, puedes acercarte a la oficina administrativa o comunicarte a los canales oficiales. ¡Juntos construimos un año escolar exitoso!",
     },
     {
         id: 4,
         icon: <FaHeadset/>,
         image: image4,
         name: 'Uniformes',
-        testimonial: "I've been inspired to pursue my passions and have discovered a love for science that I never knew I had. Moreover, the sense of community at our school is heartwarming. I've made lifelong friends and feel like I'm part of a big family.",
+        testimonial: "Encuentra los uniformes de la institución, creados para brindar comodidad y estilo a nuestros estudiantes. Contamos con modelos para actividades académicas y deportivas, disponibles en todas las tallas. Adquiere los tuyos fácilmente en la Tienda Escolar o en la Distribuidora Soacha Uniformes.",
     },
-    {
-        id: 5,
-        icon: <FaHeadset />,
-        image: image3,
-        name: 'Alex Baquero',
-        testimonial: 'I transferred to school during my sophomore year, and it was one of the best decisions I ever made. The transition was seamless, thanks to the warm and supportive environment created by both teachers and fellow students.',
-    },
+   
 ];
  export const footerLinks = [
     {

@@ -5,6 +5,7 @@ import { sliderContent } from "../constants";
 import Footer from "../components/Footer";
 import MissionVision from "../components/MissionVision";
 import Testimonials from "../components/Testimonials";
+import Slide from "../components/Slide";
 import WhySchool from "../components/WhySchool";
 
 const Home = () => {
@@ -56,6 +57,7 @@ const Home = () => {
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
+      <Slide />
       <MissionVision />
       
       <WhySchool />
