@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { sliderContent } from "../constants";
 import Footer from "../components/Footer";
 import MissionVision from "../components/MissionVision";
-import Testimonials from "../components/Testimonials";
+
 import Slide from "../components/Slide";
 import WhySchool from "../components/WhySchool";
 
@@ -61,7 +61,7 @@ const Home = () => {
       <MissionVision />
       
       <WhySchool />
-      <Testimonials />
+
 
       <Footer />
     </>

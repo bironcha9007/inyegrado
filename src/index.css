@@ -1696,8 +1696,7 @@ margin:0% 0% 0% 0%;
   article h3 {
     font-size: 25px;
       padding: 0%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+
     }
     article p {
     margin: 3%;
@@ -1705,8 +1704,8 @@ margin:0% 0% 0% 0%;
     font-size: 13px;
     }
     article img {
-      width: 90%;
-  height: 210px;
+      width: 85%;
+
       }
   .navbar .logo span {
     color: var(--ne);
@@ -1961,7 +1960,7 @@ margin:0% 0% 0% 0%;
     margin: 1%;
     padding: 1%;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .testimonials article img {
@@ -1977,7 +1976,7 @@ margin:0% 0% 0% 0%;
  
 
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .reasons .reason {
     width: 100%;
   }
@@ -1987,22 +1986,36 @@ margin:0% 0% 0% 0%;
 margin:0% 5% 0% 5%;
 
   }
-  .testimonials article {
 
-    padding: 0% 2%;
-
-  }
  .slidc {
     display: flex
 ;
 
-height: 150vh;
+height: 135vh;
     margin: 0% auto;
     margin-bottom: 0px;
     overflow: hidden;
     position: relative;
     text-align: center;
     flex-direction: column;
+}
+
+.testimonials article {
+
+  height: 90%;
+
+  padding: 0px;
+}
+
+.slid article img {
+
+margin-top:10%;
+}
+.testimonials article img {
+
+  height: 100%;
+
+  padding: 20px;
 }
 }
 
