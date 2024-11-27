@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { slide } from '../constants'
+import { slide, testimonials } from '../constants'
+
 // import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
 
 const Slide = () => {
@@ -51,8 +52,8 @@ const Slide = () => {
           )
         })}
       </div>
-      <div className="slid">
-        {slide.map((test, indexTest) => {
+      <div className="testimonials">
+        {testimonials.map((test, indexTest) => {
           const { id,  image, name, testimonial } = test;
           let position = "nextSlide";
           if (indexTest === index) {

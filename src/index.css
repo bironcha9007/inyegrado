@@ -751,10 +751,18 @@ article img {
 }
 .slid article img {
 
-  width: 100%;
+  width: 95%;
  
   border-radius: 10px 10px 10px 10px;
   object-fit:cover ;
+  object-position: top;
+}
+.testimonials article img {
+
+  width: 60%;
+ 
+  border-radius: 10px 10px 10px 10px;
+  object-fit:contain ;
   object-position: top;
 }
 article h3 {
@@ -1948,6 +1956,15 @@ margin:0% 0% 0% 0%;
     padding: 1%;
     font-weight: 500;
     font-size: 14px;
+}
+
+.testimonials article img {
+
+  width: 100%;
+ 
+  border-radius: 0px 0px 10px 10px;
+  object-fit:cover ;
+  object-position: top;
 }
 }
 @media (max-width: 870px) {
