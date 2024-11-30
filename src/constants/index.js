@@ -55,6 +55,15 @@ export const navLinks = [
         ],
     },
     {
+        id: 'Sedes IE',
+        link: 'facility',
+        subLinks: [
+            { id: 'Principal', link: '/servicios/4' },
+            { id: 'Sede B', link: '/servicios/2' },
+            { id: 'Sede c', link: '/servicios/2' }
+        ],
+    },
+    {
         id: 'Agenda',
         link: 'facility',
         subLinks: [
