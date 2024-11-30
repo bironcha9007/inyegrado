@@ -115,7 +115,7 @@ body {
 
 .mobile-menu {
   position: absolute;
-  top: 88px;
+  top: 77px;
   right: 0;
   height: calc(100vh - 73px);
   width: 250px;
@@ -664,7 +664,7 @@ footer p {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  
+
   width: 100%;
   padding: 20px;
 }
@@ -705,7 +705,7 @@ footer p {
   height: 70vh;
   width: 100%;
   padding: 20px;
-  
+
 }
 
 /* Testimonials */
@@ -727,12 +727,12 @@ footer p {
   min-height: 70vh;
   height: 73vh;
   margin: 0% auto;
-padding: 10px;
+  padding: 10px;
   margin-bottom: 0px;
   overflow: hidden;
   position: relative;
   text-align: center;
-  
+
 }
 
 .slid article {
@@ -785,7 +785,7 @@ article img {
 .slid article img {
 
   width: 85%;
-margin-top: 5%;
+  margin-top: 5%;
   border-radius: 10px 10px 10px 10px;
   object-fit: cover;
   object-position: top;
@@ -794,7 +794,7 @@ margin-top: 5%;
 .testimonials article img {
 
   width: 60%;
-margin-top: 3%;
+  margin-top: 3%;
   border-radius: 10px 10px 10px 10px;
   object-fit: contain;
   object-position: top;
@@ -1054,14 +1054,15 @@ footer .col.col.first-col h2 {
     text-align: center;
     line-height: 50px;
   }
+
   article h3 {
     font-size: 35px;
     padding: 1%;
     margin-bottom: 0%;
     margin-top: 0%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-  
+  }
+
 }
 
 /* About Page */
@@ -1705,7 +1706,7 @@ footer .col.col.first-col h2 {
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 750px) {
   footer {
     flex-direction: column;
   }
@@ -1759,9 +1760,9 @@ footer .col.col.first-col h2 {
   }
 
   article p {
-    margin: 3%;
+    margin: 1%;
     padding: 0%;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   article img {
@@ -1913,7 +1914,7 @@ footer .col.col.first-col h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+
     width: 100%;
     padding: 20px;
   }
@@ -2025,7 +2026,7 @@ footer .col.col.first-col h2 {
   }
 
   .slid article h3 {
-    font-size: 25px;
+    font-size: 24px;
     padding: 1%;
     margin-bottom: 0%;
     margin-top: 0%;
@@ -2033,10 +2034,17 @@ footer .col.col.first-col h2 {
   }
 
   .slid article p {
-    margin: 1%;
+    margin: 0%;
+    padding: 1%;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .slid .slide p {
+    margin: 0%;
     padding: 1%;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .testimonials article img {
@@ -2051,10 +2059,20 @@ footer .col.col.first-col h2 {
   footer p {
     text-align: justify;
     letter-spacing: -0.5px;
-}
+  }
 }
 
-@media (max-width: 870px) {}
+@media (max-width: 870px) {  .slidc {
+  display: flex;
+
+  height: 120vh;
+  margin: 0% auto;
+  margin-bottom: 0px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  flex-direction: column;
+}}
 
 @media (max-width: 450px) {
   .reasons .reason {
@@ -2062,16 +2080,25 @@ footer .col.col.first-col h2 {
   }
 
   .testimonials {
-    height: 88vh;
+    height: 90vh;
     max-width: 100vw;
-    margin: 0% 5% 0% 5%;
 
+    padding: 10px;
+
+  }
+
+  .slid, .testimonials article h3 {
+    font-size: 20px;
+    padding: 1%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
 
   .slidc {
     display: flex;
 
-    height: 135vh;
+    height: 115vh;
     margin: 0% auto;
     margin-bottom: 0px;
     overflow: hidden;
@@ -2080,24 +2107,59 @@ footer .col.col.first-col h2 {
     flex-direction: column;
   }
 
-  .testimonials article {
-
-    height: 95%;
-
+  .content .slid {
+    margin-top: 10px;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
     padding: 20px;
+  }
+
+  .content .testimonials {
+    margin-top: 10px;
+    display: flex;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .testimonials article {
+    margin: 2%;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .slid article {
+    height: 100%;
+    padding: 10px;
+    margin: 2%;
   }
 
   .slid article img {
-
-    margin-top: 10%;
+    width: 95%;
+    margin-top: 5%;
   }
 
   .testimonials article img {
-
+    width: 95%;
     height: 100%;
-border-radius: 10px;
-    padding: 20px;
+    border-radius: 10px;
+
   }
+
+  article p {
+    margin: 1%;
+    padding: 0%;
+    font-size: 11px;
+  }
+
 }
 
 /* Error page */
