@@ -10,10 +10,10 @@ const EducacionInfo = () => {
 };
   return (
     <div className="ad-info">
-        <p>Conoce Nuestros Departamentos</p>
+
         <Link onClick={scrollToTop} to="/departamentos" >Departamentos</Link>
 
-        <p>Conoce Nuestros Programas</p>
+
         <Link onClick={scrollToTop} to="/programs">Programas y Asignaturas</Link>
     </div>
     
