@@ -8,6 +8,7 @@ const Contact = () => {
       <div className="pages contact">
         <h1 className="title">Contactanos</h1>
       </div>
+      <h1 className="titles">Encuentranos en:</h1>
       <div className="map">
         
         <iframe title='cont'

@@ -1141,13 +1141,21 @@ footer .col.col.first-col h2 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
+  
 }
-
+.contact-us .address {
+  width:50%;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  padding: 20px;
+  
+}
 .contact-us .address .add {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin: 10px;
+  
 }
 
 .address .add .icon {
@@ -1210,6 +1218,14 @@ footer .col.col.first-col h2 {
   .contact-us {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .contact-us .address {
+    width:90%;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    
   }
 }
 
@@ -1289,6 +1305,12 @@ footer .col.col.first-col h2 {
 .auth-section img{
   width: 80%;
   margin: 10%;
+}
+.ad-info  img{
+  width: 100%;
+  margin: 0%;
+  background: var(--ba);
+  border-radius: 8px;
 }
 .undergraduate-programs {
   padding: 30px;
@@ -1652,7 +1674,7 @@ footer .col.col.first-col h2 {
 }
 
 .ad-info a {
-  background-color: var(--re2);
+  background-color: var(--ne2);
 
 
   padding: 20px;
@@ -1660,7 +1682,7 @@ footer .col.col.first-col h2 {
 
 
   padding: 7px 17px;
-  color: #fff;
+  color: #000000;
   text-align: center;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -1668,7 +1690,7 @@ footer .col.col.first-col h2 {
 }
 
 .ad-info a:hover {
-  background-color: var(--re);
+  background-color: var(--ne);
 
 
   padding: 20px;

@@ -11,10 +11,10 @@ const Admission = () => {
       <div className="pages admission">
         <h2 className="title">ADMISIONES Y MATRICULA</h2>
       </div>
-      <Slide />
+     
       <AdMoreInfo />
       <AdmissionInfo />
-      <ApplyNow />
+      <ApplyNow /> <Slide />
       <Footer />
     </>
   )

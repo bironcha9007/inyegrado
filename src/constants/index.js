@@ -516,12 +516,17 @@ export const departamentosin = [
 export const MoreInfo = [
     {
         id: 1,
-        title: "Primaria y Bachillerato",
+        title: "Primaria",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
         id: 2,
-        title: "Inscripción en línea",
+        title: "Bachillerato",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
+    },
+    {
+        id: 2,
+        title: "Cupos 2025",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio earum nemo ad at reiciendis natus consequatur numquam",
     },
     {
