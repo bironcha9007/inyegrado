@@ -800,7 +800,7 @@ article img {
 
 .slid article img {
 
-  width: 85%;
+  width: 60%;
   margin-top: 3%;
   border-radius: 10px 10px 10px 10px;
   object-fit: cover;
@@ -2229,7 +2229,7 @@ text-align: left;
   }
 
   .slid article img {
-    width: 95%;
+    width: 90%;
     margin-top: 5%;
   }
 

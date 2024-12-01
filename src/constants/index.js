@@ -1,5 +1,5 @@
 import { FaHeadset, FaAngleDoubleDown, FaEnvelope, FaPhone, FaQuoteRight, FaSchool } from 'react-icons/fa';
-import image3 from '../assets/agenda.jpg';
+
 import image4 from '../assets/admisiones.jpg';
 
 import image8 from '../assets/filosofia.jpg';
@@ -28,6 +28,11 @@ import image30 from '../assets/reconocimiento.jpg';
 import image31 from '../assets/fdanza.jpg';
 import image32 from '../assets/faudiovisual.jpg';
 import image33 from '../assets/icfes.jpg';
+import image34 from '../assets/ma.jpg';
+import image35 from '../assets/un.jpg';
+import image36 from '../assets/co.jpg';
+import image37 from '../assets/pr.jpg';
+import image38 from '../assets/ba.jpg';
 
 
 export const navLinks = [
@@ -229,35 +234,35 @@ export const slide = [
     {
         id: 1,
         icon: <FaHeadset />,
-        image: image3,
+        image: image37,
         name: 'Primaria',
         testimonial: "Nuestras sedes están diseñadas para cada etapa educativa. La sede de primaria es un espacio acogedor, perfecto para que los más pequeños descubran el mundo mientras desarrollan valores. La sede de bachillerato, equipada con herramientas modernas, impulsa el crecimiento académico y personal de nuestros jóvenes.",
     },
     {
         id: 1,
         icon: <FaHeadset />,
-        image: image3,
+        image: image38,
         name: 'Bachillerato',
         testimonial: "Nuestras sedes están diseñadas para cada etapa educativa. La sede de primaria es un espacio acogedor, perfecto para que los más pequeños descubran el mundo mientras desarrollan valores. La sede de bachillerato, equipada con herramientas modernas, impulsa el crecimiento académico y personal de nuestros jóvenes.",
     },
     {
         id: 2,
         icon: <FaHeadset />,
-        image: image4,
+        image: image34,
         name: 'Cupos 2025',
         testimonial: 'Comienza un nuevo ciclo académico con nuestro sistema de matrículas y admisiones en línea. Desde nuestra plataforma, realiza el proceso de forma ágil y sencilla, sin filas ni complicaciones. Solo necesitas ingresar, registrar los datos y seguir las indicaciones. ¡Un año lleno de aprendizaje comienza aquí!',
     },
     {
         id: 3,
         icon: <FaHeadset />,
-        image: image3,
+        image: image36,
         name: 'Costos',
         testimonial: "Te invitamos a informarte sobre los costos educativos: matrícula, derechos de grado, certificados y papelería. Nuestros valores son transparentes y accesibles. Para más detalles, puedes acercarte a la oficina administrativa o comunicarte a los canales oficiales. ¡Juntos construimos un año escolar exitoso!",
     },
     {
         id: 4,
         icon: <FaHeadset/>,
-        image: image4,
+        image: image35,
         name: 'Uniformes',
         testimonial: "Encuentra los uniformes de la institución, creados para brindar comodidad y estilo a nuestros estudiantes. Contamos con modelos para actividades académicas y deportivas, disponibles en todas las tallas. Adquiere los tuyos fácilmente en la Tienda Escolar o en la Distribuidora Soacha Uniformes.",
     },
