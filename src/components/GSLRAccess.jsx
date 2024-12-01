@@ -2,17 +2,17 @@ import React from 'react';
 
 const GSLRAccess = () => {
   return (
-    <div style={styles.container}>
-      <h2 style={styles.title}>PLATAFORMA GSLR</h2>
+    <div style={styles.container} >
+
       <a href="https://gssoftwareysoluciones.com/2024/" target="_blank" rel="noopener noreferrer">
         <img
           src="https://gssoftwareysoluciones.com/images/LOGO-GS-V18.png"
           alt="Plataforma GSLR"
           style={styles.image}
         />
-      </a>
+     
       <p style={styles.info}>
-        <strong>Acceso Digitalizado para la Comunidad Educativa:</strong><br />
+        <strong >PLATAFORMA GSLR</strong><br />
         La plataforma GSLR es una herramienta integral que conecta a estudiantes, docentes y padres con información académica actualizada.
       </p>
       <p style={styles.details}>
@@ -28,15 +28,15 @@ const GSLRAccess = () => {
         Dirección: Cra 9 No.6-26 B. Triana Flandes - Tolima<br />
         Celular: 3054116497 | 3125875618 | 3142711344<br />
         Correos: <a href="mailto:notasoporte@gmail.com">notasoporte@gmail.com</a>, <a href="mailto:soportenota@gmail.com">soportenota@gmail.com</a>
-      </p>
+      </p> </a>
     </div>
   );
 };
 
 const styles = {
   container: {
-    width: '100%',
-    maxWidth: '400px',
+    width: '95%',
+    margin: '12px',
     border: '1px solid #ddd',
     borderRadius: '8px',
     padding: '16px',
@@ -57,7 +57,7 @@ const styles = {
   },
   info: {
     fontSize: '14px',
-    margin: '16px 0',
+    margin: '12px 0',
     color: '#333',
   },
   details: {

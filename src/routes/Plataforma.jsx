@@ -42,7 +42,7 @@ const Plataforma = () => {
                 setIsLoggedIn(true);
                 setUser({ email: authDetail.email });
                 toast.success("Inicio de sesión exitoso");
-                navigate("/programs"); // Cambia "/programs" por la ruta de tu elección
+                navigate("/plataforma"); // Cambia "/programs" por la ruta de tu elección
             } else {
                 toast.error("Credenciales inválidas");
             }
@@ -73,7 +73,7 @@ const Plataforma = () => {
                 setIsLoggedIn(true);
                 setUser({ email: userDetail.email, name: userDetail.name });
                 toast.success("Registro exitoso");
-                navigate("/programs"); // Cambia "/programs" por la ruta de tu elección
+                navigate("/plataforma"); // Cambia "/programs" por la ruta de tu elección
             } else {
                 toast.error("Registro fallido");
             }
@@ -95,15 +95,20 @@ const Plataforma = () => {
             <div className="plat">
             {isLoggedIn ? (
                 <div className="logged-in-section">
-                    <div className="form1">
+                    
+                    <div className="plat2">
+                        <a href="https://edu-easy.netlify.app/"><img src="https://edu-easy.netlify.app/logo.png" alt="EDU EASY" /></a>
                     <h2>Sesión Iniciada</h2>
-                    <p>Bienvenido, {user?.name || "Usuario"}</p>
-                    <p>Correo: {user?.email}</p>
+             
+                    <label>Bienvenido</label>
+                    <p>{user?.name || "Usuario"}</p>
+                    <label>Correo Electrónico</label>
+                    <p>{user?.email}</p>
                     <button onClick={handleLogout}>Cerrar Sesión</button></div>
                 </div>
             ) : (
                 <div className="auth-section">
-                    
+                     <a href="https://edu-easy.netlify.app/"><img src="https://edu-easy.netlify.app/logo.png" alt="EDU EASY" /></a>
                     <h2>{isLogin ? "Iniciar Sesión" : "Registrarse"}</h2>
                     {isLogin ? (
                         <form onSubmit={handleLoginSubmit} className="auth-form">

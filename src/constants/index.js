@@ -106,6 +106,10 @@ export const navLinks = [
     {
         id: 'Plataforma',
         link: 'plataforma',
+        subLinks: [
+            { id: 'GSLR', link: 'https://gssoftwareysoluciones.com/2024/' },
+            { id: 'Edu-Easy', link: 'https://edu-easy.netlify.app/' },
+        ],
     },
 ];
 
@@ -284,6 +288,15 @@ export const slide = [
         ],
     },
     {
+        id: 'Sedes IE',
+        link: 'facility',
+        subLinks: [
+            { id: 'Principal', link: '/servicios/4' },
+            { id: 'Sede B', link: '/servicios/2' },
+            { id: 'Sede c', link: '/servicios/2' }
+        ],
+    },
+    {
         id: 'Agenda',
         link: 'facility',
         subLinks: [
@@ -326,7 +339,11 @@ export const slide = [
     {
         id: 'Plataforma',
         link: 'plataforma',
-    }
+        subLinks: [
+            { id: 'GSLR', link: 'https://gssoftwareysoluciones.com/2024/' },
+            { id: 'Edu-Easy', link: 'https://edu-easy.netlify.app/' },
+        ],
+    },
  ]
 
 export const footerContact = [

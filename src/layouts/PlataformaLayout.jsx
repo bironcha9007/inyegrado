@@ -6,7 +6,7 @@ const Plataforma = () => {
     <>
       <div className="pages plataforma">
         <div className='pad'>
-        <h2 className="title">INGRESA A NUESTRA PLATAFORMA</h2>
+        <h2 className="title">ACCEDE A NUESTRAS PLATAFORMAS</h2>
     </div>
       </div>
       <Outlet />

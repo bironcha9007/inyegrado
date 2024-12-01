@@ -253,7 +253,22 @@ footer p {
   text-align: justify;
   letter-spacing: 0.2px;
 }
+footer a {
+  text-align: justify;
+  letter-spacing: 0.2px;
+  font-size: 13px;
+}
+footer .icons a {
+  text-align: justify;
+  letter-spacing: 0.2px;
+  font-size:25px;
+}
 
+footer .icons  :hover{
+  text-align: justify;
+  letter-spacing: 0.2px;
+color: var(--bl);
+}
 .pad, p {
   text-align: justify;
   letter-spacing: 0.2 px;
@@ -1245,10 +1260,35 @@ footer .col.col.first-col h2 {
   display: flex
   ;
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       align-items: stretch;
-      align-content: center;
-  padding: 4%;
+
+      padding: 4%;
+      justify-content: space-around;
+}
+.plat2{
+  border: 1px solid #cfcfcf;
+  display: flex
+  ;gap: 10px;
+  
+          max-width: 100%;
+          padding: 16px;
+  text-align: left;
+          border-radius: 8px;
+          background: #ffffff;
+          height: 100%;
+          flex-direction: column;
+          justify-content: flex-start;
+          flex-wrap: nowrap;
+}
+
+.plat2 img{
+  width: 80%;
+  margin: 10%;
+}
+.auth-section img{
+  width: 80%;
+  margin: 10%;
 }
 .undergraduate-programs {
   padding: 30px;
@@ -1380,8 +1420,9 @@ footer .col.col.first-col h2 {
 
 .auth-section,
 .logged-in-section {
-  margin: 5% auto;
-  max-width: 400px;
+  margin: 5%;
+  max-width: 800px;
+  width: 600px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -1928,6 +1969,31 @@ footer .col.col.first-col h2 {
     padding: 20px;
   }
 
+  .plat{
+    display: flex
+    ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        align-content: center;
+        justify-content: center;
+    padding: 4%;
+  }
+
+  .plat2 {
+    display: flex
+;gap: 10px;
+
+        max-width: 598px;
+        padding: 16px;
+text-align: left;
+        border-radius: 8px;
+        background: #ffffff;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+}
 
   .reasons .reason {
 
