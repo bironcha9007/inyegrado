@@ -667,7 +667,7 @@ footer p {
   flex-wrap: nowrap;
 
   width: 100%;
-  padding: 20px;
+
 }
 
 /* Testimonials */
@@ -916,7 +916,7 @@ footer .col.fourth-col form {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 footer .col h2 {
@@ -1241,7 +1241,15 @@ footer .col.col.first-col h2 {
   margin-right: 0%;
 
 }
-
+.plat{
+  display: flex
+  ;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+      align-content: center;
+  padding: 4%;
+}
 .undergraduate-programs {
   padding: 30px;
 }

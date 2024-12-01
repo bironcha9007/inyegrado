@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Footer from "../components/Footer";
 import { login, register } from "../services/auth";
-
+import GSLRAccess from '../components/GSLRAccess';
 const Plataforma = () => {
     const [isLogin, setIsLogin] = useState(true);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -90,7 +90,9 @@ const Plataforma = () => {
     };
 
     return (
+
         <div className="platform-container">
+            <div className="plat">
             {isLoggedIn ? (
                 <div className="logged-in-section">
                     <div className="form1">
@@ -168,6 +170,11 @@ const Plataforma = () => {
                     </p>
                 </div>
             )}
+            <div>
+
+            </div>
+            <GSLRAccess />
+            </div>
             <Footer />
         </div>
     );
