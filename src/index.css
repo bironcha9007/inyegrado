@@ -253,28 +253,34 @@ footer p {
   text-align: justify;
   letter-spacing: 0.2px;
 }
+
 footer a {
   text-align: justify;
   letter-spacing: 0.2px;
   font-size: 13px;
 }
+
 footer .icons a {
   text-align: justify;
   letter-spacing: 0.2px;
-  font-size:25px;
+  font-size: 25px;
 }
 
-footer .icons  :hover{
+footer .icons :hover {
   text-align: justify;
   letter-spacing: 0.2px;
-color: var(--bl);
+  color: var(--bl);
 }
-.pad, p {
+
+.pad,
+p {
   text-align: justify;
   letter-spacing: 0.2 px;
 }
 
-.pages, .plataforma, .programs p {
+.pages,
+.plataforma,
+.programs p {
   text-align: center;
   letter-spacing: 0.2 px;
 }
@@ -430,14 +436,16 @@ color: var(--bl);
   display: none;
 }
 
-.show, .mobile-menu a {
+.show,
+.mobile-menu a {
   transition: .2s;
   color: #fff;
   font-size: 20px;
   margin-top: 3%;
 }
 
-.show, .mobile-menu a:hover::first-line {
+.show,
+.mobile-menu a:hover::first-line {
   color: var(--bl);
 }
 
@@ -1141,21 +1149,23 @@ footer .col.col.first-col h2 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
-  
+
 }
+
 .contact-us .address {
-  width:50%;
+  width: 50%;
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   padding: 20px;
-  
+
 }
+
 .contact-us .address .add {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin: 10px;
-  
+
 }
 
 .address .add .icon {
@@ -1219,13 +1229,14 @@ footer .col.col.first-col h2 {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .contact-us .address {
-    width:90%;
+    width: 90%;
     border: 1px solid #cfcfcf;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 10px;
-    
+
   }
 }
 
@@ -1267,52 +1278,57 @@ footer .col.col.first-col h2 {
   margin-top: 40px;
 }
 
-.programs, .plataforma .pad {
+.programs,
+.plataforma .pad {
   margin-left: 0%;
   margin-right: 0%;
 
 }
-.plat{
-  display: flex
-  ;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: stretch;
 
-      padding: 4%;
-      justify-content: space-around;
+.plat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+
+  padding: 4%;
+  justify-content: space-around;
 }
-.plat2{
+
+.plat2 {
   border: 1px solid #cfcfcf;
-  display: flex
-  ;gap: 10px;
-  
-          max-width: 100%;
-          padding: 16px;
+  display: flex;
+  gap: 10px;
+
+  max-width: 100%;
+  padding: 16px;
   text-align: left;
-          border-radius: 8px;
-          background: #ffffff;
-          height: 100%;
-          flex-direction: column;
-          justify-content: flex-start;
-          flex-wrap: nowrap;
+  border-radius: 8px;
+  background: #ffffff;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 
-.plat2 img{
+.plat2 img {
   width: 80%;
   margin: 10%;
 }
-.auth-section img{
+
+.auth-section img {
   width: 80%;
   margin: 10%;
 }
-.ad-info  img{
+
+.ad-info img {
   width: 80%;
   width: 80%;
   margin: 0%;
   background: var(--ba);
   border-radius: 8px;
 }
+
 .undergraduate-programs {
   padding: 30px;
 }
@@ -1756,6 +1772,42 @@ footer .col.col.first-col h2 {
   -webkit-text-fill-color: transparent;
 }
 
+.home  p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #ffffff, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+}
+.pages  h2 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #ffffff, #fff, #737373);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.404);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 /* Media Query */
 @media (max-width: 1000px) {
 
@@ -1792,7 +1844,8 @@ footer .col.col.first-col h2 {
     margin-bottom: 0px;
   }
 
-  .auth-section, .form1 {
+  .auth-section,
+  .form1 {
     display: flex;
     margin: 3%;
     max-width: 598px;
@@ -1995,31 +2048,30 @@ footer .col.col.first-col h2 {
     padding: 20px;
   }
 
-  .plat{
-    display: flex
-    ;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: stretch;
-        align-content: center;
-        justify-content: center;
+  .plat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
     padding: 4%;
   }
 
   .plat2 {
-    display: flex
-;gap: 10px;
+    display: flex;
+    gap: 10px;
 
-        max-width: 598px;
-        padding: 16px;
-text-align: left;
-        border-radius: 8px;
-        background: #ffffff;
-        height: 100%;
-        flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-}
+    max-width: 598px;
+    padding: 16px;
+    text-align: left;
+    border-radius: 8px;
+    background: #ffffff;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
 
   .reasons .reason {
 
@@ -2163,17 +2215,19 @@ text-align: left;
   }
 }
 
-@media (max-width: 870px) {  .slidc {
-  display: flex;
+@media (max-width: 870px) {
+  .slidc {
+    display: flex;
 
-  height: 123vh;
-  margin: 0% auto;
-  margin-bottom: 0px;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  flex-direction: column;
-}}
+    height: 123vh;
+    margin: 0% auto;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+  }
+}
 
 @media (max-width: 450px) {
   .reasons .reason {
@@ -2188,7 +2242,8 @@ text-align: left;
 
   }
 
-  .slid, .testimonials article h3 {
+  .slid,
+  .testimonials article h3 {
     font-size: 20px;
     padding: 1%;
     margin-bottom: 0%;

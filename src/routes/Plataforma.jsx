@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Footer from "../components/Footer";
+import Redes from "../components/redes";
 import { login, register } from "../services/auth";
 import GSLRAccess from '../components/GSLRAccess';
 const Plataforma = () => {
@@ -92,6 +93,10 @@ const Plataforma = () => {
     return (
 
         <div className="platform-container">
+<div className="col fourth-col">
+
+  <Redes />
+</div>
             <div className="plat">
             {isLoggedIn ? (
                 <div className="logged-in-section">
@@ -180,6 +185,7 @@ const Plataforma = () => {
             </div>
             <GSLRAccess />
             </div>
+            
             <Footer />
         </div>
     );

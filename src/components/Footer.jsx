@@ -1,12 +1,11 @@
 import React from 'react';
-
+import WhatsAppContact from './what'; // Importa el archivo What.jsx
 import { footerContact, footerContactNum, footerLinks } from '../constants';
-import {  FaFacebook, FaInstagram, FaTiktok,  FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import Logo from "../assets/logo.png";
+
 const Footer = () => {
-
-
     // Función para desplazarse al inicio de la página
     const scrollToTop = () => {
         window.scrollTo({
@@ -14,21 +13,18 @@ const Footer = () => {
             behavior: 'smooth',
         });
     };
-  
+
     return (
         <footer>
-            <div className="col first-col"><h2>Integrado Soacha</h2>
-            <div className="logo">
-                
-                <img 
-                    src={Logo} 
-                    style={{ height: "60px", width: "60px" }} 
-                    alt="Integrado Logo" 
-                />
-         
-    
-        </div>
-                
+            <div className="col first-col">
+                <h2>Integrado Soacha</h2>
+                <div className="logo">
+                    <img 
+                        src={Logo} 
+                        style={{ height: "60px", width: "60px" }} 
+                        alt="Integrado Logo" 
+                    />
+                </div>
                 <p>"Innovamos para transformar el futuro, aprendemos con tecnología."</p>
             </div>
             <div className="col second-col">
@@ -39,10 +35,10 @@ const Footer = () => {
                             <NavLink
                                 to={`/${link.link}`}
                                 onClick={scrollToTop}
-                                className={({ isActive }) => (isActive ? 'active-link' : '')} // Usa className dinámico
+                                className={({ isActive }) => (isActive ? 'active-link' : '')}
                                 style={{ color: '#fff' }}
                             >
-                             {link.id}
+                                {link.id}
                             </NavLink>
                         </li>
                     ))}
@@ -67,11 +63,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="col fourth-col">
-                
-                <h2>Siguenos</h2>
-                
-              
-        
+                <h2>Síguenos</h2>
                 <div className="icons">
                     <a
                         href="https://www.facebook.com/share/18GcPSwrr4/"
@@ -97,16 +89,9 @@ const Footer = () => {
                     >
                         <FaInstagram />
                     </a>
-                    <a
-                        href="https://www.tiktok.com/discover/integrado-de-soacha"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ color: '#fff' }}
-                    >
-                        <FaTiktok />
-                    </a>
+                    {/* Llama al componente WhatsAppContact */}
+                    <WhatsAppContact />
                 </div>
-                
             </div>
         </footer>
     );
