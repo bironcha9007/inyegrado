@@ -10,7 +10,7 @@ const Redes = () => {
   };
 
   return (
-    <div className="icons" style={{ display: "flex", gap: "15px" }}>
+    <div className="icons" style={{ padding:"10px", marginRight:"5px",display: "flex", alignItems:"center", justifyContent: "flex-end",gap: "15px" }}>
       <a
         href="https://www.facebook.com/share/18GcPSwrr4/"
         target="_blank"

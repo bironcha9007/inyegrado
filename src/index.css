@@ -200,8 +200,8 @@ body {
 
 .navbar {
   display: flex;
-  padding: 10px 10px 10px 10px;
-  background-color: var(--ne2);
+  padding: 10px 10px 0px 10px;
+  background-color: var(--ba);
   justify-content: space-between;
 }
 
