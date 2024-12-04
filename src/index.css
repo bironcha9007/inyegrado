@@ -116,7 +116,7 @@ body {
 
 .mobile-menu {
   position: absolute;
-  top: 77px;
+  top: 105px;
   right: 0;
   height: calc(100vh - 73px);
   width: 250px;
@@ -935,7 +935,7 @@ footer .col.fourth-col form {
 
 .col.fourth-col .icons {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -1223,7 +1223,14 @@ footer .col.col.first-col h2 {
   margin-top: 10px;
   cursor: pointer;
 }
+.react-calendar {
 
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  line-height: 1.125em;
+}
 @media (max-width: 500px) {
   .contact-us {
     padding-left: 20px;

@@ -1,10 +1,14 @@
 import React from 'react';
 import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
-
+import Redes from "../components/redes";
 const Contact = () => {
   return (
     <>
+      <div className="col fourth-col">
+
+<Redes />
+</div>
       <div className="pages contact">
         <h1 className="title">Contactanos</h1>
       </div>

@@ -117,7 +117,36 @@ export const navLinks = [
         ],
     },
 ];
-
+export const eventosCalendario = [
+    {
+      id: 1,
+      fecha: "2024-11-20",
+      titulo: "Reunión de Docentes",
+      descripcion: "Planificación del próximo periodo académico.",
+      horaInicio: "10:00 AM",
+      horaFin: "12:00 PM",
+      lugar: "Sala de Juntas",
+    },
+    {
+      id: 2,
+      fecha: "2024-11-25",
+      titulo: "Taller de Matemáticas",
+      descripcion: "Refuerzo para estudiantes de grado 10°.",
+      horaInicio: "02:00 PM",
+      horaFin: "04:00 PM",
+      lugar: "Aula 305",
+    },
+    {
+      id: 3,
+      fecha: "2024-11-30",
+      titulo: "Entrega de Boletines",
+      descripcion: "Entrega de informes académicos del segundo periodo.",
+      horaInicio: "08:00 AM",
+      horaFin: "01:00 PM",
+      lugar: "Auditorio Principal",
+    },
+  ];
+  
 export const sliderContent = [
     {
         id: 1,

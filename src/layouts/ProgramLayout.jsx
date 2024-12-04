@@ -4,13 +4,13 @@ import Redes from "../components/redes";
 const Programs = () => {
   return (
     <>
-    <div className="col fourth-col">
+      <div className="col fourth-col">
 
-<Redes />
-</div>
+        <Redes />
+      </div>
       <div className="pages programs">
         <div className='pad'>
-        <h2 className="title">PROGRAMAS Y ASIGNATURAS</h2>
+          <h2 className="title">PROGRAMAS Y ASIGNATURAS</h2>
         </div>
       </div>
       <Outlet />

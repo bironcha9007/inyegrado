@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { sliderContent } from "../constants";
 import Footer from "../components/Footer";
 import MissionVision from "../components/MissionVision";
-
+import Redes from "../components/redes";
 import Slide from "../components/Slide";
 import WhySchool from "../components/WhySchool";
 
@@ -28,6 +28,10 @@ const Home = () => {
 
   return (
     <>
+     <div className="col fourth-col">
+
+<Redes />
+</div>
       <div className="home">
         {/* Imagen actual */}
         <div

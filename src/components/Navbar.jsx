@@ -1,5 +1,5 @@
 import { FaBars } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { navLinks } from "../constants";
 import Logo from "../assets/logo.png";
@@ -7,10 +7,29 @@ import Logo from "../assets/logo.png";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
+  const menuRef = useRef(null); // Referencia al menú móvil
 
   const handleSubMenuToggle = (id) => {
     setActiveSubMenu((prev) => (prev === id ? null : id));
   };
+
+  // Cierra el menú móvil si se hace clic fuera de él
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setToggle(false); // Cierra el menú
+        setActiveSubMenu(null); // Resetea submenús activos
+      }
+    };
+
+    // Agregar el event listener
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Limpiar el event listener al desmontar
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="navbar">
@@ -59,7 +78,7 @@ const Navbar = () => {
       </div>
 
       {toggle && (
-        <div className="mobile-menu">
+        <div className="mobile-menu" ref={menuRef}>
           {navLinks.map((nav) => (
             <div key={nav.id} className="mobile-nav-item">
               <NavLink
