@@ -106,7 +106,7 @@ const styles = {
     margin: 0,
   },
   eventItem: {
-    fontSize: "0.9rem",
+
     color: "#fff",
     backgroundColor: "#007bff",
     padding: "2px 5px",
