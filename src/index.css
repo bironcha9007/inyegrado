@@ -1501,11 +1501,17 @@ footer .col.col.first-col h2 {
   width: 80%;
   margin: 10%;
 }
+.ad-info2 img  {
 
+  width: 80%;
+  margin: 10%;
+  background: var(--ba);
+  border-radius: 8px;
+}
 .ad-info img {
+
   width: 80%;
-  width: 80%;
-  margin: 0%;
+  margin: 10%;
   background: var(--ba);
   border-radius: 8px;
 }
@@ -1857,18 +1863,18 @@ footer .col.col.first-col h2 {
     justify-content: space-evenly;
     align-items: center;
 }
-.ad-info,
+.ad-info,.ad-info2,
 .ad-more {
   padding: 20px;
 }
 
-.ad-info {
+.ad-info,.ad-info2 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   align-content: stretch;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 1rem;
 }
 
@@ -2121,7 +2127,16 @@ footer .col.col.first-col h2 {
     width: 90%;
     border-radius: 10px;
   }
-
+  .ad-info {
+    display: flex
+;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
   .ad-more-info {
     display: flex;
     align-items: stretch;

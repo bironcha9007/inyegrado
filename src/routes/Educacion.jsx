@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import EducacionInfo from '../components/EducacionInfo'
-import AdMoreInfo from '../components/AdMoreInfo'
+import EduInfo from '../components/EduInfo'
 import Slide from '../components/Slide'
 import Redes from "../components/redes";
 const Educacion = () => {
@@ -14,10 +14,10 @@ const Educacion = () => {
       <div className="pages educacion">
         <h2 className="title">EL INTEGRADO SE MUEVE</h2>
       </div>
-      
-       <EducacionInfo />
+      <div className='ad'>
+       <EducacionInfo /> <EduInfo /></div>
        <Slide />
-      <AdMoreInfo />
+      
      
 
       <Footer />

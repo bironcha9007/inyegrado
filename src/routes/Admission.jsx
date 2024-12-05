@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 import AdmissionInfo from '../components/AdmissionInfo'
 import AdMoreInfo from '../components/AdMoreInfo'
-import ApplyNow from '../components/ApplyNow'
+
 import Redes from "../components/redes";
 const Admission = () => {
   return (
@@ -15,7 +15,7 @@ const Admission = () => {
       <div className="pages admission">
         <h2 className="title">ADMISIONES Y MATRÍCULAS</h2>
       </div>
-     <div className='ad'><ApplyNow />
+     <div className='ad'>
      <AdMoreInfo />
       <AdmissionInfo />
       
