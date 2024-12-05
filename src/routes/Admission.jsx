@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Slide from '../components/Slide'
+
 import AdmissionInfo from '../components/AdmissionInfo'
 import AdMoreInfo from '../components/AdMoreInfo'
 import ApplyNow from '../components/ApplyNow'
@@ -13,12 +13,14 @@ const Admission = () => {
 <Redes />
 </div>
       <div className="pages admission">
-        <h2 className="title">ADMISIONES Y MATRICULA</h2>
+        <h2 className="title">ADMISIONES Y MATRÍCULAS</h2>
       </div>
-     
-      <AdMoreInfo />
+     <div className='ad'><ApplyNow />
+     <AdMoreInfo />
       <AdmissionInfo />
-      <ApplyNow /> <Slide />
+      
+     </div>
+      
       <Footer />
     </>
   )

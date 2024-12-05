@@ -754,10 +754,10 @@ p {
 
 .slidc {
   display: flex;
-  max-width: 100vw;
+  max-width: 95vw;
   min-height: 70vh;
   height: 73vh;
-  margin: 0% auto;
+  margin: 1% auto;
   padding: 10px;
   margin-bottom: 0px;
   overflow: hidden;
@@ -1324,7 +1324,7 @@ footer .col.col.first-col h2 {
 }
 
 .react-calendar__month-view__days__day--weekend {
-  color: #d10000;
+  color: #d15700;
 }
 
 .react-calendar__month-view__days__day--neighboringMonth,
@@ -1849,7 +1849,14 @@ footer .col.col.first-col h2 {
 .admission {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./assets/admisiones.jpg') no-repeat center/cover;
 }
-
+.ad{
+  display: flex
+;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .ad-info,
 .ad-more {
   padding: 20px;
@@ -1862,7 +1869,7 @@ footer .col.col.first-col h2 {
   align-content: stretch;
   justify-content: center;
   align-items: center;
-
+  gap: 1rem;
 }
 
 .ad-info p {
@@ -1908,18 +1915,20 @@ footer .col.col.first-col h2 {
 }
 
 .ad-more-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 20px;
-  flex-wrap: wrap;
+  display: flex
+  ;
+      gap: 1rem;
+      margin-top: 10px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      
 }
 
 .ad-more-info .more-info {
   border: 2px solid gray;
   padding: 15px;
-
+  border-radius: 8px;
 
 }
 
@@ -2117,13 +2126,13 @@ footer .col.col.first-col h2 {
     display: flex;
     align-items: stretch;
     gap: 1rem;
-    margin-top: 20px;
+    margin-top: 0px;
     flex-wrap: nowrap;
     flex-direction: column;
   }
 
   .ad-info p {
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 20px;
 
   }
@@ -2421,7 +2430,13 @@ footer .col.col.first-col h2 {
   .reasons .reason {
     width: 100%;
   }
-
+  .ad {
+    display: flex
+    ;
+            flex-direction: column-reverse;
+            align-items: stretch;
+            flex-wrap: nowrap;
+}
   .testimonials {
     height: 90vh;
     max-width: 100vw;

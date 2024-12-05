@@ -59,6 +59,7 @@ const Agenda = () => {
         className="custom-calendar"
       />
 
+      {/* Modal para eventos */}
       {modalOpen && selectedEvent && (
         <div style={styles.modalOverlay}>
           <div style={styles.modalContent}>
@@ -82,13 +83,33 @@ const Agenda = () => {
           </div>
         </div>
       )}
+
+      {/* Convenciones */}
+      <div style={styles.conventionsContainer}>
+        <h2 style={styles.conventionsTitle}>Convenciones Calendario</h2>
+        <div style={styles.convention}>
+          <div style={{ ...styles.colorBox, backgroundColor: "#ff0000" }}></div>
+          <span>Evento o Actividad </span>
+        </div>
+        <div style={styles.convention}>
+          <div
+            style={{ ...styles.colorBox, backgroundColor: "#f1c40f" }}
+          ></div>
+          <span>Día actual</span>
+        </div>
+        <div style={styles.convention}>
+          <div
+            style={{ ...styles.colorBox, backgroundColor: "#3054a7" }}
+          ></div>
+          <span>Día seleccionado</span>
+        </div>
+      </div>
     </div>
   );
 };
 
 const styles = {
   agendaContainer: {
-  
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -97,23 +118,21 @@ const styles = {
     width: "100%",
   },
   title: {
-    color: "#333",
-    margin:"10px",
-    fontSize: "1em"
+    color: "#3054a7",
+    margin: "10px",
+    fontSize: "1em",
   },
   eventList: {
-    
     listStyle: "none",
     padding: 0,
     margin: 0,
   },
   eventItem: {
-
     color: "#fff",
-    backgroundColor: "#007bff",
-    padding: "2px 5px",
+    backgroundColor: "#ff0000",
+    padding: "5px 0px",
     borderRadius: "3px",
-    marginBottom: "2px",
+    marginBottom: "0px",
     cursor: "pointer",
   },
   modalOverlay: {
@@ -143,6 +162,31 @@ const styles = {
     borderRadius: "5px",
     cursor: "pointer",
     marginTop: "20px",
+  },
+  conventionsContainer: {
+    marginTop: "20px",
+    backgroundColor: "#fff",
+    padding: "15px",
+    borderRadius: "8px",
+    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+    width: "90%",
+    maxWidth: "500px",
+  },
+  conventionsTitle: {
+    fontSize: "18px",
+    color: "#333",
+    marginBottom: "10px",
+  },
+  convention: {
+    display: "flex",
+    alignItems: "center",
+    marginBottom: "8px",
+  },
+  colorBox: {
+    width: "20px",
+    height: "20px",
+    marginRight: "10px",
+    borderRadius: "3px",
   },
 };
 
