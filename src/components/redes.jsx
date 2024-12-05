@@ -10,7 +10,7 @@ const Redes = () => {
   };
 
   return (
-    <div className="icons" style={{ paddingRight:"10px", marginRight:"5px",display: "flex", alignItems:"center", justifyContent: "flex-end",gap: "15px" }}>
+    <div className="icons" style={{ paddingRight:"20px", marginRight:"5px",display: "flex", alignItems:"center", justifyContent: "flex-end",gap: "15px" }}>
       <a
         href="https://www.facebook.com/share/18GcPSwrr4/"
         target="_blank"
@@ -39,7 +39,7 @@ const Redes = () => {
         href="https://www.tiktok.com/discover/integrado-de-soacha"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ color: "#000000", fontSize: "25px" }}
+        style={{ color: "#000000", fontSize: "22px" }}
       >
         <FaTiktok />
       </a>

@@ -116,7 +116,7 @@ body {
 
 .mobile-menu {
   position: absolute;
-  top: 105px;
+  top: 101px;
   right: 0;
   height: calc(100vh - 73px);
   width: 250px;
@@ -168,8 +168,15 @@ body {
   text-decoration: none;
   color: white;
   margin-bottom: 5px;
+  font-size: 22px;
 }
-
+.mobile-sublink a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  font-size:18px;
+}
 .mobile-sublink:hover {
   color: var(--re);
 }
@@ -461,7 +468,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: calc(100vh - 73px);
+  height: calc(97vh - 73px);
   width: 100%;
   overflow: hidden;
   /* Oculta el desbordamiento de las imágenes */
@@ -498,7 +505,7 @@ p {
   font-size: 45px;
   font-weight: 600;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+ 
 }
 
 .titles {
@@ -532,7 +539,7 @@ p {
     font-size: 41px;
     padding: 17px 12px;
     line-height: 45px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
   }
 
   .home .info {
@@ -662,8 +669,8 @@ p {
 }
 
 .reason img {
-  width: 95%;
-  height: 300px;
+  width: 90%;
+  height:250px;
   border-radius: 10px;
   margin: 2.5%;
 }
@@ -686,7 +693,7 @@ p {
   margin: 0px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: nowrap;
 
   width: 100%;
@@ -833,10 +840,10 @@ article h3 {
 }
 
 article p {
-
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   margin: 1%;
   padding: 1%;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 15px;
 }
 
@@ -850,9 +857,9 @@ article p {
 
 .slid article p {
 
-  margin: 1%;
-  padding: 1%;
-  font-weight: 500;
+  margin: 0%;
+  padding: 0%;
+
   font-size: 15px;
 }
 
@@ -1223,6 +1230,8 @@ footer .col.col.first-col h2 {
   margin-top: 10px;
   cursor: pointer;
 }
+
+
 .react-calendar {
 
   max-width: 100%;
@@ -1257,10 +1266,18 @@ footer .col.col.first-col h2 {
 
 .react-calendar button {
   margin: 0;
-  border: 0;
+  border: 0.5px solid #a0a0961d;
   outline: none;
+  
 }
-
+.react-calendar button span {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
 .react-calendar button:enabled:hover {
   cursor: pointer;
 }
@@ -1844,6 +1861,7 @@ footer .col.col.first-col h2 {
   flex-direction: column;
   align-content: stretch;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -1994,7 +2012,13 @@ footer .col.col.first-col h2 {
     color: #232323;
     font-size: 17px;
   }
-
+  .navbar .logo span {
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    color: var(--ne);
+    margin-left: 10px;
+}
 
 }
 
@@ -2065,9 +2089,9 @@ footer .col.col.first-col h2 {
 
   .navbar .logo span {
     color: var(--ne);
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 
   .navbar .logo {
@@ -2251,7 +2275,7 @@ footer .col.col.first-col h2 {
 
   .reason img {
     width: 95%;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     margin: 2.5%;
   }
@@ -2354,7 +2378,7 @@ footer .col.col.first-col h2 {
     margin: 0%;
     padding: 1%;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .slid .slide p {

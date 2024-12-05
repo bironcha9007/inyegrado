@@ -38,7 +38,7 @@ const Navbar = () => {
         <NavLink to="/" onClick={() => setToggle(false)}>
           <img
             src={Logo}
-            style={{ height: "50px", width: "50px" }}
+            style={{ height: "50px", width: "50px", marginBottom:"-5px" }}
             alt="Integrado Logo"
           />
         </NavLink>

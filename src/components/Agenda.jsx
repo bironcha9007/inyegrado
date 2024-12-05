@@ -51,7 +51,7 @@ const Agenda = () => {
 
   return (
     <div style={styles.agendaContainer}>
-      <h1 style={styles.title}>Agenda del Mes</h1>
+      <h1 style={styles.title}>Conoce nuestra agenda Institucional</h1>
       <Calendar
         onChange={handleDateClick}
         value={selectedDate}
@@ -98,6 +98,8 @@ const styles = {
   },
   title: {
     color: "#333",
+    margin:"10px",
+    fontSize: "1em"
   },
   eventList: {
     
