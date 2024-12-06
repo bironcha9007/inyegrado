@@ -30,10 +30,10 @@ import image32 from '../assets/faudiovisual.jpg';
 import image33 from '../assets/icfes.jpg';
 import image34 from '../assets/ma.jpg';
 import image35 from '../assets/un.jpg';
-import image36 from '../assets/co.jpg';
+
 import image37 from '../assets/pr.jpg';
 import image38 from '../assets/ba.jpg';
-
+import image39 from '../assets/edu.jpg';
 
 export const navLinks = [
     {
@@ -169,6 +169,7 @@ export const sliderContent = [
         navLink: '/programs/5',
         imageURL: image17,
     },
+    
 ];
 
 export const missionVision = [
@@ -284,7 +285,7 @@ export const slide = [
     {
         id: 3,
         icon: <FaHeadset />,
-        image: image36,
+        image: image39,
         name: 'COSTOS 2025',
         testimonial: "Te invitamos a informarte sobre los costos educativos: matrícula, derechos de grado, certificados y papelería. Nuestros valores son transparentes y accesibles. Para más detalles, puedes acercarte a la oficina administrativa o comunicarte a los canales oficiales. ¡Juntos construimos un año escolar exitoso!",
     },
