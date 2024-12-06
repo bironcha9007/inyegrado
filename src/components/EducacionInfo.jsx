@@ -15,6 +15,11 @@ const EducacionInfo = () => {
 
 
         <Link onClick={scrollToTop} to="/programs">Programas y Asignaturas</Link>
+
+        <Link onClick={scrollToTop} to="/departamentos" >Manual de Convivencia</Link>
+
+
+<Link onClick={scrollToTop} to="/programs">Proyectos Institucionales</Link>
     </div>
     
   )
