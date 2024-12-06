@@ -30,10 +30,15 @@ import image32 from '../assets/faudiovisual.jpg';
 import image33 from '../assets/icfes.jpg';
 import image34 from '../assets/ma.jpg';
 import image35 from '../assets/un.jpg';
-
+import image36 from '../assets/co.jpg';
 import image37 from '../assets/pr.jpg';
 import image38 from '../assets/ba.jpg';
 import image39 from '../assets/edu.jpg';
+import image40 from '../assets/coor.jpg';
+import image41 from '../assets/padr.jpg';
+import image42 from '../assets/sena.jpg';
+import image43 from '../assets/exa.jpg';
+import image44 from '../assets/secr.jpg';
 
 export const navLinks = [
     {
@@ -285,7 +290,7 @@ export const slide = [
     {
         id: 3,
         icon: <FaHeadset />,
-        image: image39,
+        image: image36,
         name: 'COSTOS 2025',
         testimonial: "Te invitamos a informarte sobre los costos educativos: matrícula, derechos de grado, certificados y papelería. Nuestros valores son transparentes y accesibles. Para más detalles, puedes acercarte a la oficina administrativa o comunicarte a los canales oficiales. ¡Juntos construimos un año escolar exitoso!",
     },
@@ -444,110 +449,119 @@ export const facilities = [
         image: image8,
         title: "Filosofía",
         link: '/programs/7',
-        text: "Our extensive library and resource center serve as a hub of knowledge, providing a diverse collection of books, e-books, journals, and multimedia resources. It is a quiet oasis where students can immerse themselves in reading and research.",
+        text: "La Filosofía impulsa el pensamiento crítico y ético, guiando a los estudiantes a reflexionar sobre la vida, la sociedad y el conocimiento. Es la base para formar ciudadanos conscientes, responsables y capaces de cuestionar y construir ideas con propósito.",
     },
     {
         id: 2,
         image: image14,
-        title: "Matematicas",
+        title: "Matemáticas",
         link: '/programs/1',
-        text: "We recognize the importance of nurturing students' passion for music. Our music facilities provide a vibrant and inspiring space for students to explore, create, and excel in the world of music.",
+        text: "Matemáticas desarrolla habilidades analíticas y de resolución de problemas, fundamentales para la vida diaria y profesional. Los estudiantes exploran conceptos desde lo básico hasta lo avanzado, descubriendo la belleza de los números y su utilidad en diversas disciplinas.",
     },
     {
         id: 3,
         image: image11,
-        title: "Educación Fisica",
+        title: "Educación Física",
         link: '/programs/9',
-        text: "Our school offers a range of sports facilities, including a well-equipped gymnasium, playgrounds, and courts for various sports, encouraging students to stay active and develop a spirit of sportsmanship.",
+        text: "Educación Física fomenta el bienestar físico y mental a través del movimiento, el deporte y el trabajo en equipo. Los estudiantes desarrollan habilidades motrices, disciplina y una actitud saludable que fortalece cuerpo y mente.",
     },
     {
         id: 4,
         image: image12,
         title: "Tecnología",
         link: '/programs/10',
-        text: "We understand the pivotal role technology plays in modern education. Our computer lab facilities are designed to provide students with a cutting-edge learning environment that fosters digital literacy.",
+        text: "Tecnología prepara a los estudiantes para un mundo digital, enseñándoles a utilizar herramientas modernas, desarrollar proyectos innovadores y comprender los fundamentos que impulsan los avances tecnológicos en la sociedad actual.",
     },
     {
         id: 5,
         image: image13,
         title: "Ciencias y Biología",
         link: '/programs/6',
-        text: "We take immense pride in providing our students with top-notch science lab facilities that are designed to ignite curiosity, foster exploration, and enhance scientific learning.",
+        text: "Ciencias y Biología inspiran curiosidad por el mundo natural, ofreciendo experimentos prácticos y exploraciones que despiertan el amor por la investigación. Los estudiantes descubren los misterios de la vida y la importancia de cuidar el medio ambiente.",
     },
     {
         id: 6,
         image: image9,
         title: "Artes",
         link: '/programs/5',
-        text: "Creativity thrives in our art studios, where students can explore various mediums and unleash their artistic potential. These studios are designed to inspire young artists to express themselves through visual arts.",
+        text: "Artes permite a los estudiantes expresarse a través de la creatividad, explorando diversas técnicas y estilos. Este programa desarrolla habilidades visuales, sensibilidad estética y confianza para comunicar ideas de manera innovadora y personal.",
     },
     {
         id: 7,
         image: image15,
-        title: "Ingles",
+        title: "Inglés",
         link: '/programs/3',
-        text: "The well-being of our students is of utmost importance. Our school provides a dedicated medical room and trained staff to attend to any health-related needs and emergencies.",
+        text: "Inglés abre puertas al mundo, potenciando la comunicación y el acceso a conocimientos globales. Los estudiantes adquieren competencias lingüísticas que les preparan para estudiar, trabajar y participar activamente en una sociedad internacional.",
     },
     {
         id: 8,
         image: image18,
         title: "Lenguaje",
         link: '/programs/4',
-        text: "Our Multipurpose Hall is a hub of creativity, learning, and community engagement, providing numerous benefits and opportunities for our students, faculty, and the broader school community.",
+        text: "Lenguaje fortalece las habilidades de lectura, escritura y expresión oral, permitiendo a los estudiantes comunicarse con claridad y profundidad. Es la base para comprender textos complejos y expresar ideas de manera efectiva.",
     },
     {
         id: 9,
         image: image19,
-        title: "Etica y Religuión",
+        title: "Ética y Religión",
         link: '/programs/8',
-        text: "Our school boasts spacious and well-equipped modern classrooms designed to create an optimal learning environment. Each classroom is thoughtfully arranged to enhance student engagement and foster a collaborative atmosphere.",
+        text: "Ética y Religión guía a los estudiantes en la reflexión sobre valores, moral y espiritualidad, ayudándoles a construir una visión equilibrada de la vida y su relación con la comunidad y el entorno.",
+    },
+    
+    {
+        id: 10,
+        image: image10,
+        title: "Sociales",
+        link: '/programs/8',
+        text: "Ética y Religión guía a los estudiantes en la reflexión sobre valores, moral y espiritualidad, ayudándoles a construir una visión equilibrada de la vida y su relación con la comunidad y el entorno.",
     },
 ];
+
 export const departamentosin = [
     {
         id: 1,
-        image: image8,
-        title: "RECTORIA",
+        image: image39,
+        title: "RECTORÍA",
         link: '/servicios/7',
-        text: "Our extensive library and resource center serve as a hub of knowledge, providing a diverse collection of books, e-books, journals, and multimedia resources. It is a quiet oasis where students can immerse themselves in reading and research.",
+        text: "La Rectoría lidera y supervisa todas las áreas del colegio, asegurando que se cumpla la misión educativa y promoviendo un ambiente de excelencia académica y valores institucionales.",
     },
     {
         id: 2,
-        image: image10,
+        image: image40,
         title: "COORDINACIÓN",
         link: '/servicios/8',
-        text: "We recognize the importance of nurturing students' passion for music. Our music facilities provide a vibrant and inspiring space for students to explore, create, and excel in the world of music.",
+        text: "La Coordinación organiza actividades escolares, gestiona el currículo y trabaja en conjunto con docentes y estudiantes para mantener la disciplina y el desarrollo integral.",
     },
     {
         id: 3,
-        image: image11,
+        image: image41,
         title: "ASO PADRES",
         link: '/servicios/8',
-        text: "Our school offers a range of sports facilities, including a well-equipped gymnasium, playgrounds, and courts for various sports, encouraging students to stay active and develop a spirit of sportsmanship.",
+        text: "La Asociación de Padres fomenta la comunicación entre familias y colegio, apoyando actividades y proyectos que beneficien el bienestar y formación de los estudiantes.",
     },
     {
         id: 4,
-        image: image12,
+        image: image42,
         title: "SENA",
         link: '/servicios/8',
-        text: "We understand the pivotal role technology plays in modern education. Our computer lab facilities are designed to provide students with a cutting-edge learning environment that fosters digital literacy.",
+        text: "El SENA brinda formación técnica y profesional, preparando a los estudiantes para ingresar al mundo laboral con competencias prácticas y actualizadas.",
     },
     {
         id: 5,
-        image: image13,
+        image: image43,
         title: "EX-ALUMNOS",
         link: '/servicios/6',
-        text: "We take immense pride in providing our students with top-notch science lab facilities that are designed to ignite curiosity, foster exploration, and enhance scientific learning.",
+        text: "El departamento de Ex-Alumnos mantiene el vínculo con egresados, promoviendo redes de contacto, eventos y actividades que enriquezcan la comunidad educativa.",
     },
     {
         id: 6,
-        image: image14,
-        title: "SECRETARIA",
+        image: image44,
+        title: "SECRETARÍA",
         link: '/servicios/2',
-        text: "Creativity thrives in our art studios, where students can explore various mediums and unleash their artistic potential. These studios are designed to inspire young artists to express themselves through visual arts.",
+        text: "La Secretaría administra los procesos académicos y administrativos, brindando atención a estudiantes, padres y docentes para garantizar un servicio eficiente y organizado.",
     }
-   
 ];
+
 export const MoreInfo = [
     {
         id: 1,
