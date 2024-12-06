@@ -46,7 +46,7 @@ const Slide = () => {
             );
           })}
         </div>
-        <div className="testimonials">
+        <div className="slid">
           {testimonials.map((test, indexTest) => {
             const { id, image, name, testimonial } = test;
             let position = "nextSlide";
