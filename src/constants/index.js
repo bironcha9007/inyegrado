@@ -242,7 +242,7 @@ export const testimonials = [
         icon: <FaQuoteRight />,
         image: image32,
         name: 'FESTIVAL AUDIOVISUAL',
-        testimonial: "En octubre, el arte cobró vida en el Primer Festival Audiovisual 2024. Sombras y luces danzaron en mágicos cortometrajes de animación y stop motion, tejidos por manos jóvenes y soñadoras. Bachillerato fue el lienzo donde la creatividad floreció, regalándonos historias vibrantes y memorables. Una noche donde el cine escolar dejó huella en el corazón de nuestra comunidad.",
+        testimonial: "En octubre, el arte cobró vida en el Primer Festival Audiovisual 2024. Sombras y luces danzaron en mágicos cortometrajes de animación y stop motion, tejidos por manos jóvenes y soñadoras. Bachillerato fue el lienzo donde la creatividad floreció, regalándonos historias vibrantes y memorables.",
     },
     {
         id: 4,

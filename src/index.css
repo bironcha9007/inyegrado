@@ -1500,20 +1500,7 @@ footer .col.col.first-col h2 {
   width: 80%;
   margin: 10%;
 }
-.ad-info2 img  {
 
-  width: 80%;
-  margin: 10%;
-  background: var(--ba);
-  border-radius: 8px;
-}
-.ad-info img {
-
-  width: 80%;
-  margin: 10%;
-  background: var(--ba);
-  border-radius: 8px;
-}
 
 .undergraduate-programs {
   padding: 30px;
@@ -1867,6 +1854,18 @@ footer .col.col.first-col h2 {
   padding: 20px;
 }
 
+.ad-more {
+  width: 40%;;
+}
+.cont2{
+  width: 100%;
+  display: flex
+;
+  flex-direction: column;
+}
+.ad-info .cont2 a{
+  width: 100%;
+}
 .ad-info,.ad-info2 {
   display: flex;
   flex-wrap: nowrap;
@@ -1874,7 +1873,7 @@ footer .col.col.first-col h2 {
   align-content: stretch;
   justify-content: center;
   align-items: stretch;
-  gap: 1rem;
+
 }
 
 .ad-info p {
@@ -1918,7 +1917,20 @@ footer .col.col.first-col h2 {
   border-radius: 5px;
 
 }
+.ad-info2 img  {
 
+  width: 80%;
+  margin: 10%;
+  background: var(--ba);
+  border-radius: 8px;
+}
+.ad-info img {
+
+  width: 95%;
+  margin: 2.5%;
+  background: var(--ba);
+  border-radius: 8px;
+}
 .ad-more-info {
   display: flex
   ;
@@ -2133,8 +2145,8 @@ footer .col.col.first-col h2 {
     flex-direction: column;
     align-content: stretch;
     justify-content: center;
-    align-items: stretch;
-    gap: 1rem;
+    align-items: center;
+
 }
   .ad-more-info {
     display: flex;
@@ -2359,7 +2371,7 @@ footer .col.col.first-col h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    height: 600px;
+
     width: 100%;
     padding: 20px;
   }
@@ -2389,7 +2401,7 @@ footer .col.col.first-col h2 {
   }
 
   .slid article h3 {
-    font-size: 24px;
+    font-size:1.2em;
     padding: 1%;
     margin-bottom: 0%;
     margin-top: 0%;
@@ -2470,7 +2482,7 @@ footer .col.col.first-col h2 {
   .content .slid {
     margin-top: 10px;
     display: flex;
-    height: 420px;
+    height: 430px;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
@@ -2519,6 +2531,10 @@ footer .col.col.first-col h2 {
     padding: 0%;
     font-size: 11px;
   }
+
+  .ad-more {
+    width: 100%;
+}
 
 }
 
