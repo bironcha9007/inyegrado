@@ -7,7 +7,8 @@ import MissionVision from "../components/MissionVision";
 import Redes from "../components/redes";
 import Slide from "../components/Slide";
 import WhySchool from "../components/WhySchool";
-
+import FacilityList from "../components/FacilityList";
+import DepartamentosList from "../components/DepartamentosList";
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
@@ -62,6 +63,10 @@ const Home = () => {
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <Slide />
+      <h1 className="titles">DEPARTAMENTOS</h1>
+       <DepartamentosList />
+       <h1 className="titles">PROGRAMAS</h1>
+       <FacilityList />
       <MissionVision />
       
       <WhySchool />

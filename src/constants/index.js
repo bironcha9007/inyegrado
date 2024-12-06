@@ -62,6 +62,8 @@ export const navLinks = [
         subLinks: [
             { id: 'Departamentos', link: '/departamentos' },
             { id: 'Programas', link: '/programs' },
+            { id: 'Manual Conv', link: '/educacion' },
+            { id: 'Proyectos Inst', link: '/educacion' },
         ],
     },
     {
@@ -109,8 +111,9 @@ export const navLinks = [
         id: 'Admisiones',
         link: 'apply',
         subLinks: [
-            { id: 'Información', link: 'servicios/2' },
-            { id: 'Pre-Matricula', link: 'servicios/4' },
+            { id: 'Cupos 2025', link: 'servicios/2' },
+            { id: 'Costos', link: 'servicios/4' },
+            { id: 'Uniformes', link: 'servicios/4' },
         ],
     },
     {
