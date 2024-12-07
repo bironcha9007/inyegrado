@@ -165,7 +165,7 @@ export const sliderContent = [
     },
     {
         id: 2,
-        title: 'ADMISIONES Y MATRICULAS',
+        title: 'CONOCE NUESTRAS SEDES',
         text: 'Ceremonia y Certificados',
         navLink: '/apply',
         imageURL: image4,
@@ -478,7 +478,7 @@ export const facilities = [
     {
         id: 5,
         image: image13,
-        title: "Ciencias y Biología",
+        title: "Ciencias",
         link: '/programs/6',
         text: "Ciencias y Biología inspiran curiosidad por el mundo natural, ofreciendo experimentos prácticos y exploraciones que despiertan el amor por la investigación. Los estudiantes descubren los misterios de la vida y la importancia de cuidar el medio ambiente.",
     },
@@ -513,6 +513,22 @@ export const facilities = [
     
     {
         id: 10,
+        image: image10,
+        title: "Sociales",
+        link: '/programs/8',
+        text: "Ética y Religión guía a los estudiantes en la reflexión sobre valores, moral y espiritualidad, ayudándoles a construir una visión equilibrada de la vida y su relación con la comunidad y el entorno.",
+    },
+
+    {
+        id: 11,
+        image: image19,
+        title: "Danzas",
+        link: '/programs/8',
+        text: "Ética y Religión guía a los estudiantes en la reflexión sobre valores, moral y espiritualidad, ayudándoles a construir una visión equilibrada de la vida y su relación con la comunidad y el entorno.",
+    },
+    
+    {
+        id: 12,
         image: image10,
         title: "Sociales",
         link: '/programs/8',
