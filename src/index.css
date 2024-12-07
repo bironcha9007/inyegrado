@@ -985,7 +985,15 @@ footer .col.fourth-col form {
   font-size: 25px;
   background-color: var(--ba);
 }
-
+footer .col.fourth-col .icons {
+  width: 100%;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0);
+}
 footer .col h2 {
   margin-bottom: 14px;
 
@@ -2083,7 +2091,17 @@ footer .col.col.first-col h2 {
     color: var(--ne);
     margin-left: 10px;
 }
-
+.content .slid {
+  margin: 10px;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 80vh;
+  width: 95%;
+  padding: 10px;
+}
 }
 
 @media (max-width: 750px) {
@@ -2409,7 +2427,7 @@ footer .col.col.first-col h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-
+    height: 65vh;
     width: 100%;
     padding: 20px;
   }
@@ -2520,7 +2538,7 @@ footer .col.col.first-col h2 {
   .content .slid {
     margin-top: 10px;
     display: flex;
-    height: 430px;
+    height: 450px;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;

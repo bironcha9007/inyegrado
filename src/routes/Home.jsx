@@ -62,7 +62,7 @@ const Home = () => {
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <h1 className="titles">LO MÁS DESTACADO</h1>
+
       <Slide />
       <h1 className="titles2">NUESTRO HORIZONTE</h1>
       <MissionVision />
