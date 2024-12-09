@@ -51,8 +51,9 @@ const Home = () => {
         ></div>
 
         <p className="title">{sliderContent[currentIndex].title}</p>
-        <NavLink to={sliderContent[currentIndex].navLink}>Ver Más</NavLink>
+        <NavLink  className="btn-2" to={sliderContent[currentIndex].navLink}>Ver Más</NavLink>
       </div>
+      <div className="titles1">
       <h1 className="titles">BIENVENIDOS AL INTEGRADO</h1>
       <div className="map">
         <iframe title='cont'
@@ -62,11 +63,18 @@ const Home = () => {
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
+</div>
       <Slide />
       <h1 className="titles2">NUESTRO HORIZONTE</h1>
       <MissionVision />
-    
+      
+<div class="wrapper">
+  <div class="neon-wrapper">
+    <span class="txt">NUESTRAS SEDES</span>
+    <span class="gradient"></span>
+    <span class="dodge"></span>
+  </div>
+</div>
       <WhySchool />
 
 
