@@ -618,3 +618,6 @@ export const MoreInfo = [
         testimonial: "Encuentra los uniformes de la institución, creados para brindar comodidad y estilo a nuestros estudiantes. Contamos con modelos para actividades académicas y deportivas, disponibles en todas las tallas. Adquiere los tuyos fácilmente en la Tienda Escolar o en la Distribuidora Soacha Uniformes.",
     },
 ]
+
+
+

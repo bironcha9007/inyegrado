@@ -8,6 +8,7 @@ import Redes from "../components/redes";
 import Slide from "../components/Slide";
 import WhySchool from "../components/WhySchool";
 
+
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [nextIndex, setNextIndex] = useState(1);
@@ -67,14 +68,7 @@ const Home = () => {
       <Slide />
       <h1 className="titles2">NUESTRO HORIZONTE</h1>
       <MissionVision />
-      
-<div class="wrapper">
-  <div class="neon-wrapper">
-    <span class="txt">NUESTRAS SEDES</span>
-    <span class="gradient"></span>
-    <span class="dodge"></span>
-  </div>
-</div>
+ 
       <WhySchool />
 
 
